@@ -1,0 +1,34 @@
+---
+title: "Proyecto Grupal - Herramientas de Ciencias de Datos II"
+author: 
+  - Estudiantes
+  - Luis Fernando Amey Apuy - C20470
+  - Javier Hernández Navarro - C13674
+  - Anthony Mauricio Jiménez Navarro - C24067
+date: "2024-05-13"
+output: 
+  rmdformats::downcute:
+    default_style: "dark"
+    downcute_theme: "chaos"
+---
+
+```{r, warning=FALSE}
+library(readr)
+library(tidyverse)
+setwd("C:/Users/PC01/OneDrive/Documentos/Semestre 5/Herramientas II/Proyecto Herramientas")
+wappx <- read_file("data/_chat.txt")
+wappx <- strsplit(wappx, '\r\n')[[1]]
+texto <- list()
+horas <- list()
+for(i in 1:length(wappx)){
+  texto[i] <- wappx[i]
+  horas[i] <- substr(texto[i], 1, 15) # NO SIRVE, hacer un if
+}
+
+
+```
+
+```{r}
+
+```
+
