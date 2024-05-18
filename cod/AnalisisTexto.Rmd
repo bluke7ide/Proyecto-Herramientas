@@ -15,16 +15,27 @@ output:
 ```{r, warning=FALSE}
 library(readr)
 library(tidyverse)
-setwd("C:/Users/PC01/OneDrive/Documentos/Semestre 5/Herramientas II/Proyecto Herramientas")
+setwd("..")
 wappx <- read_file("data/_chat.txt")
 wappx <- strsplit(wappx, '\r\n')[[1]]
 texto <- list()
 horas <- list()
 for(i in 1:length(wappx)){
   texto[i] <- wappx[i]
-  horas[i] <- substr(texto[i], 1, 15) # NO SIRVE, hacer un if
+  tentativa <- substr(texto[i], 1, 2) # NO SIRVE, hacer un if
+  c <- 2
+  while (tentativa != "] ") {
+    tentativa <- substr(texto[i], c, c+1)
+    c <- c + 1
+    
+  }
+  horas[i] <- substr(texto[i], 1, c-1)
+  texto[i] <- substr(wappx[i], c+1, str_length(wappx[[i]]))
 }
 
+datos <- data.frame(horas = numeric(length(wappx)))
+datos$horas <- horas
+datos$texto <- texto
 
 ```
 
