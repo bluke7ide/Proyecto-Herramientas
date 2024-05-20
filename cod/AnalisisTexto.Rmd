@@ -15,31 +15,129 @@ output:
 ```{r, warning=FALSE}
 library(readr)
 library(tidyverse)
+library(lubridate)
 setwd("..")
-wappx <- read_file("data/_chat.txt")
-wappx <- strsplit(wappx, '\r\n')[[1]]
-texto <- list()
-horas <- list()
-for(i in 1:length(wappx)){
-  texto[i] <- wappx[i]
-  tentativa <- substr(texto[i], 1, 2) # NO SIRVE, hacer un if
-  c <- 2
-  while (tentativa != "] ") {
-    tentativa <- substr(texto[i], c, c+1)
-    c <- c + 1
-    
-  }
-  horas[i] <- substr(texto[i], 1, c-1)
-  texto[i] <- substr(wappx[i], c+1, str_length(wappx[[i]]))
-}
-
-datos <- data.frame(horas = numeric(length(wappx)))
-datos$horas <- horas
-datos$texto <- texto
+wappx <- read_file("data/herra.txt")
 
 ```
 
 ```{r}
-
+scrap <- function(txt){  
+  
+  wappx <- strsplit(txt, '\r\n')[[1]]
+  temp <- str_split_fixed(wappx, "\\] ", 2)
+  
+  datos <- data.frame(horas = numeric(length(wappx)))
+  datos$horas <- temp[,1]
+  datos$autor <- numeric(length(wappx))
+  datos$mensaje <- temp[,2]
+  
+  datos$horas <- str_replace_all(datos$horas, " ", "")
+  datos$horas <- gsub("\\[|\\]", "", datos$horas)
+  datos <- datos %>% separate(horas, into = c("dia", "hora"), sep = ",")
+  temp <- str_split_fixed(datos$mensaje, ": ", 2)
+  datos$autor <- temp[,1]
+  datos$mensaje <- temp[,2]
+  names(datos)[4] <- "mensaje"
+  datos$mensaje <- as.character(datos$mensaje)
+  datos$dia <- as_date(dmy(datos$dia))
+  parsed_time <- parse_date_time(datos$hora, "I:M:S p")
+  datos$hora <- hms(paste(hour(parsed_time),
+                          minute(parsed_time),
+                          second(parsed_time), 
+                          sep = ":"))
+  return(datos)
+}
 ```
+
+```{r}
+t <- proc.time()
+herra <- scrap(wappx)
+proc.time() - t
+```
+
+
+```{r}
+spammer <- function(df){
+  num <- df%>% count(autor) %>% arrange(desc(n))
+  return(num)
+}
+a<- spammer(gen)
+```
+
+```{r}
+dia_concurrido <- function(df){
+    num <- df%>% count(dia) %>% arrange(desc(n))
+  return(num)
+}
+a <- dia_concurrido(gen)
+```
+
+```{r}
+streak_dias <- function(df){
+  num <- unique(as_date(dmy(df$dia)))
+  dif <- num[1:length(num)-1] - num[2:length(num)]
+  df <- data.frame(dif = dif)
+  tabla <- df %>%
+    mutate(is_target = dif == -1,               
+           group = cumsum(!is_target)) %>%         
+    group_by(group) 
+  agrupados <- tabla %>%
+    summarise(length = sum(is_target)) %>%         
+    filter(length > 0) %>%arrange(desc(length))
+  maximo <- agrupados[1,] 
+  primerdia <- 0
+  for(i in 1:length(tabla$group)){
+    if (tabla$group[i]!= maximo$group | tabla$is_target[i] == FALSE){
+      next
+    } else {
+      if (primerdia == 0){
+        primerdia <- i
+      }
+      ultimodia <-i
+    }
+  }
+
+  maximo <- maximo$length
+  primerdia <- num[primerdia]
+  ultimodia <- num[ultimodia+1]
+  return(list(maximo, primerdia, ultimodia))
+}
+a <- streak_dias(gen)
+```
+
+```{r}
+hora_concurrida <- function(df){
+  df$hora <- hour(df$hora)
+  num <- df %>% count(hora) %>% arrange(desc(n))
+  return(num[1,1])
+}
+a <- hora_concurrida(herra)
+```
+
+```{r}
+el_graciosito <- function(df){
+  df <- df %>% mutate(sticker = grepl("sticker omitido", df$mensaje))
+  df <- df[df$sticker,]
+  num <- df %>% count(autor) %>% arrange(desc(n))
+  return(num)
+}
+a <- el_graciosito(gen)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
