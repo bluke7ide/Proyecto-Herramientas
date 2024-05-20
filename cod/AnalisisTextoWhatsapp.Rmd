@@ -17,7 +17,7 @@ library(readr)
 library(tidyverse)
 library(lubridate)
 setwd("..")
-wappx <- read_file("data/herra.txt")
+wappx <- read_file("data/gen.txt")
 
 ```
 
@@ -52,7 +52,7 @@ scrap <- function(txt){
 
 ```{r}
 t <- proc.time()
-herra <- scrap(wappx)
+gen <- scrap(wappx)
 proc.time() - t
 ```
 
@@ -74,8 +74,17 @@ a <- dia_concurrido(gen)
 ```
 
 ```{r}
+hora_concurrida <- function(df){
+  df$hora <- hour(df$hora)
+  num <- df %>% count(hora) %>% arrange(desc(n))
+  return(num[1,1])
+}
+a <- hora_concurrida(gen)
+```
+
+```{r}
 streak_dias <- function(df){
-  num <- unique(as_date(dmy(df$dia)))
+  num <- unique(df$dia)
   dif <- num[1:length(num)-1] - num[2:length(num)]
   df <- data.frame(dif = dif)
   tabla <- df %>%
@@ -107,15 +116,6 @@ a <- streak_dias(gen)
 ```
 
 ```{r}
-hora_concurrida <- function(df){
-  df$hora <- hour(df$hora)
-  num <- df %>% count(hora) %>% arrange(desc(n))
-  return(num[1,1])
-}
-a <- hora_concurrida(herra)
-```
-
-```{r}
 el_graciosito <- function(df){
   df <- df %>% mutate(sticker = grepl("sticker omitido", df$mensaje))
   df <- df[df$sticker,]
@@ -125,10 +125,97 @@ el_graciosito <- function(df){
 a <- el_graciosito(herra)
 ```
 
+```{r}
+el_grafico <- function(df){
+  df <- df %>% mutate(imagen = grepl("imagen omitida", df$mensaje))
+  df <- df[df$imagen,]
+  num <- df %>% count(autor) %>% arrange(desc(n))
+  return(num)
+}
+a <- el_grafico(gen)
+```
 
+```{r}
+el_waze <- function(df){
+    df <- df %>% mutate(imagen = grepl("Ubicación:", df$mensaje))
+  df <- df[df$imagen,]
+  num <- df %>% count(autor) %>% arrange(desc(n))
+  return(num)
+}
+a <- el_waze(gen)
+```
 
+```{r}
+el_inseguro <- function(df){
+    df <- df %>% mutate(imagen = grepl("Cambió tu código de seguridad con", df$mensaje))
+  df <- df[df$imagen,]
+  num <- df %>% count(autor) %>% arrange(desc(n))
+  return(num)
+}
+a <- el_inseguro(gen)
+```
 
+```{r}
+el_camarografo <- function(df){
+    df <- df %>% mutate(imagen = grepl("Video omitido", df$mensaje))
+  df <- df[df$imagen,]
+  num <- df %>% count(autor) %>% arrange(desc(n))
+  return(num)
+}
+a <- el_camarografo(gen)
+```
 
+```{r}
+el_wikipedia <- function(df){
+    df <- df %>% mutate(imagen = grepl("documento omitido", df$mensaje))
+  df <- df[df$imagen,]
+  num <- df %>% count(autor) %>% arrange(desc(n))
+  return(num)
+}
+a <- el_wikipedia(gen)
+```
+
+```{r}
+el_corrector <- function(df){
+    df <- df %>% mutate(imagen = grepl("<Se editó este mensaje.>", df$mensaje))
+  df <- df[df$imagen,]
+  num <- df %>% count(autor) %>% arrange(desc(n))
+  return(num)
+}
+a <- el_corrector(gen)
+```
+
+```{r}
+el_link <- function(df){ # verificar doble
+    df <- df %>% mutate(imagen = grepl("https://", df$mensaje))
+  df <- df[df$imagen,]
+  num <- df %>% count(autor) %>% arrange(desc(n))
+  return(num)
+}
+a <- el_link(gen)
+```
+
+```{r}
+el_jefe <- function(df){ # verificar doble
+    df <- df %>% mutate(imagen = grepl("@", df$mensaje))
+  df <- df[df$imagen,]
+  num <- df %>% count(autor) %>% arrange(desc(n))
+  return(num)
+}
+a <- el_jefe(gen)
+```
+
+```{r}
+# imagen omitida
+# sticker omitido
+# Ubicación:
+# https://
+# Cambió tu código de seguridad con
+# @
+# Video omitido
+# documento omitido 
+# <Se editó este mensaje.>
+```
 
 
 
