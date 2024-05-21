@@ -24,14 +24,20 @@ wappx <- read_file("data/gen.txt")
 
 ```{r}
 scrap12 <- function(txt){  
-  
   wappx <- strsplit(txt, '\n')[[1]]
   temp <- str_split_fixed(wappx, "\\] ", 2)
-  
   datos <- data.frame(hora = numeric(length(wappx)))
   datos$hora <- temp[,1]
   datos$autor <- numeric(length(wappx))
   datos$mensaje <- temp[,2]
+  datos <- datos %>% mutate(enter = grepl("\\[", datos$hora))
+  datos$recomp <- c(!datos$enter[2:length(datos$enter)], TRUE)
+  datos$mensaje[datos$recomp] <- paste(
+    as.character(datos$mensaje[datos$recomp]), 
+    as.character(datos$hora[!datos$enter]))
+  datos <- datos %>% 
+    slice(-as.numeric(rownames(datos[!datos$enter,]))) %>% 
+    select(-enter, -recomp)
   datos$hora <- gsub("\\[", "", datos$hora)
   datos <- datos %>% separate(hora, into = c("dia", "hora"), sep = ", ")
   temp <- str_split_fixed(datos$mensaje, ": ", 2)
@@ -40,7 +46,7 @@ scrap12 <- function(txt){
   names(datos)[4] <- "mensaje"
   datos$mensaje <- as.character(datos$mensaje)
   datos$dia <- as_date(dmy(datos$dia))
-  datos<- datos %>% mutate(pm = grepl("p", datos$hora))
+  datos<- datos %>% mutate(pm = grepl("[pP]", datos$hora))
   datos$hora <- str_replace_all(datos$hora, "p\\.\\s*m\\.", "")
   datos$hora <- str_replace_all(datos$hora, "a\\.\\s*m\\.", "")  
   datos$hora <- hms(datos$hora)
@@ -58,17 +64,22 @@ proc.time() - t
 
 ```{r}
 scrap24 <- function(txt){  
-  
-  wappx <- strsplit(txt, '\r\n')[[1]]
+  wappx <- strsplit(txt, '\n')[[1]] 
   temp <- str_split_fixed(wappx, "\\] ", 2)
-  
-  datos <- data.frame(horas = numeric(length(wappx)))
-  datos$horas <- temp[,1]
+  datos <- data.frame(hora = numeric(length(wappx)))
+  datos$hora <- temp[,1]
   datos$autor <- numeric(length(wappx))
   datos$mensaje <- temp[,2]
-  datos$horas <- str_replace_all(datos$horas, " ", "")
-  datos$horas <- gsub("\\[|\\]", "", datos$horas)
-  datos <- datos %>% separate(horas, into = c("dia", "hora"), sep = ",")
+  datos <- datos %>% mutate(enter = grepl("\\[", datos$hora))
+  datos$recomp <- c(!datos$enter[2:length(datos$enter)], TRUE)
+  datos$mensaje[datos$recomp] <- paste(
+    as.character(datos$mensaje[datos$recomp]), 
+    as.character(datos$hora[!datos$enter]))
+  datos <- datos %>% 
+    slice(-as.numeric(rownames(datos[!datos$enter,]))) %>% 
+    select(-enter, -recomp)
+  datos$hora <- gsub("\\[", "", datos$hora)
+  datos <- datos %>% separate(hora, into = c("dia", "hora"), sep = ", ")
   temp <- str_split_fixed(datos$mensaje, ": ", 2)
   datos$autor <- temp[,1]
   datos$mensaje <- temp[,2]
