@@ -31,7 +31,7 @@ scrap12 <- function(txt){
   datos$hora <- temp[,1]
   datos$autor <- numeric(length(wappx))
   datos$mensaje <- temp[,2]
-  datos$hora <- gsub("\\[|\\]", "", datos$hora)
+  datos$hora <- gsub("\\[", "", datos$hora)
   datos <- datos %>% separate(hora, into = c("dia", "hora"), sep = ", ")
   temp <- str_split_fixed(datos$mensaje, ": ", 2)
   datos$autor <- temp[,1]
