@@ -24,7 +24,7 @@ wappx <- read_file("data/gen.txt")
 ```{r}
 scrap <- function(txt){  
   
-  wappx <- strsplit(txt, '\r\n')[[1]]
+  wappx <- strsplit(txt, '\n')[[1]]
   temp <- str_split_fixed(wappx, "\\] ", 2)
   
   datos <- data.frame(horas = numeric(length(wappx)))
@@ -41,6 +41,7 @@ scrap <- function(txt){
   names(datos)[4] <- "mensaje"
   datos$mensaje <- as.character(datos$mensaje)
   datos$dia <- as_date(dmy(datos$dia))
+  
   parsed_time <- parse_date_time(datos$hora, "I:M:S p")
   datos$hora <- hms(paste(hour(parsed_time),
                           minute(parsed_time),
