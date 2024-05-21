@@ -17,12 +17,46 @@ library(readr)
 library(tidyverse)
 library(lubridate)
 setwd("..")
-wappx <- read_file("data/herra_prueba.txt")
+wappx <- read_file("data/gen.txt")
 
 ```
 
 ```{r}
-scrap <- function(txt){  
+scrap12 <- function(txt){  
+  
+  wappx <- strsplit(txt, '\r\n')[[1]]
+  temp <- str_split_fixed(wappx, "\\] ", 2)
+  
+  datos <- data.frame(horas = numeric(length(wappx)))
+  datos$horas <- temp[,1]
+  datos$autor <- numeric(length(wappx))
+  datos$mensaje <- temp[,2]
+  datos$horas <- str_replace_all(datos$horas, " ", "")
+  datos$horas <- gsub("\\[|\\]", "", datos$horas)
+  datos <- datos %>% separate(horas, into = c("dia", "hora"), sep = ",")
+  temp <- str_split_fixed(datos$mensaje, ": ", 2)
+  datos$autor <- temp[,1]
+  datos$mensaje <- temp[,2]
+  names(datos)[4] <- "mensaje"
+  datos$mensaje <- as.character(datos$mensaje)
+  datos$dia <- as_date(dmy(datos$dia))
+  parsed_time <- parse_date_time(datos$hora, "I:M:S p")
+  datos$hora <- hms(paste(hour(parsed_time),
+                          minute(parsed_time),
+                          second(parsed_time), 
+                          sep = ":"))
+  return(datos)
+}
+```
+
+```{r}
+t <- proc.time()
+gen <- scrap12(wappx)
+proc.time() - t
+```
+
+```{r}
+scrap24 <- function(txt){  
   
   wappx <- strsplit(txt, '\r\n')[[1]]
   temp <- str_split_fixed(wappx, "\\] ", 2)
@@ -47,7 +81,7 @@ scrap <- function(txt){
 
 ```{r}
 t <- proc.time()
-gen <- scrap(wappx)
+gen <- scrap24(wappx)
 proc.time() - t
 ```
 
