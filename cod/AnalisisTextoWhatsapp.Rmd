@@ -17,7 +17,7 @@ library(readr)
 library(tidyverse)
 library(lubridate)
 setwd("..")
-wappx <- read_file("data/gen.txt")
+wappx <- read_file("data/herra_prueba.txt")
 
 ```
 
@@ -40,11 +40,7 @@ scrap <- function(txt){
   names(datos)[4] <- "mensaje"
   datos$mensaje <- as.character(datos$mensaje)
   datos$dia <- as_date(dmy(datos$dia))
-  parsed_time <- parse_date_time(datos$hora, "I:M:S p")
-  datos$hora <- hms(paste(hour(parsed_time),
-                          minute(parsed_time),
-                          second(parsed_time), 
-                          sep = ":"))
+  datos$hora <- hms(datos$hora)
   return(datos)
 }
 ```
