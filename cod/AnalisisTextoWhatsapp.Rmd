@@ -80,9 +80,9 @@ scrap24 <- function(txt){
 ```
 
 ```{r}
-t <- proc.time()
-gen <- scrap24(wappx)
-proc.time() - t
+# t <- proc.time()
+# gen <- scrap24(wappx)
+# proc.time() - t
 ```
 
 
