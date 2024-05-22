@@ -42,32 +42,26 @@ scrap <- function(name){
   datos$autor <- numeric(length(texto))
   datos$mensaje <- temp[,2]
   
-  # verificar el enter de linea y enter de mensaje
-  datos <- datos %>% mutate(enter = grepl("\\[", datos$hora))
-  datos$recomp <- c(!datos$enter[2:length(datos$enter)], TRUE)
+  # Dividir entre autor y mensaje
+  temp <- str_split_fixed(datos$mensaje, ": ", 2)
+  datos$autor <- temp[,1]
+  datos$mensaje <- temp[,2]
   
-  # si es un enter de linea, agarrar el mensaje anterior 
-  datos$mensaje[datos$recomp] <- paste(
-    as.character(datos$mensaje[datos$recomp]), 
-    as.character(datos$hora[!datos$enter])) # ERROR, no considera múltiples saltos
+  # Sacar los índices de los enters en línea
+  indices <- as.numeric(rownames(datos[!grepl("\\[", datos$hora),]))
   
-  # Eliminar las observaciones extras
-  datos <- datos %>% 
-    slice(-as.numeric(rownames(datos[!datos$enter,]))) %>% 
-    select(-enter, -recomp)
+  # Operar estas líneas
+  for (i in indices){
+    datos$mensaje[i] <- datos$hora[i]
+    datos[i,1:2] <- datos[i-1,1:2]
+  }
+  datos$mensaje <- as.character(datos$mensaje)
   
   # Eliminar el corchete extra
   datos$hora <- gsub("\\[", "", datos$hora)
   
   # Dividir en días y horas
   datos <- datos %>% separate(hora, into = c("dia", "hora"), sep = ", ")
-  
-  # Dividir entre autor y mensaje
-  temp <- str_split_fixed(datos$mensaje, ": ", 2)
-  datos$autor <- temp[,1]
-  datos$mensaje <- temp[,2]
-  names(datos)[4] <- "mensaje"
-  datos$mensaje <- as.character(datos$mensaje)
   
   # Formato lubridate
   datos$dia <- as_date(dmy(datos$dia))
@@ -81,7 +75,7 @@ scrap <- function(name){
   datos$hora <- hms(datos$hora)
   datos$hora <- datos$hora + hours(datos$pm*12)
   
-  # QUitar la columna extra
+  # Quitar la columna extra
   datos <- datos %>% select(-pm)
   return(datos)
 }
@@ -89,105 +83,9 @@ scrap <- function(name){
 
 
 ```{r, warning=FALSE}
-a <- scrap("gen")
+df <- scrap("herra_prueba")
 ```
 
-```{r}
-wappx <- strsplit(txt, '\n')[[1]]
-  temp <- str_split_fixed(wappx, "\\] ", 2)
-  datos <- data.frame(hora = numeric(length(wappx)))
-  datos$hora <- temp[,1]
-  datos$autor <- numeric(length(wappx))
-  datos$mensaje <- temp[,2]
-  datos <- datos %>% mutate(enter = grepl("\\[", datos$hora))
-  datos$recomp <- c(!datos$enter[2:length(datos$enter)], TRUE)
-  datos$mensaje[datos$recomp] <- paste(
-    as.character(datos$mensaje[datos$recomp]), 
-    as.character(datos$hora[!datos$enter]))
-  datos <- datos %>% 
-    slice(-as.numeric(rownames(datos[!datos$enter,]))) %>% 
-    select(-enter, -recomp)
-  datos$hora <- gsub("\\[", "", datos$hora)
-  datos <- datos %>% separate(hora, into = c("dia", "hora"), sep = ", ")
-  temp <- str_split_fixed(datos$mensaje, ": ", 2)
-  datos$autor <- temp[,1]
-  datos$mensaje <- temp[,2]
-  names(datos)[4] <- "mensaje"
-  datos$mensaje <- as.character(datos$mensaje)
-  datos$dia <- as_date(dmy(datos$dia))
-  datos<- datos %>% mutate(pm = grepl("[pP]", datos$hora))
-  datos$hora <- str_replace_all(datos$hora, "p\\.\\s*m\\.", "")
-  datos$hora <- str_replace_all(datos$hora, "a\\.\\s*m\\.", "")  
-  datos$hora <- hms(datos$hora)
-  datos$hora <- datos$hora + hours(datos$pm*12)
-  datos <- datos %>% select(-pm)
-```
-
-
-# Limpiar los datos en caso de 12 horas
-```{r}
-scrap12 <- function(txt){  
-  
-  wappx <- strsplit(txt, '\r\n')[[1]]
-  temp <- str_split_fixed(wappx, "\\] ", 2)
-  
-  datos <- data.frame(hora = numeric(length(wappx)))
-  datos$hora <- temp[,1]
-  datos$autor <- numeric(length(wappx))
-  datos$mensaje <- temp[,2]
-  datos$hora <- gsub("\\[", "", datos$hora)
-  datos <- datos %>% separate(hora, into = c("dia", "hora"), sep = ", ")
-  temp <- str_split_fixed(datos$mensaje, ": ", 2)
-  datos$autor <- temp[,1]
-  datos$mensaje <- temp[,2]
-  names(datos)[4] <- "mensaje"
-  datos$mensaje <- as.character(datos$mensaje)
-  datos$dia <- as_date(dmy(datos$dia))
-  datos<- datos %>% mutate(pm = grepl("p", datos$hora))
-  datos$hora <- str_replace_all(datos$hora, "p\\.\\s*m\\.", "")
-  datos$hora <- str_replace_all(datos$hora, "a\\.\\s*m\\.", "")  
-  datos$hora <- hms(datos$hora)
-  datos$hora <- datos$hora + hours(datos$pm*12)
-  datos <- datos %>% select(-pm)
-  return(datos)
-}
-```
-
-```{r}
-t <- proc.time()
-gen <- scrap12(wappx)
-proc.time() - t
-```
-
-```{r}
-scrap24 <- function(txt){  
-  
-  wappx <- strsplit(txt, '\r\n')[[1]]
-  temp <- str_split_fixed(wappx, "\\] ", 2)
-  
-  datos <- data.frame(horas = numeric(length(wappx)))
-  datos$horas <- temp[,1]
-  datos$autor <- numeric(length(wappx))
-  datos$mensaje <- temp[,2]
-  datos$horas <- str_replace_all(datos$horas, " ", "")
-  datos$horas <- gsub("\\[|\\]", "", datos$horas)
-  datos <- datos %>% separate(horas, into = c("dia", "hora"), sep = ",")
-  temp <- str_split_fixed(datos$mensaje, ": ", 2)
-  datos$autor <- temp[,1]
-  datos$mensaje <- temp[,2]
-  names(datos)[4] <- "mensaje"
-  datos$mensaje <- as.character(datos$mensaje)
-  datos$dia <- as_date(dmy(datos$dia))
-  datos$hora <- hms(datos$hora)
-  return(datos)
-}
-```
-
-```{r}
-# t <- proc.time()
-# gen <- scrap24(wappx)
-# proc.time() - t
-```
 
 # Funciones extra
 ```{r}
