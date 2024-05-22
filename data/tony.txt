@@ -1,0 +1,1833 @@
+[14/10/23, 10:25:30 a. m.] Anthony: ‎Los mensajes y las llamadas están cifrados de extremo a extremo. Nadie fuera de este chat, ni siquiera WhatsApp, puede leerlos ni escucharlos.
+‎[14/10/23, 10:25:30 a. m.] Luis Fer Amey: ‎imagen omitida
+[14/10/23, 10:57:39 a. m.] Anthony: Si
+[14/10/23, 10:57:48 a. m.] Luis Fer Amey: jodas
+[14/10/23, 10:57:53 a. m.] Luis Fer Amey: mire lo que me responde el profe
+‎[14/10/23, 10:58:03 a. m.] Luis Fer Amey: ‎imagen omitida
+[14/10/23, 10:58:27 a. m.] Anthony: Yo lo deje algo asi
+‎[14/10/23, 10:58:49 a. m.] Anthony: ‎imagen omitida
+[14/10/23, 10:58:52 a. m.] Luis Fer Amey: siis gracias pero aja el profe no me respondió nada era lo q decia
+[14/10/23, 10:59:08 a. m.] Anthony: Cuando k=1 ese punto pertenece al centroide numero tal
+[14/10/23, 10:59:17 a. m.] Anthony: Y despues ya vienen las coordenadas finales de cada uno
+[14/10/23, 11:11:06 a. m.] Luis Fer Amey: maldito profe jaja ya me perdió
+[14/10/23, 11:11:22 a. m.] Luis Fer Amey: Gracias Anthony, ahi cualquier vara nos comparamos después el examen le pa?
+[14/10/23, 11:20:26 a. m.] Anthony: Claro que yes
+‎[14/10/23, 1:10:59 p. m.] Luis Fer Amey: ‎imagen omitida
+[14/10/23, 1:15:39 p. m.] Anthony: Luego entra la parte de excel
+‎[14/10/23, 1:15:42 p. m.] Anthony: ‎sticker omitido
+‎[14/10/23, 1:16:04 p. m.] Luis Fer Amey: ‎sticker omitido
+[14/10/23, 1:28:39 p. m.] Luis Fer Amey: tengo una crisis
+[14/10/23, 1:29:03 p. m.] Luis Fer Amey: verdad que pueden haber diferentes conjuntos de centroides para un k fijo?
+[14/10/23, 2:35:59 p. m.] Anthony: Diferentes?
+[14/10/23, 2:36:31 p. m.] Anthony: Osea que corro k=7 y me da que el punto 1 tiene centroide 3 y vuelvo a correr el programa y me dice que el punto 1 tiene centroide 4?
+[14/10/23, 2:38:16 p. m.] Luis Fer Amey: Si
+[14/10/23, 2:42:45 p. m.] Anthony: Siempre le deberian dar los mismos parametros si esta usando runif para crear valores aleatorios
+[14/10/23, 2:42:59 p. m.] Anthony: El profe dijo que usaramos seed=4
+[14/10/23, 3:29:39 p. m.] Luis Fer Amey: Ok
+[14/10/23, 4:15:48 p. m.] Luis Fer Amey: Esta picha de examen me tiene maldito
+[14/10/23, 4:15:51 p. m.] Luis Fer Amey: ya le puse la seed
+[14/10/23, 4:16:05 p. m.] Luis Fer Amey: Cuando me desestrese se la mando cuando lo tenga bonito
+[14/10/23, 4:16:33 p. m.] Luis Fer Amey: Mae se me despicho el R en un momento y no quería clasificarlos bien por un buen rato, reinicie como 3 veces y ya pero wtf
+[14/10/23, 4:24:37 p. m.] Anthony: Shranquilidad
+[14/10/23, 4:24:40 p. m.] Anthony: Aun hay tiempo
+[14/10/23, 5:03:44 p. m.] Luis Fer Amey: Sisi ahí se va sacando
+[14/10/23, 8:53:31 p. m.] Luis Fer Amey: Anthony ud entendio una picha de las instrucciones de excel
+[14/10/23, 8:53:41 p. m.] Luis Fer Amey: El wording de estas instrucciones están wtf
+[14/10/23, 8:54:03 p. m.] Luis Fer Amey: y perdón por mi agresividad, nada contra ud, solo este examen me tiene malo
+[14/10/23, 8:55:57 p. m.] Anthony: En efecto esta vara no tiene sentido
+[14/10/23, 8:56:09 p. m.] Anthony: El profe escribio las instrucciones con los pies o una vara asi
+[14/10/23, 8:56:20 p. m.] Anthony: Pero vea, esto es lo que he hecho hasta ahorita de eso
+[14/10/23, 8:56:27 p. m.] Luis Fer Amey: JASJASJASJj
+[14/10/23, 8:56:34 p. m.] Luis Fer Amey: AY MAE QUE RISA
+[14/10/23, 8:56:34 p. m.] Anthony: O al menos creo que es lo que pidio
+[14/10/23, 8:56:39 p. m.] Luis Fer Amey: porfa
+‎[14/10/23, 8:57:53 p. m.] Anthony: ‎imagen omitida
+[14/10/23, 8:58:12 p. m.] Anthony: Tengo como esa "interfaz", yo supuse que lo que el profe ponia como n era mas bien la cantidad de clusters
+[14/10/23, 8:58:55 p. m.] Anthony: En calificaciones finales guardo la clasificacion por clusters, lo que se hizo en R
+‎[14/10/23, 8:58:59 p. m.] Anthony: ‎imagen omitida
+[14/10/23, 8:59:18 p. m.] Anthony: En metricas, las metricas de cada cantidad de clusters
+‎[14/10/23, 8:59:20 p. m.] Anthony: ‎imagen omitida
+[14/10/23, 8:59:30 p. m.] Luis Fer Amey: Entendí eso
+[14/10/23, 8:59:36 p. m.] Anthony: Cuando le doy al boton de excel lo que pasa es:
+[14/10/23, 8:59:59 p. m.] Luis Fer Amey: hice eso de una vez aja solo que los nombres pues aja
+[14/10/23, 9:00:04 p. m.] Luis Fer Amey: ok
+[14/10/23, 9:01:10 p. m.] Luis Fer Amey: que pasa? jasjj
+‎[14/10/23, 9:02:07 p. m.] Anthony: ‎imagen omitida
+[14/10/23, 9:02:14 p. m.] Anthony: Tira ese grafico que son las WCSS, tira las metricas
+[14/10/23, 9:02:36 p. m.] Anthony: Y en el cuadro deberia tirar un grafico con los puntos, coloreados dependiendo del cluster al que pertenezcan
+[14/10/23, 9:02:49 p. m.] Anthony: Pero ahorita no está funcionando ese
+[14/10/23, 9:03:07 p. m.] Anthony: Eso entendí yo
+[14/10/23, 9:03:24 p. m.] Anthony: Pero igual la forma en que lo escribió es demasiado confusa
+[14/10/23, 9:03:56 p. m.] Luis Fer Amey: O sea tengo el gráfico porque me lo fume de la grabacion de macros
+[14/10/23, 9:04:05 p. m.] Luis Fer Amey: pero coloreados? wtf
+[14/10/23, 9:04:12 p. m.] Luis Fer Amey: y lo duda jasjja
+[14/10/23, 9:05:01 p. m.] Anthony: Si, voy
+‎[14/10/23, 9:06:42 p. m.] Anthony: ‎imagen omitida
+[14/10/23, 9:06:44 p. m.] Anthony: Algo como asi
+[14/10/23, 9:07:20 p. m.] Anthony: Algunos datos como que entran en la area de otros centroides pero hay que recordar que los centroides eran en R4 y el profe pidio graficar X1 y X2 nada mas
+[14/10/23, 9:07:26 p. m.] Luis Fer Amey: a ver a ver no entiendo
+[14/10/23, 9:07:30 p. m.] Luis Fer Amey: AHHHH
+[14/10/23, 9:07:35 p. m.] Luis Fer Amey: bueh
+[14/10/23, 9:07:57 p. m.] Anthony: Pero igual todo eso es suponiendo que entendí bien lo que el profe pedía
+‎[14/10/23, 9:08:19 p. m.] Anthony: ‎sticker omitido
+[14/10/23, 9:08:23 p. m.] Luis Fer Amey: bueno supongo que para eso nos pidió que imprimieramos el dataframe con las clasificaciones
+[15/10/23, 3:12:49 p. m.] Anthony: ‎Se eliminó este mensaje.
+[15/10/23, 3:12:50 p. m.] Anthony: ‎Se eliminó este mensaje.
+[15/10/23, 5:43:00 p. m.] Luis Fer Amey: a
+[15/10/23, 5:43:38 p. m.] Anthony: Es que Corella me preguntó por algo
+[15/10/23, 5:43:46 p. m.] Anthony: Pero se lo mandé a usted sin querer
+[15/10/23, 5:43:55 p. m.] Luis Fer Amey: Jajaja tranqui
+[16/10/23, 9:38:31 a. m.] Luis Fer Amey: Anthony como hizo para colorear un gráfico de dispersión con referencia al cluster
+[16/10/23, 9:38:43 a. m.] Luis Fer Amey: O sea sin macros así normalito
+[16/10/23, 9:39:04 a. m.] Luis Fer Amey: Es para grabar la macro y terminar esa pi
+[16/10/23, 9:50:23 a. m.] Anthony: Ahorita ahorita esta duro, que cerraron la 32 y apenas voy por Turrialba
+[16/10/23, 9:50:36 a. m.] Anthony: Pero le puedo pasa el archivo para que lo vea
+‎[16/10/23, 9:52:17 a. m.] Anthony: Examen_1_C24067.xlsm ‎documento omitido
+[16/10/23, 9:55:52 a. m.] Luis Fer Amey: Noooo f
+[16/10/23, 9:55:57 a. m.] Luis Fer Amey: Gracias
+[16/10/23, 9:56:16 a. m.] Luis Fer Amey: Ahí lo veo cuando pueda y si no le agarro lo molesto más jaja
+[16/10/23, 10:09:03 a. m.] Anthony: Dele
+[16/10/23, 10:09:11 a. m.] Anthony: El profe de calc entrego examen?
+[16/10/23, 10:10:10 a. m.] Luis Fer Amey: Los va a entregar al final
+‎[16/10/23, 7:20:05 p. m.] Anthony: Examen_1_C24067.R.txt ‎documento omitido
+[16/10/23, 7:20:20 p. m.] Anthony: Quitele el .txt para que quede solo .R y lo abre en Rstudio
+[16/10/23, 7:20:22 p. m.] Luis Fer Amey: Estoy wachando el excel ahorita mismo jajaj
+[16/10/23, 7:20:27 p. m.] Luis Fer Amey: Okok gracias
+[16/10/23, 7:20:43 p. m.] Luis Fer Amey: Veo que le quedó un wcss más bajo que el anterior que me mando
+[16/10/23, 7:21:03 p. m.] Luis Fer Amey: Si quiere hasta podemos hacer llamada jajaj o sería mucha vara
+[16/10/23, 7:21:13 p. m.] Anthony: Wat no
+[16/10/23, 7:21:21 p. m.] Anthony: Osea si si
+[16/10/23, 7:21:30 p. m.] Anthony: Me refiero a que le iba a mandar esto a Corella
+[16/10/23, 7:21:43 p. m.] Luis Fer Amey: a
+[16/10/23, 7:21:49 p. m.] Luis Fer Amey: no entendí
+[16/10/23, 7:24:52 p. m.] Luis Fer Amey: bruhhhh se hizo un pichazo de else if, porque no hizo cluster = i? jajsj pero bueno que desmadre q es esto
+[16/10/23, 7:26:24 p. m.] Anthony: Es correcto
+[16/10/23, 7:26:32 p. m.] Anthony: Pero estaba cansado ayer cuando lo hice
+[16/10/23, 7:26:36 p. m.] Anthony: Tengo que arreglarlo
+[16/10/23, 7:26:47 p. m.] Anthony: Ya casi llego, me baño y podemos hacer llamada
+[16/10/23, 7:26:48 p. m.] Luis Fer Amey: pero si le corre bien no hay bronca pues
+[16/10/23, 7:26:54 p. m.] Luis Fer Amey: perfectisimo
+‎[16/10/23, 7:55:38 p. m.] Luis Fer Amey: ‎imagen omitida
+[16/10/23, 7:55:43 p. m.] Luis Fer Amey: Me voy a tomar un recreo
+[16/10/23, 7:55:54 p. m.] Luis Fer Amey: Si quiere lo discutimos cuando llegue ud
+[16/10/23, 8:17:59 p. m.] Anthony: Uf
+[16/10/23, 8:18:11 p. m.] Anthony: Voy a escribirle al profe un toque
+[16/10/23, 8:18:14 p. m.] Anthony: Y nos reunimos
+[16/10/23, 8:18:19 p. m.] Luis Fer Amey: taok
+[16/10/23, 8:18:32 p. m.] Luis Fer Amey: estoy tranquilo por el momento
+[16/10/23, 8:33:30 p. m.] Anthony: Ya llegué
+[16/10/23, 8:33:41 p. m.] Anthony: Y ya resolví mi duda también
+[16/10/23, 8:33:45 p. m.] Luis Fer Amey: a
+[16/10/23, 8:33:47 p. m.] Anthony: Voy a hacer una reunión
+[16/10/23, 8:33:47 p. m.] Luis Fer Amey: A
+[16/10/23, 8:33:51 p. m.] Luis Fer Amey: Okok
+[16/10/23, 8:34:02 p. m.] Luis Fer Amey: igual si tiene discord le podemos hacer ahi
+[16/10/23, 8:35:01 p. m.] Anthony: La red de la U bloquea discord
+[16/10/23, 8:35:07 p. m.] Luis Fer Amey: f
+‎[16/10/23, 8:35:09 p. m.] Anthony: ‎sticker omitido
+[16/10/23, 8:35:16 p. m.] Luis Fer Amey: Ese si es un buen f
+[16/10/23, 8:41:02 p. m.] Luis Fer Amey: me avisa no haga la del profe jajaj
+[16/10/23, 8:41:13 p. m.] Luis Fer Amey: hoy en la mañana duro 40 min en hacer la reunion
+[16/10/23, 8:45:14 p. m.] Anthony: https://us04web.zoom.us/j/3838716450?pwd=rAFT7oafO9STNUttP0rNrBLumbyYRX.1
+[16/10/23, 8:45:35 p. m.] Anthony: Fueron 4 no 40 xd
+[16/10/23, 8:46:05 p. m.] Luis Fer Amey: 4??? pero el profe de herramientas
+[16/10/23, 8:46:19 p. m.] Anthony: Osea yo dure 4 no 40
+[16/10/23, 8:46:29 p. m.] Luis Fer Amey: a
+[16/10/23, 9:34:24 p. m.] Luis Fer Amey: ANTHONYYYYY
+‎[16/10/23, 9:34:28 p. m.] Luis Fer Amey: ‎imagen omitida
+[16/10/23, 9:34:40 p. m.] Luis Fer Amey: Ahora solo tengo que ponerle los valores que el usuario pide
+[16/10/23, 9:34:44 p. m.] Luis Fer Amey: PERO ES UN LOGROOOO
+[16/10/23, 10:08:58 p. m.] Anthony: Wat
+[16/10/23, 10:08:59 p. m.] Anthony: Tan rapido
+[16/10/23, 10:08:59 p. m.] Anthony: Yo no he empezado
+[16/10/23, 10:08:59 p. m.] Anthony: Salir a caminar un toque para despejarme antes de
+[16/10/23, 10:09:24 p. m.] Luis Fer Amey: Sisi crucial
+[16/10/23, 10:09:38 p. m.] Luis Fer Amey: No no digamos, la macro con 10 y sin limite de puntos
+[16/10/23, 10:09:40 p. m.] Luis Fer Amey: estoy en eso
+[16/10/23, 10:12:14 p. m.] Anthony: Dele dele ya casi
+[16/10/23, 10:36:14 p. m.] Luis Fer Amey: Cual hp ya casi
+‎[16/10/23, 10:36:27 p. m.] Luis Fer Amey: ‎imagen omitida
+[16/10/23, 10:40:38 p. m.] Luis Fer Amey: Si sirve
+[16/10/23, 10:40:40 p. m.] Luis Fer Amey: Atento
+[16/10/23, 10:40:45 p. m.] Anthony: Creo que va a tocar algo similar
+[16/10/23, 10:40:48 p. m.] Luis Fer Amey: Se viene pegada al poste
+‎[16/10/23, 11:20:25 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[16/10/23, 11:39:53 p. m.] Luis Fer Amey: ‎imagen omitida
+[16/10/23, 11:46:09 p. m.] Anthony: Yo estoy a punto de lograrme
+[16/10/23, 11:46:13 p. m.] Anthony: Me ilume
+[16/10/23, 11:49:27 p. m.] Luis Fer Amey: Esta basura de VBA espero nunca volverla a tocar en mi vida
+[16/10/23, 11:49:41 p. m.] Anthony: Nunca nunca mas
+[17/10/23, 12:11:50 a. m.] Luis Fer Amey: Nunca más
+[17/10/23, 12:12:02 a. m.] Luis Fer Amey: SOlo me falta comentar toda esa basura pero eso mañana
+[17/10/23, 12:12:11 a. m.] Luis Fer Amey: Buenas noches caballero jajjas
+[17/10/23, 12:15:56 a. m.] Anthony: Gud nais
+[17/10/23, 10:00:33 a. m.] Anthony: No me siento orgulloso de mi codigo
+[17/10/23, 10:00:35 a. m.] Anthony: Pero funciona
+[17/10/23, 10:44:07 a. m.] Luis Fer Amey: Aajajajaj
+[17/10/23, 10:44:09 a. m.] Luis Fer Amey: Yo si
+[17/10/23, 10:44:15 a. m.] Luis Fer Amey: Eso pasa
+[17/10/23, 10:44:23 a. m.] Luis Fer Amey: Mientras funcione no lo toco jajaj
+‎[18/10/23, 5:05:20 p. m.] Luis Fer Amey: ‎imagen omitida
+[18/10/23, 5:27:37 p. m.] Anthony: Vector de letras?
+[18/10/23, 5:27:38 p. m.] Anthony: Ah?
+[18/10/23, 5:27:40 p. m.] Anthony: Tengo mieo
+‎[18/10/23, 5:27:44 p. m.] Anthony: ‎sticker omitido
+[18/10/23, 5:45:00 p. m.] Luis Fer Amey: El que le enseñe
+[18/10/23, 5:45:07 p. m.] Luis Fer Amey: Ese
+[18/10/23, 5:45:18 p. m.] Luis Fer Amey: Pero acabo de decubrir algo también
+‎[18/10/23, 5:45:42 p. m.] Luis Fer Amey: ‎imagen omitida
+[18/10/23, 5:47:26 p. m.] Anthony: Pero eso se supone que se mandaba para hoy a mediodía no?
+[18/10/23, 6:18:38 p. m.] Luis Fer Amey: Tarea 3 señorito AJSJAJS
+[18/10/23, 6:19:28 p. m.] Anthony: Ah
+[18/10/23, 6:19:30 p. m.] Anthony: Ya ya ya
+[18/10/23, 6:19:43 p. m.] Anthony: Si cierto que aún tenemos que usar Excel para algo mas
+‎[18/10/23, 6:19:46 p. m.] Anthony: ‎sticker omitido
+[18/10/23, 6:20:11 p. m.] Anthony: Se me arruinó la noche recordando que aún tengo que usar VBA
+[18/10/23, 6:20:21 p. m.] Luis Fer Amey: 😂😂😂😂
+[18/10/23, 6:20:32 p. m.] Luis Fer Amey: Diay bueno esa tarea está más graciosa le cuento
+[18/10/23, 6:27:02 p. m.] Anthony: Lla porfabor
+‎[18/10/23, 6:27:06 p. m.] Anthony: ‎sticker omitido
+[21/10/23, 1:33:59 p. m.] Luis Fer Amey: Déjame cambiarme de cuenta
+[21/10/23, 1:34:11 p. m.] Luis Fer Amey: Ya
+[21/10/23, 1:50:26 p. m.] Anthony: Woy
+[25/10/23, 10:34:02 a. m.] Anthony: Luissss
+[25/10/23, 10:34:15 a. m.] Anthony: Tiene la foto que le habia tomado a la pizarra donde salia lo que el profe pedia para la calculadora
+[25/10/23, 10:34:31 a. m.] Anthony: Lo de TBP y eso
+‎[25/10/23, 10:35:27 a. m.] Luis Fer Amey: ‎imagen omitida
+‎[25/10/23, 10:35:28 a. m.] Luis Fer Amey: ‎imagen omitida
+‎[25/10/23, 11:38:31 a. m.] Anthony: ‎imagen omitida
+‎[25/10/23, 11:39:23 a. m.] Anthony: ‎imagen omitida
+[25/10/23, 11:40:08 a. m.] Luis Fer Amey: Ay no lo hizo en Excel?
+[25/10/23, 11:40:23 a. m.] Luis Fer Amey: Nooo se parece mucho perdón
+[25/10/23, 11:40:36 a. m.] Anthony: Tambien podemos excel
+[25/10/23, 11:40:46 a. m.] Luis Fer Amey: a
+[25/10/23, 12:27:05 p. m.] Luis Fer Amey: Voy a estar esperándolo en la Tinoco, ya voy para allá
+[25/10/23, 12:32:00 p. m.] Anthony: Voy de camino
+‎[25/10/23, 2:39:03 p. m.] Anthony: CALCULADORA_FINANCIERA.xlsm ‎documento omitido
+‎[7/11/23, 10:37:59 p. m.] Luis Fer Amey: CALCULADORA_FINANCIERA.xlsm ‎documento omitido
+‎[7/11/23, 10:44:22 p. m.] Luis Fer Amey: ‎imagen omitida
+[7/11/23, 11:21:29 p. m.] Anthony: OJO
+[8/11/23, 11:34:07 a. m.] Luis Fer Amey: Quiere trabajar un rato ahorita?
+[8/11/23, 11:34:13 a. m.] Luis Fer Amey: Si no me avisa para irme
+‎[8/11/23, 11:42:52 a. m.] Anthony: ‎imagen omitida
+‎[8/11/23, 11:42:55 a. m.] Anthony: ‎sticker omitido
+[8/11/23, 11:44:00 a. m.] Luis Fer Amey: Bueno tranca
+‎[8/11/23, 11:44:35 a. m.] Anthony: ‎sticker omitido
+‎[8/11/23, 9:50:00 p. m.] Luis Fer Amey: ‎imagen omitida
+[8/11/23, 9:53:06 p. m.] Luis Fer Amey: Lo podemos meter debajo de la alfombra feísimo
+[8/11/23, 9:53:25 p. m.] Luis Fer Amey: Digamos, quien no querría discriminar el 29 de febrero?
+‎[8/11/23, 9:58:05 p. m.] Luis Fer Amey: ‎imagen omitida
+[8/11/23, 10:01:56 p. m.] Anthony: Wat
+[8/11/23, 10:02:09 p. m.] Anthony: Logro hacer el web scraping?
+‎[8/11/23, 10:06:54 p. m.] Luis Fer Amey: ‎imagen omitida
+[8/11/23, 10:07:31 p. m.] Luis Fer Amey: Pero creo que todas las paginas va a ver que tener su truco porque la del tbp uno puede escoger fechas que fue lo que hice con el url
+[8/11/23, 10:07:34 p. m.] Luis Fer Amey: Eso
+[8/11/23, 10:09:28 p. m.] Luis Fer Amey: Suficiente por hoy
+[9/11/23, 5:56:48 p. m.] Anthony: https://drive.google.com/drive/folders/1FbgSQDb6wsOllO1qClw8lkVhZEGF0Uq0
+[9/11/23, 6:02:57 p. m.] Luis Fer Amey: Grax
+[9/11/23, 7:22:54 p. m.] Luis Fer Amey: Me avisa
+[9/11/23, 7:23:03 p. m.] Luis Fer Amey: Para ver cuál es la situación
+[9/11/23, 7:38:15 p. m.] Anthony: Yo diría que si a las 8
+[9/11/23, 7:51:51 p. m.] Anthony: Luis Sol puede a las 9
+[9/11/23, 7:51:53 p. m.] Anthony: A las 9?
+[9/11/23, 7:53:08 p. m.] Luis Fer Amey: Sip a las 9 esta bien
+[9/11/23, 8:51:34 p. m.] Luis Fer Amey: me avisa y me manda acá estoy vivo
+[9/11/23, 8:55:34 p. m.] Anthony: Woy
+[10/11/23, 4:51:49 p. m.] Anthony: Luis
+[10/11/23, 4:51:51 p. m.] Anthony: Lo logro?
+‎[10/11/23, 4:51:56 p. m.] Anthony: ‎sticker omitido
+[10/11/23, 4:52:32 p. m.] Luis Fer Amey: Si al parecer v no depende negativamente 🫣
+‎[10/11/23, 4:52:44 p. m.] Luis Fer Amey: ‎sticker omitido
+[10/11/23, 4:52:54 p. m.] Luis Fer Amey: Entonces vamos a terminar y se lo mando
+[10/11/23, 4:53:02 p. m.] Anthony: Están en llamada?
+[10/11/23, 4:53:07 p. m.] Luis Fer Amey: si
+[10/11/23, 4:53:17 p. m.] Anthony: No me puedo unir?
+[10/11/23, 4:53:33 p. m.] Luis Fer Amey: https://meet.google.com/tbd-xoya-viq
+[10/11/23, 7:54:49 p. m.] Anthony: Solo pa confirmar
+[10/11/23, 7:54:54 p. m.] Anthony: >.>
+[10/11/23, 7:55:04 p. m.] Anthony: El examen es a la 1?
+[10/11/23, 7:55:46 p. m.] Luis Fer Amey: Sip
+[11/11/23, 9:53:36 p. m.] Luis Fer Amey: https://www.presidencia.go.cr/comunicados/2019/11/mag-invirtio-₡927-millones-para-optimizar-deteccion-de-plaguicidas/
+[12/11/23, 1:12:39 p. m.] Anthony: Luis
+[12/11/23, 1:12:54 p. m.] Anthony: Como a que hora sigue con lo de macro
+[12/11/23, 2:25:07 p. m.] Luis Fer Amey: Cuando termine de optimizar lo de herramientas, pongamos que 4?
+[12/11/23, 3:21:00 p. m.] Anthony: Okok
+[12/11/23, 4:07:11 p. m.] Luis Fer Amey: vrg como me costo
+[12/11/23, 4:07:55 p. m.] Luis Fer Amey: el win win es que ahora puedo arreglar un arreglo de 100k datos en menos de 1 seg
+[12/11/23, 4:09:01 p. m.] Luis Fer Amey: salga un meets cuando vea el mensaje
+‎[12/11/23, 4:12:29 p. m.] Luis Fer Amey: ‎imagen omitida
+[12/11/23, 4:21:54 p. m.] Anthony: Voy
+[12/11/23, 4:38:57 p. m.] Luis Fer Amey: xd?
+[12/11/23, 4:39:13 p. m.] Anthony: woi
+[12/11/23, 4:39:17 p. m.] Anthony: Es que Fabian me pregunto algo
+‎[12/11/23, 4:39:27 p. m.] Luis Fer Amey: ‎imagen omitida
+[12/11/23, 4:39:29 p. m.] Luis Fer Amey: eso}
+[12/11/23, 4:39:55 p. m.] Anthony: Si
+[12/11/23, 4:40:01 p. m.] Luis Fer Amey: JHASJASJJ
+[12/11/23, 4:40:17 p. m.] Anthony: Agrega a la categoria otros los que tengan una cantidad que no influye
+[12/11/23, 4:40:29 p. m.] Luis Fer Amey: sip yo se
+[12/11/23, 4:41:36 p. m.] Anthony: Crei que era Fabian xddddd
+[12/11/23, 4:41:46 p. m.] Luis Fer Amey: JASJASJASJASJJASj
+[12/11/23, 4:42:25 p. m.] Luis Fer Amey: https://meet.google.com/rkf-mjkf-kgz
+[12/11/23, 4:42:29 p. m.] Luis Fer Amey: para cuando le plazca
+[12/11/23, 4:50:43 p. m.] Luis Fer Amey: https://www.presidencia.go.cr/comunicados/2019/11/mag-invirtio-%E2%82%A1927-millones-para-optimizar-detec
+‎[12/11/23, 4:51:58 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[12/11/23, 4:54:48 p. m.] Anthony: ‎imagen omitida
+‎[12/11/23, 4:55:26 p. m.] Anthony: ‎imagen omitida
+‎[12/11/23, 4:56:15 p. m.] Anthony: ‎imagen omitida
+[12/11/23, 5:05:18 p. m.] Anthony: https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2022/05/USO-APARENTE-DE-PLAGUICIDAS_MAY22_VF_PRINT.pdf
+‎[12/11/23, 9:35:29 p. m.] Luis Fer Amey: ‎imagen omitida
+[12/11/23, 9:39:01 p. m.] Anthony: Wat
+[12/11/23, 9:39:04 p. m.] Anthony: Y todo eso???
+[12/11/23, 9:39:17 p. m.] Luis Fer Amey: es la tarea
+[12/11/23, 9:39:19 p. m.] Luis Fer Amey: de chill
+[12/11/23, 9:39:23 p. m.] Luis Fer Amey: es que tambien recuerde
+[12/11/23, 9:39:28 p. m.] Luis Fer Amey: que yo hice más por gusto
+[12/11/23, 9:40:47 p. m.] Anthony: Mmmmmm
+‎[12/11/23, 9:40:54 p. m.] Anthony: ‎sticker omitido
+[12/11/23, 9:41:01 p. m.] Luis Fer Amey: JJAJJASJSAJ
+[12/11/23, 9:41:34 p. m.] Anthony: Agregué un toque más a agroquímicos
+[12/11/23, 9:41:39 p. m.] Anthony: Pero aún se puede mas
+[12/11/23, 9:44:34 p. m.] Luis Fer Amey: Sip, hoy no hice mucho sorry ahí
+[12/11/23, 9:44:41 p. m.] Luis Fer Amey: Pero de seguro mañana se podrá
+[12/11/23, 9:53:46 p. m.] Anthony: Dele dele shranquilidad
+‎[12/11/23, 9:53:54 p. m.] Luis Fer Amey: ‎sticker omitido
+‎[12/11/23, 9:54:07 p. m.] Anthony: ‎sticker omitido
+[13/11/23, 8:45:59 p. m.] Luis Fer Amey: me avisa, coma tranquilo
+[13/11/23, 9:38:02 p. m.] Anthony: Estaba haciendo 351
+[13/11/23, 9:38:07 p. m.] Anthony: Ya le mandé la cosa a la profe
+[13/11/23, 9:39:23 p. m.] Luis Fer Amey: a
+[13/11/23, 9:39:30 p. m.] Luis Fer Amey: yo lo he dejado en xd
+[13/11/23, 9:39:36 p. m.] Luis Fer Amey: okok
+[13/11/23, 9:46:49 p. m.] Luis Fer Amey: si quiere nos reunimos para pulirlo o lo vemos mañana en la mañana? porque ya tengo sueño
+[13/11/23, 9:47:32 p. m.] Anthony: Yay
+[13/11/23, 9:47:35 p. m.] Anthony: Mañana tons
+[13/11/23, 9:47:45 p. m.] Luis Fer Amey: JAJAJ
+[13/11/23, 9:47:54 p. m.] Anthony: Después de Interés puede ser
+[13/11/23, 9:47:54 p. m.] Luis Fer Amey: nono pero tranquilo
+[13/11/23, 9:47:58 p. m.] Luis Fer Amey: no se altere
+[13/11/23, 9:48:02 p. m.] Luis Fer Amey: JASJASJASJ
+[13/11/23, 9:48:09 p. m.] Luis Fer Amey: diay si bueno
+[13/11/23, 9:48:16 p. m.] Anthony: No no más bien así aprovecho y sigo con 351
+[13/11/23, 9:48:23 p. m.] Luis Fer Amey: aok
+[14/11/23, 12:57:42 p. m.] Anthony: Luis
+[14/11/23, 12:57:46 p. m.] Anthony: Si viene?
+[14/11/23, 12:57:59 p. m.] Luis Fer Amey: Sip
+[14/11/23, 1:01:10 p. m.] Anthony: A teoría para explicarle el avance al profe
+[14/11/23, 1:01:25 p. m.] Luis Fer Amey: Sip ya va
+‎[14/11/23, 4:21:59 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[14/11/23, 6:55:22 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[14/11/23, 7:00:55 p. m.] Luis Fer Amey: CALCULADORA_FINANCIERA.xlsm ‎documento omitido
+[17/11/23, 10:50:36 a. m.] Anthony: Luis, avanzo algo o eso es la version mas actual?
+[17/11/23, 10:50:51 a. m.] Luis Fer Amey: voy
+‎[17/11/23, 10:50:59 a. m.] Luis Fer Amey: CALCULADORA_FINANCIERA.xlsm ‎documento omitido
+‎[17/11/23, 8:35:39 p. m.] Luis Fer Amey: correlaciones.html ‎documento omitido
+[17/11/23, 9:45:53 p. m.] Anthony: El análisis se centra en la política gubernamental de Costa Rica relacionada con el uso de plaguicidas agrícolas y su impacto en la salud pública y las exportaciones. En 2019, se destinaron 927 millones de colones para mejorar la detección de plaguicidas en productos agrícolas. Esta inversión se alinea con el Reglamento sobre Registro, Uso y Control de Plaguicidas Agrícolas (Nº 24337-MAG-S) y busca regular el uso adecuado de plaguicidas para proteger la salud pública.
+
+Costa Rica ha enfrentado problemas graves debido al uso excesivo e inadecuado de plaguicidas, lo que ha llevado a intoxicaciones y muertes relacionadas con estos productos. A pesar de los acuerdos internacionales y recomendaciones de organismos como la ONU, el país continúa utilizando sustancias peligrosas, como el paraquat, prohibidas en otros lugares.
+
+El alto uso de plaguicidas ha generado problemas de salud, afectaciones a la imagen internacional del país y rechazo de exportaciones por incumplimiento de estándares internacionales. Además, la falta de regulación y control adecuado, junto con la influencia de empresas privadas, ha llevado a una situación preocupante en la agricultura.
+
+El Ministerio de Agricultura y Ganadería invirtió en equipos y capacitación para mejorar la detección de plaguicidas, buscando garantizar la seguridad alimentaria y cumplir con estándares internacionales. A pesar del impacto económico de esta inversión, es fundamental para evitar mayores problemas de salud, pérdidas económicas por rechazo de exportaciones contaminadas y daños al medio ambiente.
+
+En resumen, el país enfrenta desafíos graves con el uso de plaguicidas, pero la inversión en detección y regulación es crucial para proteger la salud pública, mantener la competitividad en exportaciones y cumplir con acuerdos internacionales. Es necesario un enfoque integral que equilibre la eficiencia del sector agrícola con la protección de la salud y el medio ambiente.
+[18/11/23, 10:01:04 a. m.] Luis Fer Amey: paseme la version del proyecto de interes
+[18/11/23, 10:56:23 a. m.] Anthony: Aún no habemus cambios
+[18/11/23, 10:58:48 a. m.] Luis Fer Amey: manito jJASJ
+‎[19/11/23, 3:39:19 p. m.] Luis Fer Amey: ‎imagen omitida
+[19/11/23, 3:57:34 p. m.] Luis Fer Amey: anthony ud se acuerda cuales eran las 4 columnas?
+‎[19/11/23, 3:58:13 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[19/11/23, 5:39:51 p. m.] Luis Fer Amey: ‎imagen omitida
+[19/11/23, 5:45:21 p. m.] Anthony: Wat
+[19/11/23, 5:45:38 p. m.] Anthony: Yo tambien estaba haciendo eso, pero no lo íbamos a hacer de primero en primero?
+[19/11/23, 5:47:37 p. m.] Luis Fer Amey: Pero xqqqq estaba haciendo eso
+[19/11/23, 5:47:44 p. m.] Luis Fer Amey: Si quedamos en que yo iba a hacer eso
+[19/11/23, 5:47:52 p. m.] Luis Fer Amey: Y como que primero en primero
+[19/11/23, 5:48:26 p. m.] Luis Fer Amey: Ah es que esa cosa es la de amortización o pago o lo que sea que dijo el profe
+[19/11/23, 5:48:30 p. m.] Luis Fer Amey: Es la otra parte
+[19/11/23, 5:48:42 p. m.] Luis Fer Amey: Ud va a hacer la calculadora de anualidades no?
+[19/11/23, 5:48:54 p. m.] Luis Fer Amey: Digamos si es años meses o días
+[19/11/23, 5:49:25 p. m.] Luis Fer Amey: En esa cosa son días random y ud lo trae a valor presente
+[19/11/23, 5:49:37 p. m.] Anthony: Yay no era primero como tal la calculadora de TBP que era lo que pedía el profe
+[19/11/23, 5:49:53 p. m.] Luis Fer Amey: Eso es lo que estoy haciendo
+[19/11/23, 5:50:12 p. m.] Anthony: Voy con anualidades tons
+‎[19/11/23, 5:50:19 p. m.] Luis Fer Amey: ‎imagen omitida
+[19/11/23, 5:50:23 p. m.] Luis Fer Amey: Sisi
+[19/11/23, 5:50:34 p. m.] Luis Fer Amey: Si quiere lo guardo y se lo mando para que trabaje
+[19/11/23, 5:50:42 p. m.] Luis Fer Amey: O como vamos a hacer?
+[19/11/23, 5:51:06 p. m.] Anthony: Voy haciendo la de anualidades
+[19/11/23, 5:51:09 p. m.] Luis Fer Amey: Si solo trabaja código es fácil porque es copiar y pegar pero dudo porque ocupa añadir botones
+[19/11/23, 5:51:12 p. m.] Anthony: Mañana pegamos los codigos
+[19/11/23, 5:51:15 p. m.] Luis Fer Amey: a
+[19/11/23, 5:51:22 p. m.] Luis Fer Amey: Sisi bueno está bien
+[19/11/23, 5:51:39 p. m.] Luis Fer Amey: Después de cálculo
+[19/11/23, 5:52:04 p. m.] Luis Fer Amey: Me parece, dele caña. Ahí solo di tiene que trabajar con tasa fija que es más fácil
+‎[19/11/23, 9:41:27 p. m.] Luis Fer Amey: ‎imagen omitida
+[19/11/23, 9:51:57 p. m.] Anthony: Besho
+‎[20/11/23, 12:48:35 a. m.] Anthony: CALCULADORA_FINANCIERA(3).xlsm ‎documento omitido
+[21/11/23, 3:29:47 p. m.] Luis Fer Amey: Mae Anthony mi idea era que metiera una lista así como la de bonos P C F r y metiera ahí todas las anualidades y que haga un case para eso, y así escoge la fórmula que ocupa y la mete a lo que ya tiene
+[21/11/23, 3:40:08 p. m.] Luis Fer Amey: Entonces si podría mandarme lo que pueda hacer para hoy en la noche y yo pueda terminar esa pish
+[21/11/23, 4:26:37 p. m.] Anthony: Wenas
+[21/11/23, 4:26:57 p. m.] Anthony: Voy a terminar algo del proyecto del herramientas y paso a esto
+[21/11/23, 4:28:29 p. m.] Luis Fer Amey: Kok
+[21/11/23, 4:28:32 p. m.] Luis Fer Amey: Tranca
+[21/11/23, 8:32:55 p. m.] Luis Fer Amey: Por si acaso campeón me voy a ir a dormir, ahí lo reviso mañana, xq ayer me dio mal de estómago por el estrés de la presentación y hoy estuve mal, x eso voy a descansar. Si quiere lo podemos revisar mañana si tiene tiempo en la tarde
+[21/11/23, 8:36:31 p. m.] Anthony: Dele con tranquilidad
+[22/11/23, 1:30:08 p. m.] Luis Fer Amey: Nos vemos o me voy?
+[22/11/23, 1:31:07 p. m.] Anthony: Vaya con paz
+[22/11/23, 1:31:22 p. m.] Luis Fer Amey: ª
+[22/11/23, 2:14:33 p. m.] Luis Fer Amey: Si quiere en la noche me manda lo que tenga para terminarlo y ya así presentar el viernes xq presentar la otra semana jamás
+[22/11/23, 2:52:14 p. m.] Luis Fer Amey: ouch
+[22/11/23, 2:59:19 p. m.] Anthony: Pra
+[22/11/23, 2:59:20 p. m.] Anthony: Voy, deme un tok
+[22/11/23, 3:00:10 p. m.] Luis Fer Amey: kok
+‎[22/11/23, 6:14:33 p. m.] Anthony: CALCULADORA_FINANCIERA(3).xlsm ‎documento omitido
+[22/11/23, 6:15:19 p. m.] Anthony: Aun falta lo de pedir si se quiere desde anual hasta diaria pero eso ahorita lo hago, estoy sacando lo del calculo
+[22/11/23, 6:36:32 p. m.] Luis Fer Amey: Okok tranqui
+[22/11/23, 6:36:53 p. m.] Luis Fer Amey: Me avisa cuando lo saque y me lo manda o si no está trabajando en ello para ponerme a ver eso
+‎[22/11/23, 8:30:57 p. m.] Anthony: CALCULADORA_FINANCIERA(3).xlsm ‎documento omitido
+[22/11/23, 8:32:52 p. m.] Luis Fer Amey: pta madre jajajaj el profe de herramientas se dignó a mandarme la bitácora tmb jajaj
+[22/11/23, 8:33:07 p. m.] Luis Fer Amey: que hizo a ver? hagame un resumen a ver que tengo que hacer jajaj perdón ahi
+[22/11/23, 8:36:40 p. m.] Anthony: Nada más escoja la efectiva que quiera y mete R, anual y periodos
+[22/11/23, 8:39:16 p. m.] Luis Fer Amey: a
+[22/11/23, 9:19:43 p. m.] Luis Fer Amey: Está fina
+[22/11/23, 9:19:50 p. m.] Luis Fer Amey: FInisima señores
+[22/11/23, 9:20:01 p. m.] Luis Fer Amey: la voy a pulir y voy a terminar
+[22/11/23, 9:20:15 p. m.] Luis Fer Amey: ya con ud estamos, presentamos el viernes, ud explica su parte
+[22/11/23, 9:43:15 p. m.] Anthony: Dele
+‎[22/11/23, 11:10:03 p. m.] Luis Fer Amey: CALCULADORA_FINANCIERA.xlsm ‎documento omitido
+[22/11/23, 11:10:15 p. m.] Luis Fer Amey: actualización
+[22/11/23, 11:10:40 p. m.] Luis Fer Amey: prob mañana le de la última vuelta pero este es el primer resultado final
+[22/11/23, 11:10:42 p. m.] Luis Fer Amey: a
+[23/11/23, 12:44:31 a. m.] Anthony: ª
+‎[24/11/23, 9:23:27 a. m.] Luis Fer Amey: ‎imagen omitida
+[24/11/23, 9:24:13 a. m.] Luis Fer Amey: soy el depurador de VBA nmms jajj
+[24/11/23, 9:24:28 a. m.] Luis Fer Amey: como ha costado esta vara, pero esperemos que le guste al profe
+[24/11/23, 9:25:11 a. m.] Anthony: Al chile que si
+[24/11/23, 9:25:22 a. m.] Anthony: Ojalá
+[24/11/23, 9:25:35 a. m.] Anthony: Por que en Python esto salió como en 2 líneas
+‎[24/11/23, 9:25:37 a. m.] Anthony: ‎sticker omitido
+[24/11/23, 9:25:45 a. m.] Luis Fer Amey: JAJAJAJ
+[24/11/23, 9:33:01 a. m.] Anthony: En otros problemas
+‎[24/11/23, 9:33:11 a. m.] Anthony: ‎imagen omitida
+[24/11/23, 9:33:22 a. m.] Anthony: A que llegó en la 4c?
+[24/11/23, 9:33:47 a. m.] Luis Fer Amey: a eso
+[24/11/23, 9:33:54 a. m.] Luis Fer Amey: mas o menos
+[24/11/23, 9:33:56 a. m.] Luis Fer Amey: pere
+[24/11/23, 9:34:00 a. m.] Anthony: Ese y2 es y doble prima
+‎[24/11/23, 9:35:00 a. m.] Luis Fer Amey: ‎imagen omitida
+[24/11/23, 9:36:04 a. m.] Anthony: Ojo, la hizo en latex igual
+[24/11/23, 9:36:23 a. m.] Luis Fer Amey: di jajaj
+[24/11/23, 9:36:33 a. m.] Luis Fer Amey: ayer para que se me pasara lo de macro
+[24/11/23, 9:37:17 a. m.] Anthony: Que madre
+[30/11/23, 11:57:18 a. m.] Anthony: Estamos afuera
+[30/11/23, 11:57:18 a. m.] Anthony: Suba por la rampa
+[1/12/23, 10:45:24 a. m.] Luis Fer Amey: Si quiere la parte de la calcu me la deja a mi para comentarla
+[1/12/23, 11:23:51 a. m.] Anthony: Ta bien
+‎[1/12/23, 2:04:40 p. m.] Anthony: CALCULADORA_FINANCIERA.xlsm ‎documento omitido
+[1/12/23, 2:28:12 p. m.] Luis Fer Amey: Gracias
+[1/12/23, 2:28:27 p. m.] Anthony: Fíjese si así, o si lo quiere mas
+[1/12/23, 2:28:47 p. m.] Luis Fer Amey: No no tranqui, yo le pongo más si no
+[1/12/23, 2:28:55 p. m.] Luis Fer Amey: Más bien gracias por ayudarme porque uf
+‎[8/12/23, 10:18:24 a. m.] Anthony: ‎sticker omitido
+[8/12/23, 10:18:51 a. m.] Luis Fer Amey: Ya ya no sufra
+[8/12/23, 10:18:54 a. m.] Luis Fer Amey: Todo está bien
+[8/12/23, 10:19:28 a. m.] Anthony: Ya vi como hacerlo pero sucristo
+[8/12/23, 10:19:32 a. m.] Luis Fer Amey: Ahí lo va a hacer
+[8/12/23, 10:19:35 a. m.] Luis Fer Amey: JAJAJAJJ
+[8/12/23, 10:19:42 a. m.] Anthony: Esta vara es un machetazo
+[8/12/23, 11:50:36 a. m.] Anthony: Me avisa cuando saca las cosas del primero para comparar
+[8/12/23, 11:53:23 a. m.] Luis Fer Amey: Si yo voy a empezar en la tarde yo le aviso
+[8/12/23, 11:53:31 a. m.] Luis Fer Amey: Por el momento solo tengo la primera función
+[8/12/23, 11:53:41 a. m.] Anthony: Okok
+‎[8/12/23, 2:00:22 p. m.] Luis Fer Amey: ‎imagen omitida
+[8/12/23, 2:30:49 p. m.] Anthony: No, yo digo los valores mse
+‎[8/12/23, 2:30:56 p. m.] Anthony: ‎imagen omitida
+[8/12/23, 2:31:10 p. m.] Luis Fer Amey: no joda jajajja
+[8/12/23, 2:31:15 p. m.] Luis Fer Amey: apenas empiezo
+[8/12/23, 2:31:24 p. m.] Anthony: Bueno cuando tenga eso ya me avisa
+[8/12/23, 2:31:30 p. m.] Luis Fer Amey: kok
+‎[8/12/23, 7:57:46 p. m.] Luis Fer Amey: ‎imagen omitida
+[8/12/23, 7:58:36 p. m.] Luis Fer Amey: están similares pero pueden ser por los .5
+[8/12/23, 8:00:08 p. m.] Anthony: Voy voy
+[8/12/23, 8:00:19 p. m.] Luis Fer Amey: Maldito profe este
+[8/12/23, 8:00:23 p. m.] Luis Fer Amey: no se que se cree
+[8/12/23, 8:00:39 p. m.] Anthony: Al chile que nos quería ejecutar
+[8/12/23, 8:00:41 p. m.] Anthony: Sucristo
+[8/12/23, 8:01:20 p. m.] Luis Fer Amey: ya me cabree pero feo
+[8/12/23, 8:01:30 p. m.] Luis Fer Amey: no se diga 14 mensajes al profe en vano
+‎[8/12/23, 8:01:53 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[8/12/23, 8:02:43 p. m.] Luis Fer Amey: ‎imagen omitida
+[8/12/23, 8:02:52 p. m.] Luis Fer Amey: 20 minutos si quiere h = 4
+‎[8/12/23, 8:05:44 p. m.] Anthony: ‎imagen omitida
+[8/12/23, 8:05:52 p. m.] Anthony: 7min solo para uno de 3 levels
+[8/12/23, 8:06:04 p. m.] Luis Fer Amey: nuuuu
+[8/12/23, 8:06:08 p. m.] Luis Fer Amey: como lo optimizó?
+[8/12/23, 8:06:27 p. m.] Anthony: No habemus optimizacion
+[8/12/23, 8:06:40 p. m.] Luis Fer Amey: es que mi mierda esta durando mucho
+[8/12/23, 8:06:50 p. m.] Luis Fer Amey: ni siquiera se el punto del arbol si le pone altura de 4
+[8/12/23, 8:06:55 p. m.] Luis Fer Amey: o sea solo 8 hojas JAJAJJA
+[8/12/23, 8:07:14 p. m.] Luis Fer Amey: este profe jodas
+[8/12/23, 8:07:29 p. m.] Anthony: Voy a decirle que hasta 25 jamas
+[8/12/23, 8:07:46 p. m.] Luis Fer Amey: NOOOO CIERTO
+[8/12/23, 8:07:49 p. m.] Luis Fer Amey: NOOOOOOOOOOOOOOO
+[8/12/23, 8:07:54 p. m.] Luis Fer Amey: PUTA MADRE
+[8/12/23, 8:08:01 p. m.] Luis Fer Amey: HAY QUE HACER TODOS LOS H
+[8/12/23, 8:08:11 p. m.] Luis Fer Amey: mae solo quiero dormir hoy
+[8/12/23, 8:09:32 p. m.] Anthony: Ese mae nos dijo que iba a ser algo facil
+[8/12/23, 8:09:34 p. m.] Anthony: Me siento tramado
+[8/12/23, 8:09:38 p. m.] Anthony: Violentado
+[8/12/23, 8:09:42 p. m.] Anthony: Atacado
+[8/12/23, 8:09:53 p. m.] Luis Fer Amey: insultado
+[8/12/23, 8:10:19 p. m.] Luis Fer Amey: demacrado
+[8/12/23, 8:10:22 p. m.] Luis Fer Amey: abofeteado
+[8/12/23, 8:10:25 p. m.] Luis Fer Amey: escupido
+[8/12/23, 8:11:59 p. m.] Anthony: Wa yohrar
+[8/12/23, 8:13:13 p. m.] Luis Fer Amey: mae no lo diga porque aquí suelto
+[9/12/23, 12:49:17 p. m.] Luis Fer Amey: anthony que tal va la trinchera
+‎[9/12/23, 12:49:35 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/12/23, 12:50:23 p. m.] Luis Fer Amey: ah bueno le hice spoiler de mi idea de altura fuc
+‎[9/12/23, 12:52:27 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/12/23, 12:52:38 p. m.] Luis Fer Amey: me dura 1 min porque el profe me ayudo a optimizar
+[9/12/23, 12:53:00 p. m.] Luis Fer Amey: porque si no el de 25 levels le dura 1 hora ‎<Se editó este mensaje.>
+[9/12/23, 1:35:49 p. m.] Anthony: Divisiones?
+[9/12/23, 1:35:56 p. m.] Anthony: No sé por qué el lvl7 se me cae
+‎[9/12/23, 1:36:03 p. m.] Anthony: ‎sticker omitido
+[9/12/23, 1:36:04 p. m.] Luis Fer Amey: quiere que lo intente?
+[9/12/23, 1:36:16 p. m.] Luis Fer Amey: ah es que puse ahí los dataframes de posibles hijos
+[9/12/23, 1:36:24 p. m.] Luis Fer Amey: para agarrarlos más facil
+[9/12/23, 1:36:36 p. m.] Anthony: A fumarse esa idea
+[9/12/23, 1:36:38 p. m.] Anthony: No mentira
+[9/12/23, 1:36:54 p. m.] Anthony: Yo lo que hago es que en la recursión meto directamente el df
+[9/12/23, 1:37:15 p. m.] Luis Fer Amey: si no jajaj es semi pérdida de eficiencia pero puedo intentar hacerlo más eficiente
+[9/12/23, 1:37:24 p. m.] Luis Fer Amey: por el momento voy a intentar hacer 7 niveles
+[9/12/23, 1:37:38 p. m.] Luis Fer Amey: cuanto le duró los 7 niveles más o menos porque se que se le cayo
+[9/12/23, 1:38:54 p. m.] Anthony: Dice que MSE is null
+[9/12/23, 1:38:59 p. m.] Anthony: Pero ni idea de por que
+[9/12/23, 1:39:01 p. m.] Luis Fer Amey: wtf JAJAJAJJ
+[9/12/23, 1:39:02 p. m.] Anthony: Voy a revisar
+[9/12/23, 1:39:15 p. m.] Luis Fer Amey: aún no ha hecho la podada vdd?
+[9/12/23, 1:39:26 p. m.] Anthony: Correcto
+[9/12/23, 1:39:29 p. m.] Anthony: Y no la voy a hacer
+‎[9/12/23, 1:39:33 p. m.] Anthony: ‎sticker omitido
+[9/12/23, 1:40:17 p. m.] Luis Fer Amey: JAJAJ
+‎[9/12/23, 2:43:41 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[9/12/23, 3:19:57 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/12/23, 3:20:06 p. m.] Luis Fer Amey: por eso me servía tener las divisiones antes ve
+[9/12/23, 3:34:43 p. m.] Anthony: WOOOOOOOOOOOOOOOOOOOOO
+[9/12/23, 3:34:48 p. m.] Anthony: Si encontró al culpable
+[9/12/23, 3:35:55 p. m.] Luis Fer Amey: jajajja
+[9/12/23, 3:35:59 p. m.] Luis Fer Amey: ahora que? JAJAJAJ
+[9/12/23, 3:36:06 p. m.] Anthony: Ni idea
+[9/12/23, 3:36:12 p. m.] Anthony: Que el profe resuelva esa vara
+[9/12/23, 3:36:12 p. m.] Luis Fer Amey: esta es la hoja de un nivel
+[9/12/23, 3:36:23 p. m.] Luis Fer Amey: hmmm
+[9/12/23, 3:43:01 p. m.] Anthony: Deme un toque
+[9/12/23, 3:43:14 p. m.] Luis Fer Amey: ño
+[9/12/23, 3:43:20 p. m.] Luis Fer Amey: es que ya me desmotive
+[9/12/23, 3:43:24 p. m.] Luis Fer Amey: jajaja
+[9/12/23, 3:43:44 p. m.] Anthony: Si se puede
+[9/12/23, 3:43:47 p. m.] Anthony: Ya está casi todo
+[9/12/23, 3:43:50 p. m.] Anthony: Si se puede
+[9/12/23, 3:43:54 p. m.] Luis Fer Amey: casi todo
+[9/12/23, 3:43:56 p. m.] Luis Fer Amey: 1/4
+[9/12/23, 3:44:15 p. m.] Anthony: Con que una persona del grupo logré sacar esta basura de examen
+[9/12/23, 3:44:23 p. m.] Luis Fer Amey: mas bien
+[9/12/23, 3:44:27 p. m.] Luis Fer Amey: si nadie lo logra sacar
+[9/12/23, 3:44:30 p. m.] Luis Fer Amey: entonces mejor
+‎[9/12/23, 4:29:17 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/12/23, 4:29:21 p. m.] Luis Fer Amey: JAJJAJAJAJ
+[9/12/23, 4:29:32 p. m.] Luis Fer Amey: probablemente después lo cambie a null pero es para saber
+[9/12/23, 4:29:41 p. m.] Luis Fer Amey: Que me mando a hacer h = 25
+‎[9/12/23, 4:29:51 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/12/23, 4:30:28 p. m.] Luis Fer Amey: Me duraría 8 minutos
+‎[9/12/23, 4:57:15 p. m.] Luis Fer Amey: ‎Video omitido
+‎[9/12/23, 5:08:41 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/12/23, 5:23:08 p. m.] Anthony: Sucristo
+[9/12/23, 5:23:36 p. m.] Luis Fer Amey: ni siquiera le mando screen del arbol porque ni es legible
+[9/12/23, 5:23:46 p. m.] Luis Fer Amey: tengo que arreglar otro error pero es más de lectura
+[9/12/23, 5:30:42 p. m.] Anthony: Pero si saco el árbol?
+[9/12/23, 5:30:49 p. m.] Luis Fer Amey: Sisi
+[9/12/23, 5:31:04 p. m.] Luis Fer Amey: Más bien lo estoy volviendo a correr para que corrija ese error de formato
+[9/12/23, 5:31:05 p. m.] Anthony: La super lista con los 25?
+‎[9/12/23, 5:31:40 p. m.] Luis Fer Amey: ‎Video omitido
+[9/12/23, 5:34:12 p. m.] Luis Fer Amey: Nono solo tengo el árbol 25
+[9/12/23, 5:34:27 p. m.] Luis Fer Amey: La súper lista me dura 1 hora si lo hago
+[9/12/23, 5:34:44 p. m.] Luis Fer Amey: O tal vez puedo aprovechar recursividad
+[9/12/23, 5:35:02 p. m.] Anthony: Sucristo
+[9/12/23, 5:35:12 p. m.] Luis Fer Amey: Es bien f
+‎[9/12/23, 5:35:18 p. m.] Anthony: ‎sticker omitido
+‎[9/12/23, 5:36:15 p. m.] Luis Fer Amey: ‎sticker omitido
+[9/12/23, 5:37:17 p. m.] Anthony: Que ganas
+[9/12/23, 5:37:50 p. m.] Luis Fer Amey: Mae rezo por favor
+[9/12/23, 5:37:58 p. m.] Luis Fer Amey: Que nadie saque el examen para que haga curva
+[9/12/23, 5:38:09 p. m.] Luis Fer Amey: Incluyéndome
+[9/12/23, 5:39:30 p. m.] Luis Fer Amey: En teoría si uso el truco que me acabo de pensar el algoritmo para la lista de árboles me debería de durar un poquito más que esta, Max 15 min
+‎[9/12/23, 5:42:04 p. m.] Luis Fer Amey: ‎Video omitido
+‎[9/12/23, 5:59:28 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/12/23, 5:59:49 p. m.] Luis Fer Amey: inclusive se puede ver que el límite está en 35
+[9/12/23, 6:34:44 p. m.] Anthony: Sucristo
+‎[9/12/23, 6:46:43 p. m.] Anthony: ‎imagen omitida
+[9/12/23, 6:46:58 p. m.] Anthony: Creo que va a terminar durando 25min para el h=25
+[9/12/23, 6:47:01 p. m.] Anthony: Si se pudo
+‎[9/12/23, 6:47:15 p. m.] Anthony: ‎sticker omitido
+[9/12/23, 6:47:24 p. m.] Anthony: Se pudo pero a que costo
+[9/12/23, 6:59:47 p. m.] Luis Fer Amey: Nombres 😞
+[9/12/23, 6:59:59 p. m.] Luis Fer Amey: O sea pero esa es la lista de árboles?
+[9/12/23, 7:09:54 p. m.] Anthony: Si en el campo 7 de super lista guardo el árbol de altura 7 y en el 8 el árbol de altura 8
+[9/12/23, 7:11:11 p. m.] Luis Fer Amey: wait
+[9/12/23, 7:11:22 p. m.] Luis Fer Amey: lo está haciendo todo? ud está loco JAJASJ
+[9/12/23, 7:12:32 p. m.] Luis Fer Amey: el algoritmo le va a durar como 5 horas
+[9/12/23, 7:32:21 p. m.] Anthony: Ya hice los cálculos y en efecto 5hrs
+[9/12/23, 7:32:42 p. m.] Anthony: No es mi culpa es culpa de Javier
+[9/12/23, 7:32:46 p. m.] Luis Fer Amey: JAJAJJAJA
+[9/12/23, 7:32:53 p. m.] Luis Fer Amey: todo es culpa de Javier
+[9/12/23, 7:36:25 p. m.] Luis Fer Amey: y también si no lo tiene optimizado, a mi el arbol de 7 me dura 140 seg
+‎[9/12/23, 7:40:35 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/12/23, 7:40:42 p. m.] Luis Fer Amey: pobrecita su pc
+[9/12/23, 7:44:22 p. m.] Anthony: Na
+[9/12/23, 7:44:25 p. m.] Anthony: Que aguante
+[9/12/23, 7:44:39 p. m.] Anthony: Igual ni paralelice, solo está usando un nucleo
+[9/12/23, 7:44:53 p. m.] Luis Fer Amey: JAJJAJA yo tampoco
+[9/12/23, 7:45:02 p. m.] Luis Fer Amey: mi humilde i5 4 gen es potente
+[9/12/23, 7:45:15 p. m.] Luis Fer Amey: con solo un nucleo corre al 100 😎
+‎[9/12/23, 7:59:17 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/12/23, 7:59:25 p. m.] Luis Fer Amey: 🫠 a que costo
+‎[9/12/23, 8:12:20 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/12/23, 8:57:17 p. m.] Anthony: Ar bol
+[9/12/23, 8:57:24 p. m.] Anthony: Yisas
+[9/12/23, 8:58:36 p. m.] Luis Fer Amey: JAJJSAJAS
+‎[9/12/23, 9:25:10 p. m.] Anthony: ‎imagen omitida
+[9/12/23, 9:37:24 p. m.] Luis Fer Amey: NOOOO
+[9/12/23, 9:37:25 p. m.] Luis Fer Amey: JAJAJJAJA
+[9/12/23, 9:37:30 p. m.] Luis Fer Amey: yo lo acompaño
+[9/12/23, 9:37:50 p. m.] Luis Fer Amey: yo usualmente me despierto a la una por ciclos de sueño aso que mandeme mensaje
+‎[9/12/23, 9:38:20 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[9/12/23, 9:49:05 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/12/23, 9:53:42 p. m.] Anthony: Vea el de 25 que queda solo con 5 hojas
+[9/12/23, 9:54:09 p. m.] Luis Fer Amey: Me lo fumé por completo jajajaj pero si mínimo 2 hojas dijo el profe
+[9/12/23, 9:54:25 p. m.] Anthony: 5>2
+[9/12/23, 9:54:32 p. m.] Anthony: Le gano a Javier
+[9/12/23, 9:54:32 p. m.] Luis Fer Amey: Es win win
+[9/12/23, 9:54:36 p. m.] Luis Fer Amey: JAJJAJA
+‎[10/12/23, 2:12:57 a. m.] Anthony: ‎imagen omitida
+[10/12/23, 2:12:59 a. m.] Anthony: Que tristeza
+[10/12/23, 2:13:05 a. m.] Anthony: Me rindo
+[10/12/23, 5:45:16 a. m.] Luis Fer Amey: Nuuu
+[10/12/23, 5:45:18 a. m.] Luis Fer Amey: F
+[10/12/23, 5:45:32 a. m.] Luis Fer Amey: Tiene que podar jajaja
+‎[10/12/23, 7:32:43 a. m.] Anthony: ‎sticker omitido
+[10/12/23, 7:33:44 a. m.] Luis Fer Amey: lo extraño
+[10/12/23, 7:33:53 a. m.] Luis Fer Amey: es que el testing le haya dado más alto
+[10/12/23, 7:33:57 a. m.] Luis Fer Amey: y que se va para 1
+[10/12/23, 7:34:07 a. m.] Luis Fer Amey: en sí debería de funca con el gráfico del profe
+‎[10/12/23, 7:59:50 a. m.] Anthony: ‎imagen omitida
+[10/12/23, 7:59:54 a. m.] Anthony: Ora si
+[10/12/23, 8:00:01 a. m.] Anthony: Esa basura de código que no la toquen
+[10/12/23, 8:00:20 a. m.] Anthony: _*N O T O Q U E N E L C O D I G O*_
+[10/12/23, 8:00:29 a. m.] Luis Fer Amey: JAJAJAJAJ
+[10/12/23, 8:00:33 a. m.] Luis Fer Amey: bien bien
+[10/12/23, 8:00:39 a. m.] Luis Fer Amey: muy orgulloso de mi chiquito
+[10/12/23, 8:00:55 a. m.] Luis Fer Amey: *_ PODE _*
+[10/12/23, 8:01:03 a. m.] Luis Fer Amey: bromita
+[10/12/23, 8:01:30 a. m.] Luis Fer Amey: tenemos que hacer una idea para el arbol nario
+[10/12/23, 8:01:43 a. m.] Luis Fer Amey: siendo que son puntos fáciles pero no sé como hacer los cortes
+[10/12/23, 8:05:59 a. m.] Anthony: Si cierto eso
+[10/12/23, 8:06:08 a. m.] Anthony: Celebre victoria muy temprano
+[10/12/23, 8:06:12 a. m.] Luis Fer Amey: JAJAJAJJAJ
+[10/12/23, 8:06:21 a. m.] Anthony: Voy a buscar en github mientras como
+[10/12/23, 8:06:43 a. m.] Luis Fer Amey: yo después de que desayune y me vaya a misa lo alcanzo un rato y ya, lo que faltaría son los putos puntos extra si quiere hacerlo
+[10/12/23, 8:06:55 a. m.] Luis Fer Amey: para asegurar el 100
+[10/12/23, 8:07:13 a. m.] Anthony: Si se puede si se puede
+[10/12/23, 8:07:18 a. m.] Luis Fer Amey: si se puede
+[10/12/23, 12:20:52 p. m.] Luis Fer Amey: mae no entiendo lo de las estúpidas predicciones
+‎[10/12/23, 12:21:09 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[10/12/23, 1:30:11 p. m.] Luis Fer Amey: ‎imagen omitida
+[10/12/23, 2:01:58 p. m.] Anthony: Vea
+[10/12/23, 2:02:00 p. m.] Anthony: Pascal
+[10/12/23, 2:02:10 p. m.] Luis Fer Amey: jajajajj
+[10/12/23, 2:02:22 p. m.] Luis Fer Amey: como putas metio el df test en el arbol
+[10/12/23, 2:07:44 p. m.] Anthony: Yo lo que hice fue meter la primera entrada del df test en el árbol y con base a eso se evalúa hasta que se llega a una hoja y se retorna una predicción, y así con todas las entradas
+[10/12/23, 2:07:52 p. m.] Anthony: Lo que salía era una vector con las predicciones
+[10/12/23, 2:09:22 p. m.] Luis Fer Amey: vrg es que yo no quería hacer eso
+[10/12/23, 2:09:27 p. m.] Luis Fer Amey: pero toco 😞
+[10/12/23, 2:09:41 p. m.] Anthony: Básicamente todo este semestre
+‎[10/12/23, 2:09:42 p. m.] Anthony: ‎sticker omitido
+[10/12/23, 2:09:59 p. m.] Luis Fer Amey: JHAJAJAJJ
+[10/12/23, 2:20:42 p. m.] Luis Fer Amey: mae que ganas
+[10/12/23, 2:20:56 p. m.] Luis Fer Amey: ahorita se me ocurre como implementarlo con lo que tengo pero que picha
+[10/12/23, 2:21:15 p. m.] Luis Fer Amey: lo bueno es que puedo hacer el gráfico con podados y no podados :)
+[10/12/23, 2:24:33 p. m.] Luis Fer Amey: o sea es como un pseudo arbol que sigue los cortes del arbol inputado
+[10/12/23, 2:24:36 p. m.] Luis Fer Amey: que asco
+[10/12/23, 2:34:59 p. m.] Luis Fer Amey: O sea pero si usó recursividad supongo
+[10/12/23, 2:35:00 p. m.] Luis Fer Amey: fac
+[10/12/23, 2:36:31 p. m.] Anthony: No
+[10/12/23, 2:36:44 p. m.] Luis Fer Amey: wtf
+[10/12/23, 2:36:58 p. m.] Luis Fer Amey: for con altura? jajsjdfja
+[10/12/23, 2:37:00 p. m.] Anthony: Metí en un while cada entrada hasta que llegara a una nodo con dos nulos
+[10/12/23, 2:37:11 p. m.] Luis Fer Amey: hmmmm
+[10/12/23, 2:37:24 p. m.] Luis Fer Amey: el problema es que en el mío
+[10/12/23, 2:37:36 p. m.] Luis Fer Amey: hay nodos que pueden terminar con un solo nodo nulo
+[10/12/23, 2:37:43 p. m.] Luis Fer Amey: mierda
+‎[10/12/23, 2:37:53 p. m.] Luis Fer Amey: ‎imagen omitida
+[10/12/23, 2:37:57 p. m.] Luis Fer Amey: ahi de xd
+[10/12/23, 2:37:57 p. m.] Anthony: Recuerde que el profe dijo que eso no se podia
+[10/12/23, 2:38:11 p. m.] Luis Fer Amey: nono pero es que yo lo hice así
+[10/12/23, 2:38:28 p. m.] Anthony: Pero igual sirve no?
+[10/12/23, 2:38:41 p. m.] Luis Fer Amey: si si ambos sirve
+[10/12/23, 2:38:49 p. m.] Luis Fer Amey: lo que le quita puntos es solo no podar
+[10/12/23, 2:38:53 p. m.] Luis Fer Amey: lo insignificante
+[10/12/23, 2:39:20 p. m.] Luis Fer Amey: cuanto le duró corriendo para los 25 árboles?
+[10/12/23, 2:39:23 p. m.] Luis Fer Amey: esa cosa
+‎[10/12/23, 2:41:22 p. m.] Anthony: ‎imagen omitida
+[10/12/23, 2:41:46 p. m.] Anthony: Esos del medio duraron mas por que estaba usando la compu para algo mas mientras corria el program
+[10/12/23, 2:42:13 p. m.] Luis Fer Amey: f
+[10/12/23, 2:42:17 p. m.] Anthony: Pero basicamente empezaba en 2min y terminaba en 13min
+[10/12/23, 2:42:25 p. m.] Luis Fer Amey: wait ya lo kniteó?
+‎[10/12/23, 2:42:41 p. m.] Anthony: Examen_2_C24067.html ‎documento omitido
+[10/12/23, 2:42:43 p. m.] Anthony: PRA
+[10/12/23, 2:42:46 p. m.] Luis Fer Amey: WTF
+[10/12/23, 2:43:16 p. m.] Luis Fer Amey: JAJAJAJ
+[10/12/23, 2:43:16 p. m.] Luis Fer Amey: NOTA: Voy a dejar los tiempos de ejecucion para que exista un valor cuantitativo que represente una fraccion de lo que sufri con el examen.
+[10/12/23, 2:43:24 p. m.] Anthony: AL CHILE QUE SI
+[10/12/23, 2:45:13 p. m.] Luis Fer Amey: ah ya ya entendí
+[10/12/23, 2:45:23 p. m.] Luis Fer Amey: ud hizo la función 8 para que le aceptara ambos df
+[10/12/23, 2:45:35 p. m.] Luis Fer Amey: yo lo hice para que solo buscara los del train :(
+[10/12/23, 2:46:11 p. m.] Anthony: Si, yo la hice para que aceptara cualquier df
+[10/12/23, 2:46:18 p. m.] Anthony: Todas las funciones aceptan de todo
+[10/12/23, 2:46:29 p. m.] Luis Fer Amey: f
+[10/12/23, 2:46:41 p. m.] Anthony: Pero igual cambiarlo es facil
+[10/12/23, 2:47:41 p. m.] Luis Fer Amey: si pero no
+[10/12/23, 2:47:43 p. m.] Luis Fer Amey: voy a ver
+[10/12/23, 2:48:04 p. m.] Luis Fer Amey: como pts lo kniteo tan rápido? solo puso como no execute o q
+[10/12/23, 2:48:40 p. m.] Luis Fer Amey: ah ya vi
+[10/12/23, 2:49:14 p. m.] Luis Fer Amey: el profe le puede bajar puntos por falta de evidencia de ejecucción (o sea por no poner la linea de ejeccución). A mi me bajo un raspichazo el examen pasado
+[10/12/23, 2:49:49 p. m.] Luis Fer Amey: pero en realidad no sé como mostrar los resultados de cada función si son estúpidas
+[10/12/23, 2:50:55 p. m.] Anthony: Wa preguntarle
+[10/12/23, 2:51:06 p. m.] Luis Fer Amey: sisi a ver
+[10/12/23, 2:51:10 p. m.] Luis Fer Amey: si no se pone en varas
+[10/12/23, 2:53:20 p. m.] Anthony: Voy a ver si con eso de tiempo de ejecucion vale
+[10/12/23, 2:53:29 p. m.] Luis Fer Amey: debe de
+[10/12/23, 2:53:31 p. m.] Luis Fer Amey: jodas
+[10/12/23, 2:53:40 p. m.] Luis Fer Amey: otras 5 horas de chill
+[10/12/23, 2:54:48 p. m.] Anthony: Ponga alarma
+[10/12/23, 2:55:34 p. m.] Luis Fer Amey: JAJAJJAJA
+[10/12/23, 4:16:05 p. m.] Luis Fer Amey: wooo ya lo logré
+[10/12/23, 4:44:19 p. m.] Luis Fer Amey: mae me dio algo así
+[10/12/23, 4:44:20 p. m.] Luis Fer Amey: f
+[10/12/23, 4:44:24 p. m.] Luis Fer Amey: como lo corrigió
+[10/12/23, 4:59:54 p. m.] Anthony: En mi vector de predicción habían valores nulos
+[10/12/23, 5:00:05 p. m.] Luis Fer Amey: mierda
+‎[10/12/23, 5:00:15 p. m.] Luis Fer Amey: ‎imagen omitida
+[10/12/23, 5:00:15 p. m.] Anthony: A los valores nulos les di la media
+[10/12/23, 5:00:29 p. m.] Anthony: Mmmm
+[10/12/23, 5:09:28 p. m.] Luis Fer Amey: O sea si veo la data un poco
+[10/12/23, 5:09:34 p. m.] Luis Fer Amey: Hay muchos similares
+[10/12/23, 5:09:41 p. m.] Luis Fer Amey: pero hay otros que la manda del estadio
+[10/12/23, 5:24:03 p. m.] Anthony: Puede también ser por la poda
+‎[10/12/23, 5:24:06 p. m.] Anthony: ‎sticker omitido
+[10/12/23, 5:24:21 p. m.] Luis Fer Amey: la poda elimina como 50 nodos, ya la corregí
+[10/12/23, 5:24:27 p. m.] Luis Fer Amey: entonces no afecta y no lo sé
+[10/12/23, 5:24:31 p. m.] Luis Fer Amey: estoy bateadísimo
+[10/12/23, 5:24:51 p. m.] Luis Fer Amey: de casualidad me puede pasar esa tabla para test?
+[10/12/23, 5:28:34 p. m.] Anthony: Ya lo cerré
+[10/12/23, 5:28:35 p. m.] Anthony: Voy
+‎[10/12/23, 5:28:38 p. m.] Anthony: ‎sticker omitido
+[10/12/23, 5:29:42 p. m.] Luis Fer Amey: vrg
+[10/12/23, 5:29:46 p. m.] Luis Fer Amey: kok
+‎[10/12/23, 6:03:25 p. m.] Anthony: ‎imagen omitida
+[10/12/23, 6:03:29 p. m.] Anthony: Yo los tengo en un vector
+[10/12/23, 6:20:07 p. m.] Luis Fer Amey: Hmmm si son cercanos
+[10/12/23, 6:20:10 p. m.] Luis Fer Amey: Es que los míos
+[10/12/23, 6:20:38 p. m.] Luis Fer Amey: No se que putas, solo lo dejé así
+[10/12/23, 6:20:47 p. m.] Luis Fer Amey: Recibí confirmación del profe para dejarlo así
+[10/12/23, 6:20:51 p. m.] Luis Fer Amey: O sea si pero no
+[10/12/23, 6:20:53 p. m.] Luis Fer Amey: Entonces di
+[10/12/23, 6:21:01 p. m.] Anthony: Wat
+[10/12/23, 6:21:07 p. m.] Anthony: Si se puede dejar esa cosa rara?
+[10/12/23, 6:22:06 p. m.] Luis Fer Amey: Es que ajá no lo sé 🫠
+[10/12/23, 6:22:12 p. m.] Luis Fer Amey: Ud dejé lo suyo
+[10/12/23, 6:22:16 p. m.] Luis Fer Amey: Lo suyo tiene que estar bien
+[10/12/23, 6:23:02 p. m.] Luis Fer Amey: El mío es un caso en que la media calza exactamente para que R2 de eso, y o sea la data se acomodó de forma estupida para que hiciera eso
+[10/12/23, 6:33:04 p. m.] Anthony: Culpa de Javier es eso
+[10/12/23, 6:37:21 p. m.] Luis Fer Amey: Exactamente
+[10/12/23, 6:37:25 p. m.] Luis Fer Amey: Todo un sabio
+[10/12/23, 8:58:36 p. m.] Luis Fer Amey: ud es el del 90 vdd negro
+[10/12/23, 8:59:10 p. m.] Luis Fer Amey: ah no mira nani ud no lo ha visto wtf
+[10/12/23, 8:59:20 p. m.] Luis Fer Amey: hay alguien que lo tiene mas
+[10/12/23, 10:35:52 p. m.] Anthony: Probablemente Andy Roberto
+[10/12/23, 10:36:28 p. m.] Anthony: Yo puse 0, nada más quería ver los resultados
+[11/12/23, 4:57:55 a. m.] Luis Fer Amey: Jajajja
+[11/12/23, 4:58:01 a. m.] Luis Fer Amey: Mentiroso
+[15/12/23, 2:07:34 p. m.] Anthony: Si le da click derecho mostrar se ven las notas de todos en ese archivo del profe
+[15/12/23, 2:07:36 p. m.] Anthony: xDDDD
+‎[15/12/23, 2:19:02 p. m.] Luis Fer Amey: ‎imagen omitida
+[15/12/23, 2:47:22 p. m.] Anthony: Una máquina el profe
+[15/12/23, 2:56:24 p. m.] Luis Fer Amey: Se le olvidó que llevamos vba
+[5/1/24, 5:54:15 p. m.] Anthony: Luissss
+[5/1/24, 5:54:23 p. m.] Anthony: Va a ir a esa cosa de Laura?
+[5/1/24, 6:12:48 p. m.] Luis Fer Amey: Estaba pensándolo
+[5/1/24, 6:12:55 p. m.] Luis Fer Amey: si ud va yo voy re xd
+[5/1/24, 6:13:08 p. m.] Luis Fer Amey: y si quiere pagarlo juntos dele onda y le paso sinpe
+[5/1/24, 6:18:22 p. m.] Anthony: Okoks
+[6/1/24, 12:03:33 p. m.] Luis Fer Amey: Ya lo pago?
+[6/1/24, 12:04:18 p. m.] Anthony: woy
+[6/1/24, 12:04:33 p. m.] Luis Fer Amey: Re xd
+[6/1/24, 12:04:36 p. m.] Luis Fer Amey: Tranqs
+‎[6/1/24, 12:18:59 p. m.] Anthony: ‎imagen omitida
+[6/1/24, 12:52:28 p. m.] Luis Fer Amey: Fino señores
+[6/1/24, 12:52:42 p. m.] Luis Fer Amey: Deme su cel solo por si acaso al que quiere que le pase el sinpe
+[6/1/24, 1:00:21 p. m.] Anthony: 86093714
+[6/1/24, 1:00:24 p. m.] Anthony: Este numerox
+‎[6/1/24, 1:32:08 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[6/1/24, 1:38:45 p. m.] Anthony: ‎sticker omitido
+‎[11/1/24, 2:32:28 p. m.] Anthony: Grimmett S.pdf • ‎355 páginas ‎documento omitido
+[11/1/24, 2:49:37 p. m.] Anthony: https://youtu.be/4y_5Ck1h3jI?si=ymd5jcIRdCmfOr9m
+[11/1/24, 3:51:18 p. m.] Luis Fer Amey: Ya lo saque sin (1+x) pero ahora con (x+y)
+[11/1/24, 3:53:11 p. m.] Anthony: Yo voy a buscar para ver si existe alguna prueba con inducción
+[11/1/24, 3:53:16 p. m.] Anthony: Osea una ya hecha
+[11/1/24, 3:53:34 p. m.] Luis Fer Amey: induccion es mortal no le combiene
+‎[11/1/24, 3:53:48 p. m.] Anthony: ‎sticker omitido
+[11/1/24, 4:36:47 p. m.] Luis Fer Amey: Mae estas soluciones tienen muchos errores
+[11/1/24, 4:49:00 p. m.] Anthony: Scorrecto
+[11/1/24, 4:49:06 p. m.] Anthony: No sé fie de ellas
+[11/1/24, 7:33:05 p. m.] Anthony: https://proofwiki.org/wiki/Symmetry_Rule_for_Binomial_Coefficients
+[11/1/24, 7:33:06 p. m.] Anthony: https://en.wikipedia.org/wiki/Vandermonde%27s_identity
+‎[11/1/24, 7:33:06 p. m.] Anthony: ‎imagen omitida
+[11/1/24, 7:34:08 p. m.] Anthony: Voy a preguntarle a la profe a ver qué tal
+[11/1/24, 7:35:13 p. m.] Luis Fer Amey: jaja pero se metió a investigar para no probar esa vara
+[11/1/24, 7:35:24 p. m.] Luis Fer Amey: Yo lo tengo pero esta fino
+[11/1/24, 7:35:56 p. m.] Anthony: Pero quien sabe si es legal usar Vandermonde
+[11/1/24, 7:36:03 p. m.] Anthony: Voy a hacerla y se la mando a ver que tal
+[11/1/24, 7:49:41 p. m.] Luis Fer Amey: Xd
+‎[11/1/24, 9:03:08 p. m.] Anthony: CamScanner 01-11-2024 20.52 (1) (1).pdf • ‎2 páginas ‎documento omitido
+[11/1/24, 9:03:46 p. m.] Luis Fer Amey: Que asco
+‎[11/1/24, 9:04:21 p. m.] Luis Fer Amey: ‎imagen omitida
+[11/1/24, 9:04:35 p. m.] Anthony: Sucristo
+[11/1/24, 9:04:39 p. m.] Anthony: No gracias
+‎[11/1/24, 9:04:42 p. m.] Anthony: ‎sticker omitido
+‎[11/1/24, 9:04:55 p. m.] Luis Fer Amey: ‎sticker omitido
+[11/1/24, 9:20:43 p. m.] Luis Fer Amey: Por cierto
+[11/1/24, 9:20:47 p. m.] Luis Fer Amey: Ya saqué la 14
+[11/1/24, 9:21:01 p. m.] Luis Fer Amey: Si la ocupa me la pide pero no me venda jajaj
+[11/1/24, 9:21:15 p. m.] Luis Fer Amey: El libro la pifió un poco no más
+‎[11/1/24, 9:21:21 p. m.] Luis Fer Amey: ‎sticker omitido
+[11/1/24, 9:21:59 p. m.] Anthony: Ese libro no sirve para nada entonces
+[11/1/24, 9:22:07 p. m.] Anthony: La a la hice por inducción yo
+[11/1/24, 9:22:20 p. m.] Luis Fer Amey: Es una basura
+[11/1/24, 9:22:27 p. m.] Luis Fer Amey: Sirve para darse una idea
+[11/1/24, 9:22:29 p. m.] Luis Fer Amey: Sip
+[11/1/24, 9:22:35 p. m.] Luis Fer Amey: Sale bien con inducción
+[11/1/24, 9:22:42 p. m.] Luis Fer Amey: El otro paso pue pue
+[11/1/24, 9:22:50 p. m.] Anthony: D:
+[11/1/24, 9:23:26 p. m.] Luis Fer Amey: Pero si lo logra, después de esa 9 no hay nada peor
+[11/1/24, 9:34:55 p. m.] Anthony: Okok
+[11/1/24, 9:35:03 p. m.] Anthony: Pero mañana que ya es hora de mimirs
+[11/1/24, 9:38:41 p. m.] Luis Fer Amey: Mimis
+‎[12/1/24, 10:31:43 a. m.] Anthony: PDG_9206_PAH_251018.pdf • ‎2 páginas ‎documento omitido
+[12/1/24, 11:17:58 a. m.] Luis Fer Amey: Voy a agarrar la de 0, la de abajo
+[12/1/24, 11:19:16 a. m.] Anthony: Okok
+‎[13/1/24, 1:42:55 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[13/1/24, 2:20:04 p. m.] Anthony: ‎sticker omitido
+[13/1/24, 8:56:53 p. m.] Anthony: Luisssss
+[13/1/24, 8:57:42 p. m.] Luis Fer Amey: Aaaaaaaaa
+[13/1/24, 8:58:41 p. m.] Anthony: Como interpretó usted esa B
+[13/1/24, 9:02:29 p. m.] Luis Fer Amey: Me comí la b
+[13/1/24, 9:02:32 p. m.] Luis Fer Amey: Bromita
+[13/1/24, 9:03:03 p. m.] Luis Fer Amey: El primer límite lo dejé así como tal no lo calcule porque wtf (o sea límite con los ganchos soportando n llaves)
+[13/1/24, 9:03:28 p. m.] Luis Fer Amey: El segundo lo calcule para ambos casos, puesto es complemento, y pues este los ganchos solo soportan una llave
+[13/1/24, 9:06:32 p. m.] Anthony: Mmmmmmmmmm
+‎[13/1/24, 9:06:37 p. m.] Anthony: ‎sticker omitido
+‎[13/1/24, 9:07:28 p. m.] Luis Fer Amey: ‎sticker omitido
+[13/1/24, 9:52:13 p. m.] Anthony: Cuanto le dio la sumatoria de Ai^Ajm
+[13/1/24, 9:52:22 p. m.] Anthony: 1/(n-1)
+[13/1/24, 9:54:28 p. m.] Luis Fer Amey: Le falta el binomio
+[13/1/24, 9:54:44 p. m.] Luis Fer Amey: En realidad es 1/n(n-1)
+[13/1/24, 9:54:53 p. m.] Luis Fer Amey: Por el binomio
+‎[13/1/24, 9:55:29 p. m.] Anthony: ‎imagen omitida
+[13/1/24, 9:56:10 p. m.] Luis Fer Amey: Es que se fuma el 1/n porque creo que piensa que hay n elementos
+[13/1/24, 9:56:18 p. m.] Luis Fer Amey: Pero es que se pueden combinar recuerde
+‎[14/1/24, 9:52:10 a. m.] Anthony: CamScanner 01-14-2024 09.48.pdf • ‎3 páginas ‎documento omitido
+‎[14/1/24, 11:07:02 a. m.] Luis Fer Amey: ‎imagen omitida
+[14/1/24, 11:08:34 a. m.] Luis Fer Amey: Además 1-1/e da la (b), porque ese es el cálculo que hice
+‎[14/1/24, 11:10:46 a. m.] Luis Fer Amey: ‎imagen omitida
+[14/1/24, 2:25:17 p. m.] Anthony: Wolfram
+‎[14/1/24, 2:25:23 p. m.] Anthony: ‎sticker omitido
+[14/1/24, 2:25:36 p. m.] Anthony: Una parte se puede dividir como una p-series
+[14/1/24, 2:25:53 p. m.] Luis Fer Amey: Re xd?
+[14/1/24, 2:26:06 p. m.] Luis Fer Amey: Mi pregunta es como dan lo mismo
+[14/1/24, 2:26:08 p. m.] Anthony: El (-1)^(i+1)/n^i es una p-serie
+[14/1/24, 2:26:23 p. m.] Anthony: Yay da lo mismo
+‎[14/1/24, 2:26:26 p. m.] Anthony: ‎sticker omitido
+[14/1/24, 2:26:37 p. m.] Luis Fer Amey: Es que son incisos diferentes
+‎[14/1/24, 2:26:41 p. m.] Luis Fer Amey: ‎sticker omitido
+[14/1/24, 2:26:42 p. m.] Anthony: WAT
+‎[14/1/24, 2:27:00 p. m.] Anthony: ‎sticker omitido
+[14/1/24, 2:27:13 p. m.] Anthony: El A cuanto le dio?
+[14/1/24, 2:27:22 p. m.] Anthony: Osea el B1
+[14/1/24, 2:27:27 p. m.] Luis Fer Amey: No lo logré sacar pues
+[14/1/24, 2:27:29 p. m.] Luis Fer Amey: Ahí lo dejé
+[14/1/24, 2:27:35 p. m.] Luis Fer Amey: Véalo ahí
+[14/1/24, 2:34:29 p. m.] Anthony: Mmmmm
+[14/1/24, 2:35:02 p. m.] Anthony: Voy mañana a consulta a ver que
+[14/1/24, 2:41:04 p. m.] Anthony: Osea pero la B nos dio lo mismo
+[14/1/24, 2:41:10 p. m.] Anthony: e-1
+[14/1/24, 2:41:21 p. m.] Anthony: e^-1
+[14/1/24, 3:07:06 p. m.] Luis Fer Amey: Más o menos
+[14/1/24, 3:07:12 p. m.] Luis Fer Amey: Pero es que di manda digamos
+‎[14/1/24, 7:33:43 p. m.] Luis Fer Amey: ‎imagen omitida
+[14/1/24, 7:35:46 p. m.] Anthony: Cual es ese?
+[14/1/24, 7:35:47 p. m.] Anthony: No falta la k!?
+[14/1/24, 7:36:04 p. m.] Luis Fer Amey: Jeje
+‎[14/1/24, 7:36:15 p. m.] Luis Fer Amey: ‎imagen omitida
+[14/1/24, 7:36:48 p. m.] Anthony: Pero yo le iba a preguntar mañana a la profe xd
+[14/1/24, 7:36:53 p. m.] Luis Fer Amey: Me vale verga
+[14/1/24, 7:37:01 p. m.] Luis Fer Amey: Me lleva escribiendo desde la tarde el man
+[14/1/24, 7:37:08 p. m.] Luis Fer Amey: No me dejo jugar scp en paz
+[14/1/24, 7:37:31 p. m.] Anthony: Yay
+[14/1/24, 7:37:34 p. m.] Anthony: Equis de
+[14/1/24, 7:43:40 p. m.] Luis Fer Amey: Prohibido robármelo
+[14/1/24, 7:43:48 p. m.] Luis Fer Amey: 🚫
+‎[14/1/24, 7:43:50 p. m.] Luis Fer Amey: ‎sticker omitido
+[14/1/24, 7:44:08 p. m.] Anthony: D:
+[18/1/24, 10:38:48 p. m.] Anthony: Luiiiis
+[18/1/24, 10:38:58 p. m.] Anthony: Ud hizo la .45m
+[18/1/24, 10:39:00 p. m.] Anthony: ?
+[19/1/24, 7:44:20 a. m.] Luis Fer Amey: Estaba en eso
+[19/1/24, 7:44:32 a. m.] Luis Fer Amey: Pero creo que no la había terminado
+[19/1/24, 9:59:55 a. m.] Luis Fer Amey: ya ya la termine
+[19/1/24, 9:59:58 a. m.] Luis Fer Amey: que paso con esa
+[19/1/24, 11:19:42 a. m.] Anthony: Como hizo el primer inciso?
+[19/1/24, 11:19:51 a. m.] Anthony: ‎Se eliminó este mensaje.
+[19/1/24, 11:19:55 a. m.] Anthony: Pero esta malo
+‎[19/1/24, 11:23:29 a. m.] Anthony: ‎imagen omitida
+[19/1/24, 12:37:23 p. m.] Luis Fer Amey: Pero es g(x) no g(X)
+[19/1/24, 12:37:32 p. m.] Luis Fer Amey: Ahorita se la mando
+‎[19/1/24, 12:50:57 p. m.] Luis Fer Amey: ‎imagen omitida
+[19/1/24, 12:51:43 p. m.] Luis Fer Amey: Y después le voy a dar una pista, cuanto es P(X=y|X=x)? Cuando y neq x
+[19/1/24, 2:07:33 p. m.] Anthony: Ya lo hice equisde
+[19/1/24, 3:31:24 p. m.] Luis Fer Amey: re xd
+[19/1/24, 7:08:29 p. m.] Luis Fer Amey: anthony la 7 ayuda
+[19/1/24, 7:08:40 p. m.] Luis Fer Amey: 🥲🥲🥲🥲🥲🥲🥲🥲🥲🥲🥲
+[19/1/24, 7:08:47 p. m.] Luis Fer Amey: esta watafoc
+[19/1/24, 7:10:31 p. m.] Anthony: No la he empezadox
+‎[19/1/24, 7:11:12 p. m.] Luis Fer Amey: ‎sticker omitido
+[19/1/24, 7:11:17 p. m.] Luis Fer Amey: me avisa
+[19/1/24, 7:11:19 p. m.] Luis Fer Amey: es que está rara
+[19/1/24, 7:11:35 p. m.] Luis Fer Amey: y pide una expresión ( no un valor ) para la esperanza y yo a
+[19/1/24, 8:21:22 p. m.] Anthony: Wtf
+[19/1/24, 9:14:35 p. m.] Luis Fer Amey: 😂😂😂
+‎[19/1/24, 9:14:41 p. m.] Luis Fer Amey: ‎sticker omitido
+[20/1/24, 10:33:09 a. m.] Anthony: Logro ese 7?
+‎[20/1/24, 10:33:40 a. m.] Anthony: ‎imagen omitida
+[20/1/24, 10:37:36 a. m.] Luis Fer Amey: No me suena así
+[20/1/24, 10:38:09 a. m.] Luis Fer Amey: O sea lo pensé como lo de las llaves
+[20/1/24, 10:38:26 a. m.] Luis Fer Amey: Solo que se pueden stackear las llaves
+[20/1/24, 10:39:19 a. m.] Luis Fer Amey: Y digamos lo que usted quiere es que las llaves no estén en su gancho ( o que usted no escoja los cupones de un grupo completo )
+[20/1/24, 10:48:50 a. m.] Anthony: Mmmm
+[20/1/24, 10:48:52 a. m.] Anthony: Va
+[20/1/24, 12:24:04 p. m.] Anthony: ‎Se eliminó este mensaje.
+[20/1/24, 12:24:30 p. m.] Anthony: Eso me dio la prob
+[20/1/24, 12:24:40 p. m.] Anthony: La esperanza la wa dejar así
+[20/1/24, 12:27:19 p. m.] Anthony: Calcule con lo del principio de inclusion exclusion, la formula que nos dieron para el 14, la probabilidad de que se coleccionan todos los cupones en el n-esimo intento, luego complemento
+[20/1/24, 12:27:28 p. m.] Anthony: ‎Se eliminó este mensaje.
+[20/1/24, 12:27:31 p. m.] Anthony: :c
+[20/1/24, 12:32:31 p. m.] Anthony: Ta malo todo
+[20/1/24, 12:56:55 p. m.] Luis Fer Amey: Re xd 😂😂
+‎[20/1/24, 12:56:59 p. m.] Luis Fer Amey: ‎sticker omitido
+[20/1/24, 2:50:33 p. m.] Anthony: Deme un shence
+‎[21/1/24, 9:27:42 a. m.] Anthony: ‎imagen omitida
+‎[21/1/24, 9:27:56 a. m.] Anthony: ‎imagen omitida
+[21/1/24, 9:28:01 a. m.] Anthony: Me rindo, si esta malo esta malo
+[21/1/24, 9:28:17 a. m.] Luis Fer Amey: JAJAJAJJA
+[21/1/24, 9:29:26 a. m.] Luis Fer Amey: Yo lo había pensado así
+[21/1/24, 9:29:48 a. m.] Luis Fer Amey: Pero es que quiero entender porque las soluciones ponen un n-k+1
+[21/1/24, 9:30:04 a. m.] Luis Fer Amey: Y eso di es directo a partir de la proba entonces 😞
+[21/1/24, 9:30:18 a. m.] Anthony: No No NOOO
+‎[21/1/24, 9:30:24 a. m.] Anthony: ‎sticker omitido
+[21/1/24, 9:30:48 a. m.] Anthony: Dice deduzca, no deduzca de la fórmula conseguida anteriormente
+‎[21/1/24, 9:30:52 a. m.] Anthony: ‎sticker omitido
+[21/1/24, 9:30:58 a. m.] Luis Fer Amey: 😂😂
+[21/1/24, 9:31:01 a. m.] Luis Fer Amey: Di ok
+[21/1/24, 9:31:19 a. m.] Anthony: El sufrimiento me dejó en negación
+[21/1/24, 9:31:35 a. m.] Anthony: Si es sacarle E a esa cosa
+[21/1/24, 9:31:40 a. m.] Anthony: Pero me da miedo
+[21/1/24, 9:33:34 a. m.] Luis Fer Amey: Es un buen paso la aceptación
+[21/1/24, 9:33:41 a. m.] Luis Fer Amey: A todos 😞
+[22/1/24, 9:41:27 a. m.] Anthony: https://youtu.be/3mu47FWEuqA?si=jVu5pkah6oPJKhgW
+[24/1/24, 9:35:32 p. m.] Anthony: Problema 4.5.6
+‎[24/1/24, 9:35:33 p. m.] Anthony: ‎imagen omitida
+[24/1/24, 9:35:33 p. m.] Anthony: Funcion generadora con raices complejas
+[24/1/24, 9:35:33 p. m.] Anthony: Wat
+‎[24/1/24, 9:35:33 p. m.] Anthony: ‎sticker omitido
+[24/1/24, 9:36:07 p. m.] Anthony: Entiendo por qué funciona para resolver pero como esto va a ser recomendado para el examen
+[24/1/24, 9:43:46 p. m.] Luis Fer Amey: noooo 🫠
+[26/1/24, 10:03:14 a. m.] Luis Fer Amey: Mae Anthony ud sabe cual es el informe de prematricula definitivo
+[26/1/24, 10:03:33 a. m.] Anthony: No tengo idea
+[26/1/24, 10:03:37 a. m.] Anthony: Pero eso no lo piden
+[26/1/24, 10:04:04 a. m.] Anthony: Igual pide el promedio de matrícula del primer semestre
+[26/1/24, 10:04:08 a. m.] Anthony: Y eso aún no esta
+[26/1/24, 10:05:19 a. m.] Luis Fer Amey: Xd
+[26/1/24, 10:05:25 a. m.] Luis Fer Amey: Yo si los tengo
+‎[26/1/24, 10:06:07 a. m.] Luis Fer Amey: ‎imagen omitida
+[26/1/24, 10:06:49 a. m.] Luis Fer Amey: Es que tengo un debate moral
+[26/1/24, 10:07:09 a. m.] Luis Fer Amey: Porque no se si me alcance el tiempo para asistencia ( o sea si hacerlo o no )
+[26/1/24, 10:07:23 a. m.] Luis Fer Amey: Me dijeron que los proyectos de este semestre van a estar pesados
+[26/1/24, 10:07:43 a. m.] Luis Fer Amey: Pero la materia que más me quito tiempo fue macro y bueno ya no está
+[26/1/24, 10:21:39 a. m.] Anthony: Osea primer semestre del 2024
+[26/1/24, 10:22:35 a. m.] Luis Fer Amey: ?????????? Di entonces no podemos hacer nada huh
+[26/1/24, 10:23:13 a. m.] Anthony: No se
+[26/1/24, 10:23:18 a. m.] Anthony: Ahora le pregunto a Juanga
+[26/1/24, 10:23:23 a. m.] Anthony: Yo mandé el de verano sin querer
+‎[26/1/24, 10:23:25 a. m.] Anthony: ‎sticker omitido
+[26/1/24, 10:24:02 a. m.] Luis Fer Amey: Como para hacer asistencia del primer semestre ocupa uno el promedio del primer semestre huhh
+‎[26/1/24, 10:24:07 a. m.] Luis Fer Amey: ‎sticker omitido
+[26/1/24, 10:24:41 a. m.] Anthony: El de matrícula
+[26/1/24, 10:24:54 a. m.] Anthony: Es el que nos dan justo antes de matricular
+[26/1/24, 10:25:07 a. m.] Anthony: .
+[26/1/24, 10:25:20 a. m.] Luis Fer Amey: Bruhhh
+[26/1/24, 10:25:37 a. m.] Luis Fer Amey: Y ese no es el ponderado del 2023?
+[26/1/24, 10:32:14 a. m.] Anthony: No se Luis no se
+‎[26/1/24, 10:32:21 a. m.] Anthony: ‎sticker omitido
+‎[26/1/24, 10:32:39 a. m.] Luis Fer Amey: ‎sticker omitido
+[26/1/24, 10:32:46 a. m.] Luis Fer Amey: Bueno pa tranquilo
+‎[26/1/24, 11:12:26 a. m.] Anthony: ‎sticker omitido
+‎[26/1/24, 11:13:07 a. m.] Luis Fer Amey: ‎sticker omitido
+[28/1/24, 7:12:07 p. m.] Anthony: Luih
+[28/1/24, 7:12:28 p. m.] Anthony: En la hoja de formulas que ud mando la funcion generadora de la geometrica si es asi?
+‎[28/1/24, 7:12:56 p. m.] Anthony: ‎imagen omitida
+[28/1/24, 7:14:04 p. m.] Luis Fer Amey: Voy a ver
+[28/1/24, 7:14:15 p. m.] Luis Fer Amey: Estaba en el libro
+[28/1/24, 7:14:29 p. m.] Luis Fer Amey: No en las soluciones, el libro
+‎[28/1/24, 7:16:41 p. m.] Luis Fer Amey: ‎imagen omitida
+[28/1/24, 7:17:11 p. m.] Luis Fer Amey: solo que
+[28/1/24, 7:17:21 p. m.] Luis Fer Amey: puede ser que tenga variaciones
+[28/1/24, 7:17:31 p. m.] Luis Fer Amey: algunas veces no aparece la s arriba
+[28/1/24, 7:17:38 p. m.] Anthony: Si
+[28/1/24, 7:17:43 p. m.] Anthony: Esa si converge a eso
+[28/1/24, 7:17:49 p. m.] Anthony: Entonces supongo que agarre otra geometrica
+[28/1/24, 7:21:12 p. m.] Luis Fer Amey: es que mire
+[28/1/24, 7:21:23 p. m.] Luis Fer Amey: agarro la de al primer fallo
+[28/1/24, 7:21:31 p. m.] Luis Fer Amey: en cambio normalmente es al primer exito
+‎[28/1/24, 7:23:28 p. m.] Luis Fer Amey: ‎imagen omitida
+[28/1/24, 7:23:32 p. m.] Luis Fer Amey: es valida tambien
+[17/2/24, 8:56:59 p. m.] Anthony: Luiiiiih
+‎[17/2/24, 8:57:11 p. m.] Anthony: ‎sticker omitido
+[17/2/24, 9:02:35 p. m.] Luis Fer Amey: Ah
+[17/2/24, 9:04:22 p. m.] Anthony: Como le va con esa 2
+[17/2/24, 9:17:36 p. m.] Luis Fer Amey: ‎Eliminaste este mensaje.
+‎[17/2/24, 9:18:38 p. m.] Luis Fer Amey: ‎sticker omitido
+[17/2/24, 9:18:45 p. m.] Luis Fer Amey: Mal
+[17/2/24, 9:18:50 p. m.] Luis Fer Amey: O sea la parte b nada
+[17/2/24, 9:19:18 p. m.] Luis Fer Amey: O sea si pero esa sumatoria con épsilones como que no
+[17/2/24, 9:20:09 p. m.] Anthony: Yay no
+[17/2/24, 9:20:14 p. m.] Anthony: Tocó llorar
+‎[17/2/24, 9:20:21 p. m.] Anthony: ‎sticker omitido
+‎[17/2/24, 9:27:05 p. m.] Luis Fer Amey: ‎sticker omitido
+[17/2/24, 9:27:10 p. m.] Luis Fer Amey: Como va ud
+[17/2/24, 9:27:19 p. m.] Luis Fer Amey: Para ver si hacemos comparision
+[17/2/24, 9:28:43 p. m.] Anthony: Todas menos la 3
+[17/2/24, 9:29:30 p. m.] Anthony: La 3 me da 1/4, la 4 A=2, B=-3, C=1
+[17/2/24, 9:30:29 p. m.] Luis Fer Amey: Sip si me dio así
+[17/2/24, 9:30:45 p. m.] Luis Fer Amey: La 1 también la tengo pero random, no se si está bien
+[17/2/24, 9:30:56 p. m.] Luis Fer Amey: Y la parte ª de la 2 pues también
+[17/2/24, 9:31:39 p. m.] Anthony: La 2*
+[17/2/24, 9:31:47 p. m.] Anthony: Vi que se puede usar la función erf
+[17/2/24, 9:31:50 p. m.] Anthony: Pero no se
+[17/2/24, 9:31:59 p. m.] Anthony: No me convence
+[17/2/24, 9:58:58 p. m.] Luis Fer Amey: No me convence tampoco
+[17/2/24, 10:02:53 p. m.] Anthony: Inducción
+[17/2/24, 10:02:55 p. m.] Anthony: No mentira
+[17/2/24, 10:03:02 p. m.] Anthony: O tal vez...
+[17/2/24, 10:03:03 p. m.] Anthony: Mentira
+[17/2/24, 10:03:06 p. m.] Anthony: ...talvez
+[17/2/24, 10:26:34 p. m.] Luis Fer Amey: jodas
+[21/2/24, 1:19:31 p. m.] Luis Fer Amey: Anthony vaya a ciencias y me avisa y voy
+[21/2/24, 1:21:28 p. m.] Anthony: Okok
+[21/2/24, 1:47:24 p. m.] Anthony: Van a durar un toque mas
+[21/2/24, 1:47:34 p. m.] Anthony: Cualquier cosa si ocupa irse y lo estoy atrasando me avisa
+‎[21/2/24, 1:47:40 p. m.] Anthony: ‎sticker omitido
+[21/2/24, 1:47:58 p. m.] Luis Fer Amey: Nono no me está atrasando
+[21/2/24, 1:48:01 p. m.] Luis Fer Amey: Me voy a las 6
+[21/2/24, 1:48:38 p. m.] Anthony: Okok
+[21/2/24, 1:48:43 p. m.] Anthony: Todo bien entonces
+[21/2/24, 2:29:57 p. m.] Anthony: Luih
+[21/2/24, 2:29:59 p. m.] Anthony: Lla
+[21/2/24, 2:35:03 p. m.] Luis Fer Amey: Llego en 10
+[21/2/24, 2:35:15 p. m.] Luis Fer Amey: Lo voy a llamar cuando esté afuera
+[21/2/24, 2:36:30 p. m.] Anthony: En las que están por educa
+[21/2/24, 2:37:09 p. m.] Luis Fer Amey: A
+[21/2/24, 2:37:18 p. m.] Luis Fer Amey: Entonces llego en 20 jajaja voy a caminar rápido
+[21/2/24, 2:45:17 p. m.] Luis Fer Amey: Ya casi llego
+[21/2/24, 2:46:57 p. m.] Luis Fer Amey: ‎Llamada. ‎13 s
+[11/3/24, 10:24:38 a. m.] Luis Fer Amey: ps
+[11/3/24, 10:24:47 a. m.] Luis Fer Amey: ya sabe
+[13/3/24, 5:28:46 p. m.] Anthony: Luih
+‎[13/3/24, 5:29:05 p. m.] Anthony: ‎imagen omitida
+[13/3/24, 5:29:09 p. m.] Anthony: Fabian
+[13/3/24, 5:34:30 p. m.] Luis Fer Amey: Diay dele para variar un poco el team
+[13/3/24, 5:34:53 p. m.] Luis Fer Amey: Antes que diga que no jajaj
+[13/3/24, 5:35:47 p. m.] Anthony: Si ya le dije que si
+[13/3/24, 5:36:06 p. m.] Luis Fer Amey: JAJAJAJ
+[13/3/24, 5:36:13 p. m.] Luis Fer Amey: bueno bueno
+[13/3/24, 5:36:43 p. m.] Luis Fer Amey: En herramientas me tienen miedo porque entre más personas programando más despiche
+[13/3/24, 5:37:01 p. m.] Luis Fer Amey: Es donde yo quería hacer el grupo más mínimo pero ajá 🫠
+[13/3/24, 5:37:28 p. m.] Anthony: ª
+‎[13/3/24, 5:37:43 p. m.] Anthony: ‎sticker omitido
+[13/3/24, 5:37:46 p. m.] Luis Fer Amey: Pero di, no se
+[13/3/24, 5:40:00 p. m.] Anthony: Diay
+[13/3/24, 5:40:07 p. m.] Anthony: Ud yo y Javi?
+[13/3/24, 5:40:15 p. m.] Anthony: Pero él quería de 4 o 5
+[13/3/24, 5:44:10 p. m.] Luis Fer Amey: O sea de 4 pensaba
+[13/3/24, 5:44:56 p. m.] Luis Fer Amey: Pero cómo rehacer el grupo como que huhhh
+[13/3/24, 5:45:01 p. m.] Luis Fer Amey: Entonces no se por eso
+‎[13/3/24, 5:45:07 p. m.] Anthony: ‎sticker omitido
+‎[13/3/24, 5:45:13 p. m.] Luis Fer Amey: ‎sticker omitido
+[14/3/24, 4:30:42 p. m.] Luis Fer Amey: Mae pudo meter tcu?
+‎[14/3/24, 4:30:53 p. m.] Luis Fer Amey: ‎imagen omitida
+[14/3/24, 4:40:38 p. m.] Anthony: Si cierto
+[14/3/24, 4:40:48 p. m.] Anthony: El mío era a las 4 no me fije
+‎[14/3/24, 4:40:50 p. m.] Anthony: ‎sticker omitido
+[14/3/24, 4:45:31 p. m.] Luis Fer Amey: Verga
+[14/3/24, 4:45:51 p. m.] Luis Fer Amey: Creo que a uno le dan prioridad con más porcentaje de la carrera
+[14/3/24, 4:55:02 p. m.] Anthony: Correcto
+‎[14/3/24, 4:55:35 p. m.] Luis Fer Amey: ‎sticker omitido
+[14/3/24, 5:05:29 p. m.] Anthony: Hay que hablar con Juanga
+[14/3/24, 5:11:56 p. m.] Luis Fer Amey: De eso? No creo que haya remedio
+[14/3/24, 5:12:06 p. m.] Luis Fer Amey: El remedio es hacerlo el próximo año
+[14/3/24, 5:41:22 p. m.] Anthony: Lo que queda
+‎[14/3/24, 5:41:25 p. m.] Anthony: ‎sticker omitido
+‎[14/3/24, 6:01:06 p. m.] Luis Fer Amey: ‎sticker omitido
+‎[15/3/24, 1:58:50 p. m.] Anthony: ‎imagen omitida
+[15/3/24, 2:01:20 p. m.] Luis Fer Amey: https://lichess.org/VGKvimuR
+[15/3/24, 4:57:06 p. m.] Luis Fer Amey: Ontan
+[15/3/24, 5:31:51 p. m.] Anthony: Ti oco
+[21/3/24, 4:15:31 p. m.] Anthony: Contingencias ya
+[21/3/24, 4:29:55 p. m.] Luis Fer Amey: ?
+[21/3/24, 4:42:05 p. m.] Anthony: Osea ya mandé el grupo
+[21/3/24, 4:46:10 p. m.] Luis Fer Amey: Ah ya
+[22/3/24, 1:44:10 p. m.] Anthony: Luih
+[22/3/24, 1:44:20 p. m.] Anthony: Cuando salimos en acompaña a resi a traer la micah
+[22/3/24, 1:44:31 p. m.] Luis Fer Amey: Si pa
+‎[22/3/24, 1:44:47 p. m.] Anthony: ‎sticker omitido
+‎[22/3/24, 1:44:54 p. m.] Luis Fer Amey: ‎sticker omitido
+‎[22/3/24, 1:44:59 p. m.] Luis Fer Amey: ‎sticker omitido
+[23/3/24, 2:53:17 p. m.] Anthony: Luih
+‎[23/3/24, 2:53:30 p. m.] Anthony: ‎imagen omitida
+[23/3/24, 2:53:30 p. m.] Anthony: TCU
+[23/3/24, 2:53:43 p. m.] Anthony: 👉👈
+[23/3/24, 3:44:27 p. m.] Luis Fer Amey: Pero cuál metió
+[23/3/24, 4:18:49 p. m.] Anthony: 725
+[23/3/24, 4:18:51 p. m.] Anthony: Ud?
+‎[23/3/24, 4:20:02 p. m.] Luis Fer Amey: ‎imagen omitida
+[23/3/24, 6:31:48 p. m.] Luis Fer Amey: Al final vamos a hacer la tarea juntos o no para hacer el repositorio
+[23/3/24, 9:31:09 p. m.] Luis Fer Amey: https://github.com/bluke7ide/Tarea1
+[23/3/24, 9:31:16 p. m.] Luis Fer Amey: ahi ta
+‎[23/3/24, 10:54:47 p. m.] Anthony: ‎imagen omitida
+[23/3/24, 10:54:51 p. m.] Anthony: no funca
+[24/3/24, 8:23:51 a. m.] Luis Fer Amey: Diay
+[24/3/24, 8:25:01 a. m.] Luis Fer Amey: Tengo que hacerlo público jajaj
+‎[24/3/24, 8:54:50 a. m.] Luis Fer Amey: ‎imagen omitida
+[24/3/24, 11:21:43 a. m.] Luis Fer Amey: Solo mándeme su username
+[24/3/24, 5:43:46 p. m.] Anthony: anthonyjimeneznavarro@gmail.com
+[24/3/24, 5:46:26 p. m.] Luis Fer Amey: a la hora que lo mandas hp
+[24/3/24, 5:47:14 p. m.] Luis Fer Amey: ya se lo mande
+[24/3/24, 6:01:15 p. m.] Anthony: Voy
+[24/3/24, 6:18:20 p. m.] Luis Fer Amey: Me dice que le parece y ajá
+[24/3/24, 6:31:26 p. m.] Anthony: Que susto
+[24/3/24, 6:31:36 p. m.] Anthony: Vi un monton de codigo y crei que lo habia hecho
+[24/3/24, 6:31:39 p. m.] Anthony: Pero nada mas pego
+[24/3/24, 6:31:43 p. m.] Anthony: Sta ben asi
+[24/3/24, 6:43:10 p. m.] Luis Fer Amey: Si va a trabajar haga commit cuando termine y pusheelo
+[24/3/24, 6:43:14 p. m.] Luis Fer Amey: Si no me dice
+[25/3/24, 10:45:39 a. m.] Anthony: Luih
+[25/3/24, 10:45:46 a. m.] Anthony: Estos dias estuvo perdiendo el tiempo
+[25/3/24, 10:46:04 a. m.] Anthony: Pero ya me puse a trabajar en eso
+[25/3/24, 10:46:04 a. m.] Luis Fer Amey: Wtf
+[25/3/24, 10:46:07 a. m.] Anthony: Lock in
+[25/3/24, 10:46:10 a. m.] Luis Fer Amey: Ah ud
+[25/3/24, 10:46:17 a. m.] Anthony: Sorry sorry xd
+[25/3/24, 10:46:25 a. m.] Anthony: Typo ahi
+[25/3/24, 10:46:30 a. m.] Luis Fer Amey: _*estuvo*_
+‎[25/3/24, 10:46:40 a. m.] Luis Fer Amey: ‎sticker omitido
+[25/3/24, 10:46:41 a. m.] Anthony: _Correcto_
+[25/3/24, 10:46:47 a. m.] Luis Fer Amey: Okok
+[25/3/24, 10:46:59 a. m.] Luis Fer Amey: Cuando termine recuerde el commit y push
+[25/3/24, 10:47:05 a. m.] Anthony: Okok
+[25/3/24, 10:48:13 a. m.] Luis Fer Amey: Y trabaje
+[25/3/24, 10:48:19 a. m.] Luis Fer Amey: Si no
+‎[25/3/24, 10:48:24 a. m.] Luis Fer Amey: ‎sticker omitido
+[25/3/24, 11:17:00 a. m.] Anthony: wtf
+[25/3/24, 11:17:03 a. m.] Anthony: Que es ese sticker
+[25/3/24, 11:17:05 a. m.] Anthony: D:}
+[25/3/24, 11:17:13 a. m.] Anthony: Que dolor hacer cualquier cosa sin for
+[25/3/24, 11:42:54 a. m.] Luis Fer Amey: JAJAJAJAJ
+[25/3/24, 11:42:56 a. m.] Luis Fer Amey: Ve
+[25/3/24, 11:42:58 a. m.] Luis Fer Amey: Mire mi 4
+[25/3/24, 1:02:03 p. m.] Anthony: Ia subi micas
+[25/3/24, 1:02:08 p. m.] Anthony: Mod el 4 y 5, agregue el 6
+[25/3/24, 1:02:23 p. m.] Anthony: Pero no queria sobrescribir lo suyo aun, entonces lo subi aparte
+[25/3/24, 1:07:36 p. m.] Luis Fer Amey: Hizo un branch? Si si todo bien ahorita lo reviso
+[25/3/24, 1:07:46 p. m.] Anthony: Lo meti en main
+[25/3/24, 1:08:22 p. m.] Luis Fer Amey: A
+[25/3/24, 1:08:25 p. m.] Luis Fer Amey: Vago
+[25/3/24, 1:08:28 p. m.] Luis Fer Amey: Ta Ben
+[25/3/24, 7:49:28 p. m.] Luis Fer Amey: hice un commit ahí
+[26/3/24, 10:45:37 a. m.] Luis Fer Amey: Hoy en la tarde reviso su commit y lo hago
+[26/3/24, 10:45:45 a. m.] Luis Fer Amey: Que ahorita ando afueriña
+‎[26/3/24, 11:19:50 a. m.] Luis Fer Amey: ‎imagen omitida
+[26/3/24, 11:28:49 a. m.] Luis Fer Amey: Count individual para los 5 signos
+[26/3/24, 12:25:26 p. m.] Anthony: Yay
+[26/3/24, 12:25:28 p. m.] Anthony: Pero como
+‎[26/3/24, 12:25:32 p. m.] Anthony: ‎sticker omitido
+[26/3/24, 12:25:38 p. m.] Anthony: Las otras funciones que tal?
+[26/3/24, 12:25:43 p. m.] Anthony: O solo esa le ha enseñado?
+[26/3/24, 1:13:54 p. m.] Luis Fer Amey: Es q alguien me lo mandó
+[26/3/24, 1:14:00 p. m.] Luis Fer Amey: Yo lo corrijo no problema
+[26/3/24, 4:05:28 p. m.] Luis Fer Amey: Porque lo borro?
+[26/3/24, 4:15:16 p. m.] Luis Fer Amey: ah no soy visco
+[26/3/24, 4:15:21 p. m.] Luis Fer Amey: yaya lo voy a revisar
+‎[26/3/24, 4:20:59 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[26/3/24, 4:25:28 p. m.] Luis Fer Amey: ‎imagen omitida
+[26/3/24, 4:51:12 p. m.] Anthony: Numa
+[26/3/24, 4:51:21 p. m.] Anthony: Era solo un caso para 1 y ya
+[26/3/24, 4:51:33 p. m.] Luis Fer Amey: JAJAJAJAJ
+[26/3/24, 4:51:33 p. m.] Anthony: Y quitarle al resto 1 mes
+[26/3/24, 4:51:40 p. m.] Luis Fer Amey: Ya le corregí
+[26/3/24, 4:51:49 p. m.] Anthony: Es que tiene problemas, como el diccionario también se llama rating
+[26/3/24, 4:52:04 p. m.] Luis Fer Amey: Pero lo arregle
+[26/3/24, 4:52:13 p. m.] Luis Fer Amey: Igual se puede cambiar el nombre del diccionario
+[26/3/24, 4:57:27 p. m.] Anthony: ª
+[26/3/24, 5:40:21 p. m.] Anthony: Bueno creo que ya con eso sería nada más revisar todo con el profe
+[26/3/24, 5:40:21 p. m.] Anthony: Y agregar al inicio que somos grupo
+[26/3/24, 5:42:47 p. m.] Luis Fer Amey: Lo de la 3
+[26/3/24, 5:42:51 p. m.] Luis Fer Amey: En la noche reviso
+[26/3/24, 9:33:39 p. m.] Luis Fer Amey: Vergaaaaa jajaja ya voy
+‎[26/3/24, 9:50:16 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[26/3/24, 10:33:17 p. m.] Anthony: ‎sticker omitido
+[27/3/24, 3:36:09 p. m.] Luis Fer Amey: Ya lo repasé, repáselo Ud, revíselo y terminamos 🥳
+[27/3/24, 3:49:57 p. m.] Anthony: wA revisar
+[27/3/24, 3:50:07 p. m.] Anthony: Si cierto
+[27/3/24, 3:50:11 p. m.] Anthony: Eran 1080 del queqeu
+[27/3/24, 4:03:58 p. m.] Luis Fer Amey: Kok
+‎[27/3/24, 4:08:12 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[27/3/24, 4:33:59 p. m.] Anthony: ‎sticker omitido
+‎[27/3/24, 4:42:58 p. m.] Luis Fer Amey: ‎sticker omitido
+‎[28/3/24, 8:14:01 p. m.] Luis Fer Amey: ‎sticker omitido
+‎[28/3/24, 8:14:25 p. m.] Luis Fer Amey: ‎sticker omitido
+‎[28/3/24, 9:33:57 p. m.] Anthony: ‎sticker omitido
+[28/3/24, 9:34:15 p. m.] Anthony: Voy a esperar al martes para preguntarle algunas cosas al profe
+[28/3/24, 9:34:17 p. m.] Anthony: Para estar seguros
+[28/3/24, 10:51:06 p. m.] Luis Fer Amey: Ta Ben
+[29/3/24, 4:27:59 p. m.] Anthony: Luih
+[29/3/24, 4:28:11 p. m.] Anthony: Para estadistica agarramos bastante lo que yo queria
+[29/3/24, 4:28:22 p. m.] Anthony: Tons para herramientas que escojan ud y javi
+[29/3/24, 6:05:37 p. m.] Luis Fer Amey: Diay si
+[29/3/24, 6:18:42 p. m.] Anthony: pra
+[29/3/24, 6:29:26 p. m.] Luis Fer Amey: pra pra
+[29/3/24, 6:30:15 p. m.] Luis Fer Amey: Propongamos temas y nosotros escogemos
+[29/3/24, 6:30:31 p. m.] Luis Fer Amey: O sea igual nosotros dos podemos proponer pero yo no soy muy creativo que digamos
+[29/3/24, 7:03:35 p. m.] Anthony: Okok
+[29/3/24, 7:13:39 p. m.] Anthony: https://insights.stackoverflow.com/survey
+[29/3/24, 7:13:46 p. m.] Anthony: Esa es una survey de stack overflow
+[29/3/24, 7:14:26 p. m.] Anthony: Podria verse como influyen la exp de años haciendo codigo, años trabajando, la compañia que escojen con respecto al salario
+[29/3/24, 7:27:00 p. m.] Luis Fer Amey: Voy a ver
+[29/3/24, 7:30:55 p. m.] Anthony: https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases?force_layout=desktop
+[29/3/24, 7:31:07 p. m.] Anthony: Series de tiempo con las muertes por Covid desde el inicio hasta hoy
+[29/3/24, 7:32:07 p. m.] Luis Fer Amey: sheesh
+[29/3/24, 7:35:25 p. m.] Luis Fer Amey: ambas están interesantes pero la del covid siempre tambalea un poco el tema pues
+[29/3/24, 7:35:41 p. m.] Luis Fer Amey: solo estoy checando los datas
+[29/3/24, 7:36:24 p. m.] Anthony: Toy buscando mas igual
+‎[29/3/24, 7:38:52 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[29/3/24, 7:41:33 p. m.] Luis Fer Amey: ‎imagen omitida
+[29/3/24, 7:41:39 p. m.] Luis Fer Amey: igual el tema del covid es buenísimo
+[29/3/24, 7:46:53 p. m.] Anthony: Pense en algo
+[29/3/24, 7:46:57 p. m.] Anthony: Pero jamas
+[29/3/24, 7:47:12 p. m.] Luis Fer Amey: Diga
+[29/3/24, 7:47:18 p. m.] Luis Fer Amey: Tal vez no es tan loco
+[29/3/24, 7:47:33 p. m.] Anthony: Igual no creo que se haga con un dataset
+[29/3/24, 7:47:41 p. m.] Anthony: Tipo predecir la siguiente palabra que uno va a escribir
+[29/3/24, 7:47:45 p. m.] Anthony: equisde
+[29/3/24, 7:47:59 p. m.] Luis Fer Amey: Auto corrector pero buffed ? 😂
+[29/3/24, 7:48:23 p. m.] Luis Fer Amey: Igual ocuparía una base grande de palabras
+[29/3/24, 7:48:27 p. m.] Anthony: Eso si
+[29/3/24, 7:48:35 p. m.] Anthony: Millones
+[29/3/24, 7:48:53 p. m.] Luis Fer Amey: Sip
+[29/3/24, 7:49:02 p. m.] Luis Fer Amey: Bueno tal vez 10K como min
+[29/3/24, 7:49:19 p. m.] Luis Fer Amey: Pero es que es algo raro e interesante (afuera de la caja)
+[29/3/24, 7:49:31 p. m.] Luis Fer Amey: Y no está tan imposible solo que sea coherente
+[29/3/24, 7:49:42 p. m.] Anthony: Podria ponerse como opcion
+[29/3/24, 7:49:48 p. m.] Anthony: Wa buscar mas
+[29/3/24, 7:50:05 p. m.] Luis Fer Amey: Sip
+[29/3/24, 7:50:30 p. m.] Anthony: ESPERE
+[29/3/24, 7:50:32 p. m.] Anthony: ESPERE
+[29/3/24, 7:50:37 p. m.] Luis Fer Amey: Lo de machine learning está uf pero ajá
+[29/3/24, 7:50:39 p. m.] Anthony: El dataset no podria ser un libro?
+[29/3/24, 7:50:45 p. m.] Luis Fer Amey: La pc: 🫠
+[29/3/24, 7:50:51 p. m.] Luis Fer Amey: Di 🫠🫠🫠🫠
+[29/3/24, 7:50:56 p. m.] Anthony: Osea tecnicamente asi se podria ver que palabra va despues y despues y despues
+[29/3/24, 7:51:05 p. m.] Anthony: Tipo que el dataset sea El Quijote
+[29/3/24, 7:51:21 p. m.] Luis Fer Amey: Pero ahí ud ya puede ver que la idea esta volada
+[29/3/24, 7:51:27 p. m.] Luis Fer Amey: Esta bueno como idea
+[29/3/24, 7:51:38 p. m.] Anthony: Fue un momento de locura
+[29/3/24, 7:51:41 p. m.] Luis Fer Amey: Pero habría que pensar la estructura del código un poco más
+[29/3/24, 7:51:41 p. m.] Anthony: xd
+[29/3/24, 7:52:28 p. m.] Anthony: Wa escribirle al profe a ver
+[29/3/24, 7:52:36 p. m.] Luis Fer Amey: Xd
+[29/3/24, 7:52:48 p. m.] Anthony: Seguro me va a sacar del grupo
+[29/3/24, 7:53:01 p. m.] Anthony: Le va a decir a Juanga que me expulse
+[29/3/24, 7:53:14 p. m.] Luis Fer Amey: JAJAJAJAJJA
+[29/3/24, 7:55:35 p. m.] Anthony: Tengo mieo va a responder
+[29/3/24, 7:57:01 p. m.] Luis Fer Amey: 😂😂
+[29/3/24, 7:57:56 p. m.] Anthony: Ok te refieres a preguntas de la bitácora. Trabajar con texto es complicado en general. Pero podemos darle un enfoque no tan profundo
+[29/3/24, 7:58:01 p. m.] Anthony: Yay
+[29/3/24, 7:58:09 p. m.] Anthony: Parece que es posible, pero algo sencillo
+[29/3/24, 8:00:50 p. m.] Anthony: Dice que no lo ve factible
+[29/3/24, 8:00:52 p. m.] Anthony: Sadge
+‎[29/3/24, 8:05:20 p. m.] Anthony: ‎imagen omitida
+[29/3/24, 8:06:59 p. m.] Luis Fer Amey: F
+[29/3/24, 8:07:08 p. m.] Luis Fer Amey: Yo le dije jajaj
+[29/3/24, 8:07:54 p. m.] Luis Fer Amey: Diay si 😂
+[29/3/24, 9:11:25 p. m.] Anthony: Lo logre
+[29/3/24, 9:11:29 p. m.] Anthony: A medias pero lo logre
+[29/3/24, 9:13:14 p. m.] Anthony: Quieren decir que tenía el sobrenombre de Quijada, o Quesada, que en esto
+hay alguna diferencia en los autores que deste caso escriben; aunque por conjeturas verosímiles
+se deja entender que se llamaba Quijana.
+‎[29/3/24, 9:14:03 p. m.] Anthony: ‎imagen omitida
+[29/3/24, 9:14:05 p. m.] Anthony: A mimir
+[29/3/24, 9:17:39 p. m.] Luis Fer Amey: Mae WTF
+[30/3/24, 6:23:11 p. m.] Luis Fer Amey: Como lo hizo ahora si, que me dejo en shock
+[30/3/24, 6:23:25 p. m.] Luis Fer Amey: O de adonde lo jalo?
+[30/3/24, 6:26:10 p. m.] Anthony: Woi
+[30/3/24, 6:26:12 p. m.] Anthony: Wa comer
+[30/3/24, 7:00:06 p. m.] Anthony: Ora si
+[30/3/24, 7:03:18 p. m.] Anthony: Lo que hace es que recibe un texto, se tokenizan las palabras unicas que existen en el texto, basicamente se hacen como factor para cada palabra unica, luego de eso hago un diccionario que va a guardar los bigramas que me sirven, eso serian 2 palabras, entonces si busco hola, los bigramas que se podrian guardar en el diccionario, serian hola-mundo, hola-amigos, hola-y, luego cuando termina de encontrar todos los bigramas, nada es contar cual tiene mas
+[30/3/24, 7:03:51 p. m.] Anthony: Y se responde con el bigrama que tiene mas, si hay 2 que tienen la misma cantidad se pone el primero, para hacerlo mejor se podrian poner las 2 posibles respuestas
+[30/3/24, 7:04:42 p. m.] Anthony: Tambien se pueden hacer n-gramas, entonces si yo pongo hola amigos, buscaria la proxima palabra mas repetida basada en esas 2, hola amigos 'de'
+[30/3/24, 7:05:49 p. m.] Anthony: Le puedo mandar el codigo, pero tendria que instalar Pip usando la consola de windows y despues instalar las librerias necesarias para tokenizar y todo eso
+‎[30/3/24, 7:06:06 p. m.] Anthony: ‎imagen omitida
+[30/3/24, 7:06:53 p. m.] Anthony: Otro problema es que para español es mas complejo, por tildes y dieresis, ahorita nada mas se esta omitiendo todo eso, otra cosa es que el texto que usa el algoritmo para aprender esta escrito explicito en el codigo
+[30/3/24, 7:07:27 p. m.] Anthony: Habria que tener un .txt con el libro que se quiera usar y cargarlo usando alguna libreria
+‎[30/3/24, 7:09:46 p. m.] Anthony: ‎sticker omitido
+[30/3/24, 7:10:25 p. m.] Luis Fer Amey: Esta fino déjeme decirle
+[30/3/24, 7:10:30 p. m.] Luis Fer Amey: Es un tema muy fuerte
+[30/3/24, 7:10:34 p. m.] Luis Fer Amey: Me regusta
+[30/3/24, 7:11:33 p. m.] Luis Fer Amey: Pero si lo hizo ud desde cero?
+[30/3/24, 7:18:55 p. m.] Anthony: https://geekflare.com/predicting-next-word-using-python/
+[30/3/24, 7:19:01 p. m.] Anthony: Template
+[30/3/24, 7:19:55 p. m.] Anthony: Igual aunque no usemos eso para la bitacora el profe quiere 3 ideas
+[30/3/24, 7:20:00 p. m.] Anthony: Ya con eso es 1
+[30/3/24, 7:26:12 p. m.] Luis Fer Amey: Sip
+[30/3/24, 7:26:32 p. m.] Luis Fer Amey: Igual es un gran ejemplo para la presentación
+‎[30/3/24, 8:00:47 p. m.] Anthony: ‎imagen omitida
+[30/3/24, 8:01:11 p. m.] Anthony: Ahora si cargue todo el Quijote y le puse las 3 palabras que mas aparecen y la cantidad de veces que aparecen
+[30/3/24, 8:01:48 p. m.] Luis Fer Amey: Mae usted está volado
+[30/3/24, 8:01:55 p. m.] Luis Fer Amey: Quiebre a Javi con la idea jajajaj
+[30/3/24, 8:02:19 p. m.] Anthony: Voy en esas
+[30/3/24, 8:02:23 p. m.] Anthony: El lunes llevo la mica
+‎[30/3/24, 9:24:01 p. m.] Luis Fer Amey: ‎sticker omitido
+[31/3/24, 10:33:10 a. m.] Anthony: Luih
+[31/3/24, 10:33:37 a. m.] Anthony: Como ud había sacado los valores de AAA AA A, del problema 8 que decía que era una distribución normal
+[31/3/24, 10:33:39 a. m.] Anthony: A mano?
+[31/3/24, 10:33:43 a. m.] Anthony: Con la función?
+[31/3/24, 11:27:41 a. m.] Luis Fer Amey: Uniforme?
+[31/3/24, 11:27:45 a. m.] Luis Fer Amey: A mano
+[31/3/24, 11:27:48 a. m.] Luis Fer Amey: Si vrga
+[31/3/24, 11:27:53 a. m.] Luis Fer Amey: Hágalo a código
+[31/3/24, 11:30:41 a. m.] Anthony: Voy a dejarlo asi
+[31/3/24, 11:30:49 a. m.] Anthony: Igual mañana le pregunto al profe tons todo bien
+[31/3/24, 11:30:50 a. m.] Luis Fer Amey: Regei
+[31/3/24, 11:30:53 a. m.] Luis Fer Amey: Todo bien
+[2/4/24, 9:28:27 a. m.] Anthony: Luis
+[2/4/24, 9:28:33 a. m.] Anthony: Leyendo la bitácora
+[2/4/24, 9:28:39 a. m.] Anthony: Creo que si tiene que ir las 3 ideas
+[2/4/24, 9:29:05 a. m.] Anthony: Y después la que si queremos y 3 aspectos positivos del que si escojamos
+[2/4/24, 9:29:09 a. m.] Anthony: O stoi mal?
+‎[2/4/24, 9:29:50 a. m.] Luis Fer Amey: ‎imagen omitida
+[2/4/24, 9:30:13 a. m.] Anthony: Soy baboso
+[2/4/24, 9:30:20 a. m.] Luis Fer Amey: jajajajj
+[2/4/24, 9:31:16 a. m.] Anthony: Creo que podríamos armar varios
+[2/4/24, 9:31:19 a. m.] Anthony: Es solo 1 página
+[2/4/24, 9:46:21 a. m.] Luis Fer Amey: Ud es diabólico
+[2/4/24, 5:49:49 p. m.] Anthony: Ya van a abrir
+[2/4/24, 5:49:49 p. m.] Anthony: Yo tengo el bolso
+‎[2/4/24, 8:26:59 p. m.] Anthony: ‎sticker omitido
+[2/4/24, 8:49:25 p. m.] Luis Fer Amey: Si, estaba bien. Se me olvidó que era 30 años (regla del 70, dura 7 años en duplicarse, entonces di dos veces que se duplique suena razonable para un préstamo)
+[2/4/24, 8:49:33 p. m.] Luis Fer Amey: Ahorita lo subo cuando llegue
+[2/4/24, 9:28:19 p. m.] Anthony: Okok
+[2/4/24, 9:28:55 p. m.] Luis Fer Amey: Ya lo subí
+[2/4/24, 9:29:00 p. m.] Luis Fer Amey: Lo reviso mañana
+[3/4/24, 7:38:02 a. m.] Anthony: Luis
+[3/4/24, 7:38:03 a. m.] Anthony: https://www.kaggle.com/datasets/jackdaoud/esports-earnings-for-players-teams-by-game
+[3/4/24, 7:38:14 a. m.] Anthony: Este es de los equipos y jugadores mejor pagados de eSports
+[3/4/24, 7:38:28 a. m.] Anthony: Lo malo es que la unica variable numerica es el salario
+[3/4/24, 7:48:58 a. m.] Anthony: https://www.kaggle.com/code/faisaljanjua0555/eda-video-games-sales
+[3/4/24, 7:49:00 a. m.] Anthony: Ese es de ventas
+[3/4/24, 8:19:51 a. m.] Luis Fer Amey: Hmmm mejor no
+[3/4/24, 8:19:55 a. m.] Luis Fer Amey: Ese está más chiva
+[3/4/24, 8:20:01 a. m.] Luis Fer Amey: Es que me acabo de despertar
+[3/4/24, 8:20:06 a. m.] Luis Fer Amey: Me dormí a las 12:30 jajaja
+[3/4/24, 8:21:56 a. m.] Anthony: Uf
+[3/4/24, 9:15:38 a. m.] Luis Fer Amey: anthony voy a revisar por última vez la tarea y se la mando por acá, recuerde hacer la última parte de git
+[3/4/24, 9:16:15 a. m.] Anthony: Ya la parte de git la hice
+[3/4/24, 9:16:25 a. m.] Luis Fer Amey: xd
+[3/4/24, 9:16:34 a. m.] Anthony: Yo agregue que faltaba el BB y B de hacer con el calculo
+[3/4/24, 9:16:45 a. m.] Anthony: Y puse el IVA del 5 o 6 ejercicio
+[3/4/24, 9:17:11 a. m.] Anthony: Que el 2 paciente que era un niño no tenia IVA
+‎[3/4/24, 9:18:38 a. m.] Luis Fer Amey: ‎imagen omitida
+[3/4/24, 9:19:00 a. m.] Anthony: Es lo que le acabo de escribir
+[3/4/24, 9:19:04 a. m.] Luis Fer Amey: AHHHH
+[3/4/24, 9:19:06 a. m.] Luis Fer Amey: yaya
+[3/4/24, 9:19:09 a. m.] Luis Fer Amey: soy jaja
+[3/4/24, 9:19:16 a. m.] Anthony: Eso lo tiene que pagar el estado o empresa
+[3/4/24, 9:19:27 a. m.] Anthony: Le puse como un comentario en el codigo a esa parte
+[3/4/24, 9:25:14 a. m.] Luis Fer Amey: se lo mando en la tarde
+‎[3/4/24, 4:00:44 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[3/4/24, 4:01:03 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[3/4/24, 4:02:23 p. m.] Luis Fer Amey: Tarea_1 - C20470 - AnthonyMauricioJimenezNavarro.ipynb ‎documento omitido
+[3/4/24, 4:17:55 p. m.] Anthony: PRA
+[3/4/24, 4:47:02 p. m.] Luis Fer Amey: PRAAA
+[6/4/24, 9:12:44 p. m.] Luis Fer Amey: mae intente razonar la 9 con el profe que se puso espeso
+[6/4/24, 9:13:28 p. m.] Anthony: A mi no me ha evaluado
+[6/4/24, 9:13:36 p. m.] Luis Fer Amey: A
+[6/4/24, 9:13:44 p. m.] Anthony: ª
+[6/4/24, 9:13:47 p. m.] Anthony: La de git?
+‎[6/4/24, 9:14:03 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[6/4/24, 9:14:17 p. m.] Luis Fer Amey: ‎imagen omitida
+[6/4/24, 9:15:07 p. m.] Anthony: Wat
+[6/4/24, 9:15:22 p. m.] Anthony: Pero yo tampoco lo guarde
+[6/4/24, 9:15:26 p. m.] Anthony: Pero si lo hice
+[6/4/24, 9:15:35 p. m.] Luis Fer Amey: se puso en varas
+[6/4/24, 9:15:47 p. m.] Luis Fer Amey: y ya me da pena argumentarle si no es presencial
+[6/4/24, 11:17:04 p. m.] Anthony: Si el mae vio errores tan comunes como para escribirlos en Telegram no puede inferir que talvez fue la forma en que redactó las instrucciones
+[6/4/24, 11:17:11 p. m.] Anthony: Ya me puso malo Potoy
+[6/4/24, 11:17:34 p. m.] Anthony: Errores tan comunes y tareas con tan baja coincidencia
+[6/4/24, 11:33:06 p. m.] Luis Fer Amey: 😂😂
+[9/4/24, 2:58:38 p. m.] Anthony: 7/3
+[9/4/24, 2:58:56 p. m.] Luis Fer Amey: Como que 7/3? Wtf
+[9/4/24, 3:00:12 p. m.] Luis Fer Amey: m1= 3 y m2= 2
+[9/4/24, 3:02:55 p. m.] Anthony: Como que 3
+[9/4/24, 3:03:15 p. m.] Anthony: M1 7/3
+‎[9/4/24, 3:03:50 p. m.] Anthony: ‎sticker omitido
+[9/4/24, 3:04:40 p. m.] Luis Fer Amey: Estoy seguro
+[9/4/24, 3:04:47 p. m.] Luis Fer Amey: Son n pares
+[9/4/24, 3:04:58 p. m.] Luis Fer Amey: Entonces se hace un n raro
+[9/4/24, 3:08:40 p. m.] Luis Fer Amey: En si no se como le dio 7/3
+[9/4/24, 3:08:58 p. m.] Anthony: Yay no
+‎[9/4/24, 3:09:02 p. m.] Anthony: ‎sticker omitido
+[10/4/24, 7:47:55 p. m.] Anthony: Luih
+[10/4/24, 7:48:11 p. m.] Anthony: Le mando los links por aca?
+[10/4/24, 7:48:49 p. m.] Luis Fer Amey: si
+[10/4/24, 8:46:08 p. m.] Anthony: ‎Se eliminó este mensaje.
+‎[10/4/24, 8:48:18 p. m.] Anthony: 253T20200254_TC.pdf • ‎190 páginas ‎documento omitido
+[10/4/24, 8:48:39 p. m.] Luis Fer Amey: jue pvta
+[10/4/24, 9:37:20 p. m.] Anthony: https://www.scielo.cl/scielo.php?pid=s0034-98872005000900017&script=sci_arttext
+[10/4/24, 9:37:49 p. m.] Luis Fer Amey: lo sacó de academic?
+[10/4/24, 9:37:52 p. m.] Luis Fer Amey: google scholar?
+[10/4/24, 9:38:06 p. m.] Anthony: eskerecto
+[10/4/24, 9:38:12 p. m.] Luis Fer Amey: mandeme el bibtex
+[10/4/24, 9:38:23 p. m.] Luis Fer Amey: se va a cita
+[10/4/24, 9:38:25 p. m.] Luis Fer Amey: r
+[10/4/24, 9:38:28 p. m.] Luis Fer Amey: exportar
+[10/4/24, 9:38:30 p. m.] Luis Fer Amey: bibtex
+[10/4/24, 9:38:55 p. m.] Anthony: @article{candia2005intervalos,
+  title={Intervalos de confianza},
+  author={Candia, Roberto and Caiozzi, Gianella},
+  journal={Revista m{\'e}dica de Chile},
+  volume={133},
+  number={9},
+  pages={1111--1115},
+  year={2005},
+  publisher={SciELO Chile}
+}
+[10/4/24, 9:39:03 p. m.] Luis Fer Amey: nice kok
+[12/4/24, 5:09:22 p. m.] Luis Fer Amey: Mai
+[12/4/24, 5:09:37 p. m.] Luis Fer Amey: Me dejaron solo los que cenan
+[12/4/24, 5:09:43 p. m.] Luis Fer Amey: Ud que está haciendo?
+[12/4/24, 5:10:02 p. m.] Anthony: Stoi en el lab de cómputo
+[12/4/24, 5:10:06 p. m.] Anthony: El 107
+[12/4/24, 5:10:16 p. m.] Luis Fer Amey: A
+[12/4/24, 5:10:22 p. m.] Luis Fer Amey: Pero no poder entrar comida
+[12/4/24, 5:10:22 p. m.] Anthony: Si entre tiene que llenar la hoja esa
+[12/4/24, 5:10:28 p. m.] Anthony: Si poder
+[12/4/24, 5:10:31 p. m.] Anthony: Si no lo ven
+[12/4/24, 5:10:36 p. m.] Luis Fer Amey: Muy mal
+[12/4/24, 5:10:52 p. m.] Luis Fer Amey: Otra sol
+‎[14/4/24, 2:56:01 p. m.] Luis Fer Amey: ‎imagen omitida
+[14/4/24, 5:44:01 p. m.] Anthony: Woy
+[14/4/24, 5:44:07 p. m.] Anthony: Que me vengo levantando
+[14/4/24, 5:44:16 p. m.] Luis Fer Amey: Wtf
+[14/4/24, 5:45:24 p. m.] Anthony: Osea me acostade un rato ahorita como a las 3
+[14/4/24, 6:24:57 p. m.] Luis Fer Amey: A
+[14/4/24, 6:32:14 p. m.] Luis Fer Amey: Mañana hago matrices
+[14/4/24, 6:32:21 p. m.] Luis Fer Amey: Y no se que putas lo que siga
+[14/4/24, 6:32:27 p. m.] Luis Fer Amey: Solo está fuc la tarea
+‎[14/4/24, 6:40:10 p. m.] Anthony: ‎imagen omitida
+[14/4/24, 6:40:49 p. m.] Luis Fer Amey: f
+[14/4/24, 6:43:43 p. m.] Anthony: funciona
+[14/4/24, 7:40:43 p. m.] Luis Fer Amey: No
+[14/4/24, 7:40:47 p. m.] Luis Fer Amey: Se ve gay
+[14/4/24, 7:40:56 p. m.] Luis Fer Amey: Además mire
+[14/4/24, 7:46:28 p. m.] Anthony: Nunca mire nada
+[14/4/24, 7:47:05 p. m.] Luis Fer Amey: fuc you esta cargando anaconda
+[14/4/24, 7:47:12 p. m.] Luis Fer Amey: mi anaconda
+[14/4/24, 7:47:34 p. m.] Anthony: tremenda anaconda
+‎[14/4/24, 7:53:10 p. m.] Luis Fer Amey: ‎imagen omitida
+[14/4/24, 7:53:38 p. m.] Anthony: OJO
+[14/4/24, 7:54:00 p. m.] Luis Fer Amey: ahora si me cabreo el maldito del profe
+[14/4/24, 7:55:22 p. m.] Anthony: NumPy.linalg sirve para todo lo de álgebra lineal
+[14/4/24, 7:55:24 p. m.] Anthony: Por aquellox
+‎[15/4/24, 1:52:36 p. m.] Luis Fer Amey: ‎imagen omitida
+[15/4/24, 1:52:39 p. m.] Luis Fer Amey: esa mierda mae
+[15/4/24, 1:52:46 p. m.] Luis Fer Amey: ni siquiera llevamos alg lin 2
+[15/4/24, 1:57:10 p. m.] Luis Fer Amey: ud me había dicho ya
+[15/4/24, 1:57:12 p. m.] Luis Fer Amey: jajajja
+[15/4/24, 1:57:27 p. m.] Luis Fer Amey: esto es como 4 tareas en una
+[15/4/24, 1:57:32 p. m.] Luis Fer Amey: no me imagino las siguientes mae
+[15/4/24, 1:58:03 p. m.] Anthony: Ya no quiero nada
+[15/4/24, 1:58:21 p. m.] Anthony: La mrd esa de sacar los outliers se me cae desde como las 8 am
+[15/4/24, 1:58:24 p. m.] Anthony: Ya no quiero nada
+[15/4/24, 1:58:25 p. m.] Luis Fer Amey: ya me queje con el profe
+[15/4/24, 1:58:27 p. m.] Anthony: YA NO QUIERO NADA
+[15/4/24, 1:58:33 p. m.] Luis Fer Amey: q outliers? JAJAJ
+‎[15/4/24, 1:58:41 p. m.] Luis Fer Amey: ‎sticker omitido
+[15/4/24, 1:58:56 p. m.] Anthony: De la parte 3
+‎[15/4/24, 1:58:56 p. m.] Anthony: ‎imagen omitida
+[15/4/24, 1:59:12 p. m.] Luis Fer Amey: ñeeee
+[15/4/24, 1:59:20 p. m.] Luis Fer Amey: ud tuvo todo el sábado no se vale
+[15/4/24, 2:00:08 p. m.] Luis Fer Amey: de milagro nadie me ha escrito
+[15/4/24, 2:00:13 p. m.] Luis Fer Amey: pero mae wtf en serio
+[15/4/24, 2:00:40 p. m.] Anthony: Tiene mieo la gente
+[15/4/24, 2:00:44 p. m.] Anthony: Solo abrir Spyder ya da mieo
+[15/4/24, 2:00:48 p. m.] Anthony: Si cierto
+[15/4/24, 2:00:52 p. m.] Anthony: Que fue con Cesar y Liz
+[15/4/24, 2:00:57 p. m.] Anthony: Yo los estaba stalkeando
+[15/4/24, 2:01:00 p. m.] Anthony: Los andaba siguiendo
+[15/4/24, 2:05:40 p. m.] Luis Fer Amey: JAJAJAJ
+[15/4/24, 2:05:47 p. m.] Luis Fer Amey: liz?
+[15/4/24, 2:05:58 p. m.] Luis Fer Amey: jajaj de seguro subieron algo a insta
+[15/4/24, 2:06:13 p. m.] Luis Fer Amey: no, yo lo estaba siguiendo a usted
+[15/4/24, 2:15:21 p. m.] Anthony: La hermana no se llamaba Liz?
+[15/4/24, 2:15:28 p. m.] Anthony: Toy mamanding seguro
+[15/4/24, 2:15:36 p. m.] Luis Fer Amey: JAJJAJSJD
+[15/4/24, 2:15:39 p. m.] Luis Fer Amey: pero no fue
+[15/4/24, 2:15:42 p. m.] Luis Fer Amey: JA TOME
+[15/4/24, 2:15:49 p. m.] Luis Fer Amey: APAÑE
+‎[15/4/24, 2:15:51 p. m.] Anthony: ‎sticker omitido
+[15/4/24, 2:45:27 p. m.] Luis Fer Amey: quiere que lo salve?
+‎[15/4/24, 2:45:45 p. m.] Luis Fer Amey: ‎imagen omitida
+[15/4/24, 2:45:54 p. m.] Luis Fer Amey: y acabo de terminar lo de matrices ahorita lo pruebo
+[15/4/24, 2:47:23 p. m.] Luis Fer Amey: apenas llevo 40 puntos 🥵
+[15/4/24, 2:47:32 p. m.] Luis Fer Amey: esto está peor que el examen de herra
+[15/4/24, 3:12:02 p. m.] Anthony: WAT
+[15/4/24, 3:12:10 p. m.] Anthony: Todo tiene que ir especificado
+[15/4/24, 3:12:16 p. m.] Luis Fer Amey: yes
+[15/4/24, 3:12:21 p. m.] Luis Fer Amey: le salve 100 puntos
+[15/4/24, 3:12:25 p. m.] Anthony: Que le pasa a ese degenerado
+[15/4/24, 3:12:29 p. m.] Anthony: A ese enfermo
+[15/4/24, 3:12:30 p. m.] Luis Fer Amey: JAJAJJAJA
+[15/4/24, 3:12:31 p. m.] Anthony: Mala persona
+[15/4/24, 3:12:33 p. m.] Luis Fer Amey: mocoso
+[15/4/24, 3:12:37 p. m.] Luis Fer Amey: desgraciado
+[15/4/24, 3:12:39 p. m.] Luis Fer Amey: maldito
+[15/4/24, 3:12:43 p. m.] Luis Fer Amey: siga
+[15/4/24, 3:12:49 p. m.] Anthony: Maldito
+[15/4/24, 3:12:52 p. m.] Anthony: Bellaco
+[15/4/24, 3:12:58 p. m.] Anthony: Depredador
+‎[15/4/24, 7:33:39 p. m.] Luis Fer Amey: ‎imagen omitida
+[15/4/24, 7:33:48 p. m.] Luis Fer Amey: ahora si perra
+‎[15/4/24, 7:34:12 p. m.] Luis Fer Amey: ‎audio omitido
+[15/4/24, 7:34:12 p. m.] Luis Fer Amey: por cierto porque yo no sabía
+[15/4/24, 7:34:25 p. m.] Luis Fer Amey: xq yo hice una separada de hocico
+[15/4/24, 7:34:39 p. m.] Luis Fer Amey: me puse a hacer otros comandos para nxn
+[15/4/24, 8:33:57 p. m.] Anthony: Wat
+‎[15/4/24, 8:34:02 p. m.] Anthony: ‎sticker omitido
+[15/4/24, 8:34:12 p. m.] Luis Fer Amey: Jajajaja
+[16/4/24, 2:13:59 p. m.] Anthony: Profe es un hater
+[16/4/24, 2:14:05 p. m.] Anthony: Nada más quiere dudar
+[16/4/24, 2:21:13 p. m.] Luis Fer Amey: Jajajajaja
+[16/4/24, 2:21:19 p. m.] Luis Fer Amey: Nono pero si tenía razón
+[16/4/24, 2:22:59 p. m.] Anthony: No no
+[16/4/24, 2:23:05 p. m.] Anthony: Solo quería tirar hate
+‎[16/4/24, 2:23:11 p. m.] Anthony: ‎sticker omitido
+[16/4/24, 2:23:39 p. m.] Luis Fer Amey: Lit
+‎[16/4/24, 2:23:45 p. m.] Luis Fer Amey: ‎sticker omitido
+[16/4/24, 3:37:36 p. m.] Luis Fer Amey: Estamos en la Tinoco
+[16/4/24, 3:45:58 p. m.] Anthony: Woi
+[16/4/24, 4:39:44 p. m.] Anthony: Vayan sin mi
+‎[16/4/24, 5:02:41 p. m.] Luis Fer Amey: ‎sticker omitido
+‎[17/4/24, 2:38:01 p. m.] Luis Fer Amey: ‎imagen omitida
+[17/4/24, 4:56:39 p. m.] Luis Fer Amey: mae apenas salgo del 3
+[17/4/24, 4:56:41 p. m.] Luis Fer Amey: jo das
+[17/4/24, 4:56:49 p. m.] Luis Fer Amey: le gustó?
+[17/4/24, 5:04:19 p. m.] Anthony: Yay
+[17/4/24, 5:04:20 p. m.] Anthony: No entendí
+‎[17/4/24, 5:04:21 p. m.] Anthony: ‎sticker omitido
+[17/4/24, 5:04:36 p. m.] Luis Fer Amey: JAJAJ
+[17/4/24, 5:04:40 p. m.] Luis Fer Amey: clasico
+[17/4/24, 5:14:33 p. m.] Luis Fer Amey: weyt
+[17/4/24, 5:14:39 p. m.] Luis Fer Amey: como hizo con las tasas variables
+[17/4/24, 5:14:45 p. m.] Luis Fer Amey: me buguea la cabeza
+[17/4/24, 8:34:24 p. m.] Luis Fer Amey: malcriada
+‎[17/4/24, 8:34:33 p. m.] Luis Fer Amey: ‎sticker omitido
+[17/4/24, 9:01:03 p. m.] Anthony: WAAAAA
+[17/4/24, 9:01:18 p. m.] Luis Fer Amey: don seen le llaman
+[17/4/24, 9:01:24 p. m.] Anthony: Estoy en computo y tuve reunión de tcu
+[17/4/24, 9:01:27 p. m.] Anthony: Presencial
+‎[17/4/24, 9:01:27 p. m.] Anthony: ‎sticker omitido
+[17/4/24, 9:01:35 p. m.] Luis Fer Amey: jajjajaja
+‎[17/4/24, 9:01:37 p. m.] Anthony: ‎sticker omitido
+[17/4/24, 9:01:45 p. m.] Luis Fer Amey: malcriao
+[18/4/24, 5:33:42 a. m.] Anthony: Creo que ya no ocupa esto pero igual
+‎[18/4/24, 5:34:20 a. m.] Anthony: ‎imagen omitida
+[18/4/24, 7:05:48 a. m.] Luis Fer Amey: Jajaja
+[18/4/24, 7:05:56 a. m.] Luis Fer Amey: El profe me dejo hacer funciones separadas
+[18/4/24, 8:46:37 a. m.] Anthony: WAT
+[18/4/24, 8:46:49 a. m.] Anthony: Osea una para la primera vara y otra para la segunda?
+[18/4/24, 8:49:15 a. m.] Luis Fer Amey: Yes
+[18/4/24, 8:50:23 a. m.] Anthony: Me cago en mi alma
+[18/4/24, 8:50:54 a. m.] Anthony: Tuve que hacer una pinga toda convolucionada por que el punto 2 usaba tasas diferentes
+[18/4/24, 8:54:19 a. m.] Luis Fer Amey: JAJAJAJAJAJAJ
+[18/4/24, 8:54:47 a. m.] Luis Fer Amey: yo creo que ni siquiera lo voy a aplicar a los objetos
+[18/4/24, 2:40:21 p. m.] Luis Fer Amey: Unificar las tasas es ilegal porque no le muestra el balance correcto
+[18/4/24, 2:51:27 p. m.] Anthony: Tiene usted razón
+[18/4/24, 2:57:04 p. m.] Anthony: Bueno
+[18/4/24, 2:57:08 p. m.] Anthony: Técnicamente bajo ese interés estaría bien
+[18/4/24, 2:57:44 p. m.] Luis Fer Amey: Porque?
+[18/4/24, 3:37:47 p. m.] Anthony: Osea bajo ese interés compuesto está bien ese balance
+[18/4/24, 4:39:46 p. m.] Luis Fer Amey: NO
+‎[18/4/24, 4:39:53 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[18/4/24, 4:40:00 p. m.] Luis Fer Amey: ‎sticker omitido
+[18/4/24, 4:50:58 p. m.] Luis Fer Amey: jejej trame a todos dije q la 4 estaba más sencilla
+[18/4/24, 4:51:02 p. m.] Luis Fer Amey: pero hay que pensar eso
+[18/4/24, 4:51:20 p. m.] Anthony: Mala nota
+[18/4/24, 4:51:40 p. m.] Luis Fer Amey: weeey
+[18/4/24, 4:51:43 p. m.] Luis Fer Amey: no sabía esto
+‎[18/4/24, 4:51:59 p. m.] Luis Fer Amey: ‎sticker omitido
+[18/4/24, 4:52:04 p. m.] Luis Fer Amey: me dice si lo logra
+[18/4/24, 4:52:09 p. m.] Anthony: Los enbanano
+[18/4/24, 4:52:10 p. m.] Anthony: Embanano
+[18/4/24, 4:52:13 p. m.] Luis Fer Amey: si no a la orden mi rey
+[18/4/24, 4:52:18 p. m.] Luis Fer Amey: jajajajja
+[18/4/24, 6:37:54 p. m.] Luis Fer Amey: finisheeeeeee WOOOO
+‎[18/4/24, 6:38:04 p. m.] Luis Fer Amey: ‎sticker omitido
+[18/4/24, 6:39:36 p. m.] Anthony: OJOOOOOOOOOOOOOOOO
+[18/4/24, 6:39:42 p. m.] Anthony: Yo mañana pelea con Potoy a ver que
+[18/4/24, 6:39:46 p. m.] Anthony: Sino lo cambio
+[18/4/24, 6:39:54 p. m.] Luis Fer Amey: YO TAMBIEN VOY A PELEAR
+[18/4/24, 6:40:05 p. m.] Luis Fer Amey: vamos juntos a la guerra manito
+[18/4/24, 6:40:14 p. m.] Anthony: SI SI LLEGUELE
+[18/4/24, 6:40:19 p. m.] Anthony: ME CAGO EN POTOY
+[18/4/24, 6:40:30 p. m.] Luis Fer Amey: JAJJAJJAJA
+[18/4/24, 6:40:36 p. m.] Luis Fer Amey: YA CAMBIO EL ODIO DE LOS PUEBLOS
+[18/4/24, 6:41:50 p. m.] Luis Fer Amey: aun no lo voy a revisar mucho por si tengo que cambiar
+[18/4/24, 6:41:55 p. m.] Luis Fer Amey: pero mae SE LOGROOOO
+[18/4/24, 6:43:08 p. m.] Anthony: Una máquina
+[18/4/24, 6:43:13 p. m.] Anthony: Cual le quedó que era mejor?
+[18/4/24, 7:07:47 p. m.] Luis Fer Amey: la tasa fija
+[19/4/24, 11:13:54 a. m.] Anthony: Luiiii
+[19/4/24, 11:14:05 a. m.] Luis Fer Amey: Aaaa
+[19/4/24, 11:14:06 a. m.] Anthony: El polinomio grado 2 nada más es A^2
+[19/4/24, 11:14:14 a. m.] Luis Fer Amey: Más A más I
+[19/4/24, 11:14:15 a. m.] Anthony: ‎Se eliminó este mensaje.
+[19/4/24, 11:14:30 a. m.] Anthony: ª
+[19/4/24, 11:14:36 a. m.] Luis Fer Amey: Jajajaj
+[19/4/24, 11:14:48 a. m.] Anthony: Nada paso ahí
+[19/4/24, 11:14:55 a. m.] Luis Fer Amey: JAJAJAJAJ
+‎[19/4/24, 11:14:57 a. m.] Luis Fer Amey: ‎sticker omitido
+[19/4/24, 1:44:31 p. m.] Luis Fer Amey: Q
+[19/4/24, 1:44:33 p. m.] Anthony: Bullet
+[22/4/24, 2:43:39 p. m.] Luis Fer Amey: Ta ben manito? Xq no vino hoy?
+[22/4/24, 2:54:51 p. m.] Anthony: Stoi enfermo
+[22/4/24, 3:12:03 p. m.] Luis Fer Amey: En estadística terminamos todo el cap 6 de la página del profe y en estocasticos vimos hasta seguros temporales diferidos
+[22/4/24, 3:12:16 p. m.] Luis Fer Amey: A mi me suena a que salió sesión de gaming jajaj
+[22/4/24, 3:21:48 p. m.] Anthony: Nah
+[22/4/24, 3:21:53 p. m.] Anthony: Fui a donar sangre y quedé tieso
+[22/4/24, 3:31:11 p. m.] Luis Fer Amey: Re f
+[23/4/24, 5:09:59 p. m.] Luis Fer Amey: Va a tomar café para ver?
+[23/4/24, 6:24:05 p. m.] Luis Fer Amey: xq no vino?
+[23/4/24, 6:40:21 p. m.] Luis Fer Amey: el profe dijo que la clase era muy importante
+‎[23/4/24, 6:40:37 p. m.] Luis Fer Amey: ‎imagen omitida
+[23/4/24, 6:40:46 p. m.] Luis Fer Amey: entonces q? que le paso para que no viniera?
+[23/4/24, 6:44:14 p. m.] Anthony: Ya ya ya casi llego
+[23/4/24, 6:44:24 p. m.] Luis Fer Amey: JAJJAJA
+[23/4/24, 6:44:33 p. m.] Luis Fer Amey: muy mal
+‎[23/4/24, 7:01:08 p. m.] Anthony: ‎sticker omitido
+[27/4/24, 11:36:59 a. m.] Anthony: Luih
+[27/4/24, 11:37:00 a. m.] Anthony: Ud ya hizo
+‎[27/4/24, 11:37:04 a. m.] Anthony: ‎imagen omitida
+[27/4/24, 12:28:17 p. m.] Luis Fer Amey: A=2? No?
+[27/4/24, 12:28:26 p. m.] Luis Fer Amey: Lo acabo de hacer en mi cabeza
+[27/4/24, 12:28:42 p. m.] Luis Fer Amey: Pero si no páseme lo que tenga
+[27/4/24, 4:04:11 p. m.] Anthony: Mentira no pregunte nada
+‎[27/4/24, 4:04:14 p. m.] Anthony: ‎sticker omitido
+‎[27/4/24, 4:23:51 p. m.] Luis Fer Amey: ‎sticker omitido
+[30/4/24, 2:35:32 p. m.] Luis Fer Amey: ‎Llamada. ‎Sin respuesta
+[30/4/24, 2:37:29 p. m.] Luis Fer Amey: El profe me dijo, me parece que tiene un 100 y yo
+‎[30/4/24, 2:37:30 p. m.] Luis Fer Amey: ‎sticker omitido
+[30/4/24, 2:37:49 p. m.] Luis Fer Amey: En frente de todos jajaj 🫠 diay si
+[30/4/24, 2:37:59 p. m.] Luis Fer Amey: Cómo es posible que ya se durmió
+[30/4/24, 2:59:36 p. m.] Anthony: Me dijo lo mismo xd
+[30/4/24, 2:59:41 p. m.] Anthony: Seguro a todos nos dijo eso
+[30/4/24, 5:06:15 p. m.] Luis Fer Amey: Seh
+[30/4/24, 6:11:20 p. m.] Luis Fer Amey: man no va a venir?
+[30/4/24, 6:20:43 p. m.] Anthony: Voy
+[30/4/24, 6:20:47 p. m.] Anthony: Ya casi llego
+[2/5/24, 1:21:19 p. m.] Anthony: Oi
+[2/5/24, 1:21:17 p. m.] Anthony: Pero ud donde esta
+‎[2/5/24, 1:21:18 p. m.] Anthony: ‎sticker omitido
+[2/5/24, 1:21:18 p. m.] Anthony: Voy a llamar a su papá y a la policía y a todo mundo
+[2/5/24, 1:21:19 p. m.] Anthony: A Potoy
+‎[2/5/24, 1:21:34 p. m.] Anthony: ‎sticker omitido
+[2/5/24, 1:21:38 p. m.] Luis Fer Amey: Mire a su derecha
+[2/5/24, 1:21:49 p. m.] Luis Fer Amey: Hey
+[2/5/24, 1:21:52 p. m.] Luis Fer Amey: Loca
+[2/5/24, 1:21:55 p. m.] Luis Fer Amey: Inmunda
+‎[2/5/24, 1:22:40 p. m.] Anthony: ‎sticker omitido
+[4/5/24, 9:02:28 p. m.] Luis Fer Amey: mae 2.3 violento
+[4/5/24, 9:07:58 p. m.] Anthony: Ta lendo
+[4/5/24, 9:08:32 p. m.] Luis Fer Amey: como que lendo
+[4/5/24, 9:08:35 p. m.] Luis Fer Amey: ud quiere morir
+[4/5/24, 9:08:45 p. m.] Luis Fer Amey: no sabe que se me está acumulando odio
+[4/5/24, 9:08:54 p. m.] Luis Fer Amey: sale bullet? de chill
+[4/5/24, 9:10:05 p. m.] Anthony: Woi
+[4/5/24, 9:10:08 p. m.] Anthony: Deme un toq
+[4/5/24, 9:10:13 p. m.] Luis Fer Amey: ta ben
+[4/5/24, 9:10:29 p. m.] Luis Fer Amey: yo te esperare jajaja
+[4/5/24, 9:18:22 p. m.] Anthony: Ermole
+[4/5/24, 9:20:08 p. m.] Luis Fer Amey: pvta perdon
+[4/5/24, 9:22:49 p. m.] Luis Fer Amey: f
+[4/5/24, 9:22:51 p. m.] Luis Fer Amey: tuvo buena
+[4/5/24, 9:25:28 p. m.] Luis Fer Amey: NOOOOOOOOOOOOOOOO
+[4/5/24, 9:26:03 p. m.] Anthony: pra
+[4/5/24, 9:26:13 p. m.] Luis Fer Amey: 1:1 fair
+[4/5/24, 9:26:18 p. m.] Luis Fer Amey: bueno manito
+[4/5/24, 9:26:22 p. m.] Luis Fer Amey: como va con el examen
+[4/5/24, 9:26:31 p. m.] Anthony: Se me cayo el vpn xddd
+[4/5/24, 9:26:35 p. m.] Anthony: Ya terminé
+[4/5/24, 9:26:37 p. m.] Luis Fer Amey: jajajaja
+[4/5/24, 9:26:41 p. m.] Luis Fer Amey: nmms
+[4/5/24, 9:26:42 p. m.] Anthony: Solo falta documentar mrds
+[4/5/24, 9:26:55 p. m.] Anthony: Para la 2.3 puede usar
+[4/5/24, 9:27:50 p. m.] Anthony: Las funciones de groupby de pandas
+[4/5/24, 9:28:05 p. m.] Luis Fer Amey: ah yo se
+[4/5/24, 9:28:24 p. m.] Luis Fer Amey: pero no hay que dividir como los dfs?
+[4/5/24, 9:28:43 p. m.] Luis Fer Amey: splits[c].groupby(i).get_group(j)
+[4/5/24, 9:29:39 p. m.] Anthony: Mmmmmm
+[4/5/24, 9:29:59 p. m.] Anthony: Yo asumí que ya venía como parámetro un vector de agrupación con la columna reducida
+[4/5/24, 9:30:55 p. m.] Anthony: Espere espere
+[4/5/24, 9:31:22 p. m.] Anthony: Se supone que la agrupación es de columnas diferentes
+[4/5/24, 9:31:34 p. m.] Anthony: Creo que ese lo intérprete fatal
+‎[4/5/24, 9:31:37 p. m.] Anthony: ‎sticker omitido
+[4/5/24, 9:31:38 p. m.] Luis Fer Amey: exacto
+[4/5/24, 9:31:47 p. m.] Luis Fer Amey: eso es lo que me tuvo en crisis dos horas
+[4/5/24, 9:31:54 p. m.] Luis Fer Amey: y el profe diciendo que facilito
+[4/5/24, 9:32:17 p. m.] Luis Fer Amey: en teoria son grupos de grupos de grupos... n veces cuando el usuario se le parta la chingada
+[4/5/24, 9:32:39 p. m.] Luis Fer Amey: no creo de una vez
+[4/5/24, 9:33:26 p. m.] Luis Fer Amey: que sea como intuitivo para todos
+[4/5/24, 9:34:04 p. m.] Anthony: Ora si
+[4/5/24, 9:34:07 p. m.] Anthony: A volver a empezar
+[4/5/24, 9:34:12 p. m.] Anthony: Pero después de un sueñito
+[4/5/24, 9:34:21 p. m.] Luis Fer Amey: JAJAJAJ
+[4/5/24, 9:34:27 p. m.] Luis Fer Amey: se despertaba a las 2 am
+‎[5/5/24, 8:51:13 a. m.] Luis Fer Amey: ‎imagen omitida
+[5/5/24, 9:09:37 a. m.] Anthony: Esos mismos
+[5/5/24, 9:09:38 a. m.] Anthony: Pero yo hice histogramas
+‎[5/5/24, 9:20:09 a. m.] Anthony: ‎imagen omitida
+[5/5/24, 12:00:53 p. m.] Luis Fer Amey: ahhh ya
+[5/5/24, 12:55:22 p. m.] Luis Fer Amey: ggs
+[5/5/24, 12:57:01 p. m.] Anthony: ?
+[5/5/24, 12:57:23 p. m.] Luis Fer Amey: Good game al examen hahah
+[5/5/24, 12:57:33 p. m.] Luis Fer Amey: Como le fue cambiando el método?
+[5/5/24, 12:57:45 p. m.] Anthony: Ak7
+[5/5/24, 12:57:48 p. m.] Anthony: Creo
+[5/5/24, 12:57:54 p. m.] Anthony: Igual vale madre ya
+[5/5/24, 12:58:13 p. m.] Luis Fer Amey: Jajajja si diay si
+[5/5/24, 12:59:45 p. m.] Anthony: Era un zip la vara vrd?
+[5/5/24, 1:30:49 p. m.] Luis Fer Amey: html y py
+[5/5/24, 1:31:06 p. m.] Luis Fer Amey: Son los dos archivos necesarios, los dos archivos que le deja
+[5/5/24, 1:31:09 p. m.] Luis Fer Amey: Sin zip
+[5/5/24, 1:31:14 p. m.] Anthony: Numa el py
+[5/5/24, 1:31:28 p. m.] Luis Fer Amey: Jajajaj bueno eso es otro nivel
+[8/5/24, 2:51:29 p. m.] Anthony: Luisss
+[8/5/24, 2:51:39 p. m.] Luis Fer Amey: a
+[8/5/24, 2:51:57 p. m.] Anthony: La tabla de estadisticos generales
+[8/5/24, 2:52:04 p. m.] Anthony: Tipo mean, max, min y esas mrds
+[8/5/24, 2:52:07 p. m.] Anthony: No cabe
+[8/5/24, 2:52:11 p. m.] Anthony: Son 27 variables
+[8/5/24, 2:52:13 p. m.] Luis Fer Amey: tiene que separarla en 2
+[8/5/24, 2:52:19 p. m.] Luis Fer Amey: o en más
+[8/5/24, 2:52:23 p. m.] Anthony: Okok
+[8/5/24, 2:52:28 p. m.] Anthony: Eso es legal?
+[8/5/24, 2:52:34 p. m.] Luis Fer Amey: di porque no?
+[8/5/24, 2:52:38 p. m.] Anthony: Ta ben
+[8/5/24, 2:52:42 p. m.] Luis Fer Amey: solo que es una jodida vdd
+[8/5/24, 2:53:01 p. m.] Anthony: Yay
+[8/5/24, 2:53:03 p. m.] Anthony: Me toca
+[8/5/24, 2:53:14 p. m.] Luis Fer Amey: o sea lo que le recomiendo
+[8/5/24, 2:53:19 p. m.] Luis Fer Amey: es que ponga una clave abajo
+[8/5/24, 2:53:22 p. m.] Luis Fer Amey: tipo así vea
+[8/5/24, 2:54:44 p. m.] Luis Fer Amey: sé que es raro, pero con tantas variables es mejor hacer eso
+[8/5/24, 2:54:46 p. m.] Luis Fer Amey: o
+[8/5/24, 2:54:51 p. m.] Luis Fer Amey: hagale la transpuesta
+[8/5/24, 2:55:50 p. m.] Luis Fer Amey: y a partir de mad (aunque si sé que es mad) no sé que es lo demás
+[8/5/24, 2:55:59 p. m.] Luis Fer Amey: tendría que explicarlo
+[8/5/24, 2:56:07 p. m.] Luis Fer Amey: pero bien ahí
+[8/5/24, 3:09:34 p. m.] Anthony: Vealo ahi
+[8/5/24, 3:10:06 p. m.] Anthony: Se podria pasar el max a la tabla de abajo, pero tiene mas sentido que este a la par de los cuartiles
+[8/5/24, 3:12:07 p. m.] Luis Fer Amey: voy a ver
+[8/5/24, 3:26:21 p. m.] Luis Fer Amey: Entonces resuma gdp
+[8/5/24, 3:26:41 p. m.] Luis Fer Amey: pongalo por billones
+[8/5/24, 3:27:00 p. m.] Luis Fer Amey: o no?
+[8/5/24, 3:27:12 p. m.] Luis Fer Amey: para reducir el tamaño de las columnas
+[8/5/24, 3:46:40 p. m.] Anthony: La matriz de correlacion no cabe
+[8/5/24, 3:46:40 p. m.] Anthony: :c
+[8/5/24, 3:46:45 p. m.] Anthony: Y esa no se puede reducir
+[8/5/24, 3:46:59 p. m.] Luis Fer Amey: f
+[8/5/24, 3:53:59 p. m.] Luis Fer Amey: metale un plot para correlaciones
+[8/5/24, 3:55:05 p. m.] Luis Fer Amey: library(corrplot)
+[8/5/24, 3:55:10 p. m.] Anthony: corrplot
+[8/5/24, 3:55:14 p. m.] Anthony: Es ud una mquina
+[8/5/24, 3:55:19 p. m.] Anthony: La acabo de encontrar
+[8/5/24, 3:55:54 p. m.] Luis Fer Amey: nice
+‎[8/5/24, 8:44:46 p. m.] Luis Fer Amey: ‎imagen omitida
+[8/5/24, 8:47:28 p. m.] Anthony: Visualmente esta mucho mejor
+[8/5/24, 8:47:36 p. m.] Anthony: Pero no pierde el formato?
+[8/5/24, 8:48:07 p. m.] Luis Fer Amey: digamos podría aclarar al final que esa e9 son billones
+[11/5/24, 8:26:33 p. m.] Anthony: Luih
+[11/5/24, 8:26:36 p. m.] Anthony: Ya hizo la tarea de conti
+[11/5/24, 8:37:51 p. m.] Luis Fer Amey: Corella la hizo toda ‎<Se editó este mensaje.>
+[11/5/24, 8:38:06 p. m.] Luis Fer Amey: Pero mañana reviso
+[12/5/24, 8:36:51 a. m.] Anthony: Coresha me dijo que ud iba a revisar la vara
+‎[12/5/24, 8:36:57 a. m.] Anthony: ‎imagen omitida
+‎[12/5/24, 8:37:08 a. m.] Anthony: ‎imagen omitida
+[12/5/24, 8:37:19 a. m.] Anthony: Tons ahi pa comparash cuando pueda
+[12/5/24, 8:57:13 a. m.] Luis Fer Amey: yes
+[12/5/24, 8:57:17 a. m.] Luis Fer Amey: ahi lo hare
+[12/5/24, 8:59:19 a. m.] Luis Fer Amey: porque lo hizo hasta 115?
+‎[12/5/24, 8:59:57 a. m.] Luis Fer Amey: ‎imagen omitida
+[12/5/24, 9:23:07 a. m.] Anthony: Esa del 115 esta mal
+[12/5/24, 9:23:10 a. m.] Anthony: Ya la hice hasta 100
+[12/5/24, 9:23:19 a. m.] Luis Fer Amey: a ver
+[12/5/24, 9:23:33 a. m.] Luis Fer Amey: antes de que me vaya
+‎[12/5/24, 9:24:29 a. m.] Anthony: Tarea_2_Anthony_Jimenez_Erick_Venegas.html ‎documento omitido
+[12/5/24, 9:25:07 a. m.] Luis Fer Amey: jajaj ya se que se le olvido
+[12/5/24, 9:25:08 a. m.] Luis Fer Amey: px
+‎[12/5/24, 9:25:40 a. m.] Luis Fer Amey: ‎imagen omitida
+[12/5/24, 9:25:51 a. m.] Anthony: Penga
+[12/5/24, 9:26:05 a. m.] Luis Fer Amey: a corella tmb se le olvido
+[12/5/24, 9:26:20 a. m.] Luis Fer Amey: yo lo tuve que corregir
+[12/5/24, 9:26:42 a. m.] Anthony: Se saca recursivo
+[12/5/24, 9:27:08 a. m.] Luis Fer Amey: si
+[12/5/24, 9:27:39 a. m.] Luis Fer Amey: igual no sé porqué se le está separando mucho las curvas
+[12/5/24, 10:01:24 a. m.] Anthony: Como le quedo el temporal?
+‎[12/5/24, 10:01:40 a. m.] Anthony: ‎imagen omitida
+‎[12/5/24, 10:01:53 a. m.] Anthony: ‎imagen omitida
+[12/5/24, 11:02:47 a. m.] Luis Fer Amey: Si similares
+[12/5/24, 11:02:58 a. m.] Luis Fer Amey: Es que son similares
+[12/5/24, 11:03:26 a. m.] Luis Fer Amey: Solo que uno está más abajo que la otra
+‎[12/5/24, 6:36:51 p. m.] Luis Fer Amey: Tarea2.html ‎documento omitido
+[12/5/24, 6:36:57 p. m.] Luis Fer Amey: ahí esta prro
+[12/5/24, 6:40:13 p. m.] Anthony: oJo
+[20/5/24, 1:29:37 p. m.] Anthony: Luih
+[20/5/24, 1:29:44 p. m.] Anthony: No tiene el enunciado de este examen?
