@@ -280,9 +280,9 @@ def sentimientos_nltk(df):
   return(df_pandas)
 
 
-t = time.time()
-r.gen = sentimientos_nltk(r.gen)
-print(time.time() - t)
+# t = time.time()
+# r.gen = sentimientos_nltk(r.gen)
+# print(time.time() - t)
 ```
 
 ```{python}
@@ -301,18 +301,18 @@ def analizar_sentimiento(txt):
 def sentimientos_textblob(df):
   '''
   Función que analiza sentimientos de una columna de mensajes en un dataframe.
-  Este método está entrenado para analizar sentimientos de mensajes en español.
+  Este método también está entrenado en inglés, por lo que se utilizan las 
+  traducciones previas.
   '''
   
   df_pandas = pd.DataFrame(df)
-  df_pandas['sentimiento_textblob'] = df_pandas['mensaje'].apply(lambda j: analizar_sentimiento(j))
+  df_pandas['sentimiento_textblob'] = df_pandas['mensaje_ingles'].apply(lambda j: analizar_sentimiento(j))
   
   return(df_pandas)
   
-
-t = time.time()
-r.gen = sentimientos_textblob(r.gen)
-print(time.time() - t)
+# t = time.time()
+# r.gen = sentimientos_textblob(r.gen)
+# print(time.time() - t)
 ```
 
 ```{python}
@@ -330,10 +330,34 @@ def sentimientos_transformers(df):
   
   return(df_pandas)
 
+# t = time.time()
+# r.gen = sentimientos_transformers(r.gen)
+# print(time.time() - t)
+```
+
+```{r}
+gen_prueba <- gen[1:10,]
+```
+
+```{python}
 t = time.time()
-r.gen = sentimientos_transformers(r.gen)
+r.gen_prueba = sentimientos_nltk(r.gen_prueba)
 print(time.time() - t)
 ```
+
+```{python}
+t = time.time()
+r.gen_prueba = sentimientos_textblob(r.gen_prueba)
+print(time.time() - t)
+```
+
+```{python}
+t = time.time()
+r.gen_prueba = sentimientos_transformers(r.gen_prueba)
+print(time.time() - t)
+```
+
+
 
 
 
