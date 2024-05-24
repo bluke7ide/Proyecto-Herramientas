@@ -16,9 +16,10 @@ output:
 library(readr)
 library(tidyverse)
 library(lubridate)
+library(reticulate)
+
 setwd("..")
 wappx <- read_file("data/gen.txt")
-
 ```
 
 
@@ -163,7 +164,7 @@ el_graciosito <- function(df){
   num <- df %>% count(autor) %>% arrange(desc(n))
   return(num)
 }
-a <- el_graciosito(herra)
+a <- el_graciosito(gen)
 ```
 
 ```{r}
@@ -246,17 +247,98 @@ el_jefe <- function(df){ # verificar doble
 a <- el_jefe(gen)
 ```
 
-```{r}
-# imagen omitida
-# sticker omitido
-# Ubicación:
-# https://
-# Cambió tu código de seguridad con
-# @
-# Video omitido
-# documento omitido 
-# <Se editó este mensaje.>
+# Funciones para analizar sentimientos en Python
+
+```{python}
+'''
+Función que analiza sentimientos usando la librería 'nltk'.
+Dado que el método utilizado está entrenado en inglés, primero se traducen los
+mensajes usando la librería 'translate' (está limitada a una cantidad de traducciones)
+'''
+import pandas as pd
+import time
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from translate import Translator
+
+#nltk.download('vader_lexicon') # correr solo la primera vez
+
+def sentimientos_nltk(df):
+  
+  df_pandas = pd.DataFrame(df)
+  
+  traductor = Translator(from_lang = 'es', to_lang = 'en')
+  
+  df_pandas['mensaje_ingles'] = df_pandas['mensaje'].apply(lambda i: traductor.translate(i)) # traduce los mensajes
+  #df_pandas['mensaje_ingles'] = df_pandas['mensaje'].apply(lambda i: (print(i), traductor.translate(i))[1])
+
+  sid = SentimentIntensityAnalyzer()
+
+  df_pandas['sentimiento_nltk'] = df_pandas['mensaje_ingles'].apply(lambda j: sid.polarity_scores(j)['compound'])
+
+  #del df_pandas['mensaje_ingles']
+
+  return(df_pandas)
+
+
+t = time.time()
+r.gen = sentimientos_nltk(r.gen)
+print(time.time() - t)
 ```
+
+```{python}
+from textblob import TextBlob
+
+def analizar_sentimiento(txt):
+  '''
+  Función que analiza sentimientos de un texto usando la librería 'TextBlob'.
+  '''
+  blob = TextBlob(txt)
+  sentimiento = blob.sentiment
+
+  return(sentimiento[0])
+
+
+def sentimientos_textblob(df):
+  '''
+  Función que analiza sentimientos de una columna de mensajes en un dataframe.
+  Este método está entrenado para analizar sentimientos de mensajes en español.
+  '''
+  
+  df_pandas = pd.DataFrame(df)
+  df_pandas['sentimiento_textblob'] = df_pandas['mensaje'].apply(lambda j: analizar_sentimiento(j))
+  
+  return(df_pandas)
+  
+
+t = time.time()
+r.gen = sentimientos_textblob(r.gen)
+print(time.time() - t)
+```
+
+```{python}
+from transformers import pipeline
+
+def sentimientos_transformers(df):
+  '''
+  Función que analiza sentimientos usando la librería 'transformers'.
+  Este método está entrenado para analizar sentimientos de mensajes en español.
+  '''
+  
+  df_pandas = pd.DataFrame(df)
+  sentiment_analysis = pipeline("sentiment-analysis", model="nlptown/bert-base-multilingual-uncased-sentiment")
+  df_pandas['sentimiento_transformers'] = df_pandas['mensaje'].apply(lambda j: sentiment_analysis(j)[0]['score'])
+  
+  return(df_pandas)
+
+t = time.time()
+r.gen = sentimientos_transformers(r.gen)
+print(time.time() - t)
+```
+
+
+
+
+
 
 
 
