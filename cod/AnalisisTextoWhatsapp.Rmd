@@ -17,7 +17,10 @@ output:
 library(readr)
 library(tidyverse)
 library(lubridate)
+library(reticulate)
+
 ```
+
 
 ```{r}
 scrap <- function(name){
@@ -28,14 +31,14 @@ scrap <- function(name){
   # buscar el archivo
   ruta <- paste(name, ".txt", sep = '')
   texto <- read_file(ruta)
-  
+
   # remover, si es posible, los \r, y trabajar en \n
   texto <- str_replace_all(texto, "\r", "")
   texto <- strsplit(texto, '\n')[[1]]
   
   # separar horas y mensaje
-  temp <- str_split_fixed(texto, "\\] ", 2)
-  
+  temp <- str_split_fixed(texto, "\\] ", 2)  
+
   # realizar el dataframe con los datos iniciales
   datos <- data.frame(hora = numeric(length(texto)))
   datos$hora <- temp[,1]
@@ -81,9 +84,8 @@ scrap <- function(name){
 }
 ```
 
-
 ```{r, warning=FALSE}
-df <- scrap("tony")
+gen <- scrap("gen")
 ```
 
 
@@ -207,16 +209,115 @@ el_jefe <- function(df){ # verificar doble
 # Video omitido
 # documento omitido 
 # <Se editó este mensaje.>
+
 ```
 
+# Funciones para analizar sentimientos en Python
+
+```{python}
+'''
+Función que analiza sentimientos usando la librería 'nltk'.
+Dado que el método utilizado está entrenado en inglés, primero se traducen los
+mensajes usando la librería 'translate' (está limitada a una cantidad de traducciones)
+'''
+import pandas as pd
+import time
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from translate import Translator
+
+#nltk.download('vader_lexicon') # correr solo la primera vez
+
+def sentimientos_nltk(df):
+  
+  df_pandas = pd.DataFrame(df)
+  
+  traductor = Translator(from_lang = 'es', to_lang = 'en')
+  
+  df_pandas['mensaje_ingles'] = df_pandas['mensaje'].apply(lambda i: traductor.translate(i)) # traduce los mensajes
+  #df_pandas['mensaje_ingles'] = df_pandas['mensaje'].apply(lambda i: (print(i), traductor.translate(i))[1])
+
+  sid = SentimentIntensityAnalyzer()
+
+  df_pandas['sentimiento_nltk'] = df_pandas['mensaje_ingles'].apply(lambda j: sid.polarity_scores(j)['compound'])
+
+  #del df_pandas['mensaje_ingles']
+
+  return(df_pandas)
 
 
+# t = time.time()
+# r.gen = sentimientos_nltk(r.gen)
+# print(time.time() - t)
+```
+
+```{python}
+from textblob import TextBlob
+
+def analizar_sentimiento(txt):
+  '''
+  Función que analiza sentimientos de un texto usando la librería 'TextBlob'.
+  '''
+  blob = TextBlob(txt)
+  sentimiento = blob.sentiment
+
+  return(sentimiento[0])
 
 
+def sentimientos_textblob(df):
+  '''
+  Función que analiza sentimientos de una columna de mensajes en un dataframe.
+  Este método también está entrenado en inglés, por lo que se utilizan las 
+  traducciones previas.
+  '''
+  
+  df_pandas = pd.DataFrame(df)
+  df_pandas['sentimiento_textblob'] = df_pandas['mensaje_ingles'].apply(lambda j: analizar_sentimiento(j))
+  
+  return(df_pandas)
+  
+# t = time.time()
+# r.gen = sentimientos_textblob(r.gen)
+# print(time.time() - t)
+```
 
+```{python}
+from transformers import pipeline
 
+def sentimientos_transformers(df):
+  '''
+  Función que analiza sentimientos usando la librería 'transformers'.
+  Este método está entrenado para analizar sentimientos de mensajes en español.
+  '''
+  
+  df_pandas = pd.DataFrame(df)
+  sentiment_analysis = pipeline("sentiment-analysis", model="nlptown/bert-base-multilingual-uncased-sentiment")
+  df_pandas['sentimiento_transformers'] = df_pandas['mensaje'].apply(lambda j: sentiment_analysis(j)[0]['score'])
+  
+  return(df_pandas)
 
+# t = time.time()
+# r.gen = sentimientos_transformers(r.gen)
+# print(time.time() - t)
+```
 
+```{r}
+gen_prueba <- gen[1:10,]
+```
 
+```{python}
+t = time.time()
+r.gen_prueba = sentimientos_nltk(r.gen_prueba)
+print(time.time() - t)
+```
 
+```{python}
+t = time.time()
+r.gen_prueba = sentimientos_textblob(r.gen_prueba)
+print(time.time() - t)
+```
 
+```{python}
+t = time.time()
+r.gen_prueba = sentimientos_transformers(r.gen_prueba)
+print(time.time() - t)
+```
