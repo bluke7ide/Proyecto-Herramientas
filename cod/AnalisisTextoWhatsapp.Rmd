@@ -11,6 +11,9 @@ output:
     default_style: "dark"
     downcute_theme: "chaos"
 ---
+```{r setup, include=FALSE}
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+```
 
 # Importación librerias
 ```{r, warning=FALSE, message=FALSE}
@@ -21,11 +24,9 @@ library(reticulate)
 
 ```
 
-
 ```{r}
 scrap <- function(name){
   # setear la carpeta de la data
-  setwd("..")
   setwd("data")
   
   # buscar el archivo
@@ -87,7 +88,6 @@ scrap <- function(name){
 ```{r, warning=FALSE}
 gen <- scrap("gen")
 ```
-
 
 # Funciones extra
 ```{r}
@@ -213,7 +213,6 @@ el_jefe <- function(df){ # verificar doble
 ```
 
 # Funciones para analizar sentimientos en Python
-
 ```{python}
 '''
 Función que analiza sentimientos usando la librería 'nltk'.
@@ -225,7 +224,7 @@ import time
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from translate import Translator
 
-#nltk.download('vader_lexicon') # correr solo la primera vez
+# nltk.download('vader_lexicon') # correr solo la primera vez
 
 def sentimientos_nltk(df):
   
@@ -321,3 +320,47 @@ t = time.time()
 r.gen_prueba = sentimientos_transformers(r.gen_prueba)
 print(time.time() - t)
 ```
+
+```{r}
+lista <- gen$mensaje
+```
+
+|
+```{python}
+# !pip install deep_translator
+from deep_translator import GoogleTranslator
+import pandas as pd
+import time
+traductor = GoogleTranslator(source = 'es', target = 'en')
+
+t = time.time()
+fijo = pd.DataFrame(traductor.translate_batch(r.lista))
+print(time.time() - t)
+
+resultado["R"] = r.lista
+```
+
+```{r}
+guardar <- reticulate::py$fijo
+write.csv2(guardar, "docs/traducido.csv")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
