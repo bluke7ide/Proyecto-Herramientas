@@ -222,7 +222,7 @@ mensajes usando la librería 'translate' (está limitada a una cantidad de tradu
 import pandas as pd
 import time
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-from translate import Translator
+#from translate import Translator
 
 # nltk.download('vader_lexicon') # correr solo la primera vez
 
@@ -230,14 +230,13 @@ def sentimientos_nltk(df):
   
   df_pandas = pd.DataFrame(df)
   
-  traductor = Translator(from_lang = 'es', to_lang = 'en')
+  #traductor = Translator(from_lang = 'es', to_lang = 'en')
   
-  df_pandas['mensaje_ingles'] = df_pandas['mensaje'].apply(lambda i: traductor.translate(i)) # traduce los mensajes
-  #df_pandas['mensaje_ingles'] = df_pandas['mensaje'].apply(lambda i: (print(i), traductor.translate(i))[1])
+  #df_pandas['mensaje_ingles'] = df_pandas['mensaje'].apply(lambda i: traductor.translate(i)) # traduce los mensajes
 
   sid = SentimentIntensityAnalyzer()
 
-  df_pandas['sentimiento_nltk'] = df_pandas['mensaje_ingles'].apply(lambda j: sid.polarity_scores(j)['compound'])
+  df_pandas['sentimiento_nltk'] = df_pandas['mensaje'].apply(lambda j: sid.polarity_scores(j)['compound'])
 
   #del df_pandas['mensaje_ingles']
 
@@ -270,7 +269,7 @@ def sentimientos_textblob(df):
   '''
   
   df_pandas = pd.DataFrame(df)
-  df_pandas['sentimiento_textblob'] = df_pandas['mensaje_ingles'].apply(lambda j: analizar_sentimiento(j))
+  df_pandas['sentimiento_textblob'] = df_pandas['mensaje'].apply(lambda j: analizar_sentimiento(j))
   
   return(df_pandas)
   
@@ -343,6 +342,24 @@ resultado["R"] = r.lista
 ```{r}
 guardar <- reticulate::py$fijo
 write.csv2(guardar, "docs/traducido.csv")
+```
+
+```{python}
+# import os
+# os.getcwdb()
+mensajes_traducidos = pd.read_csv('docs/traducido.csv', sep = ';', names = ['id', 'mensaje'])
+```
+
+```{python}
+df_prueba = mensajes_traducidos.iloc[:100]
+#print(df_prueba)
+
+for mensaje in df_prueba['mensaje']:
+  print(mensaje, type(mensaje))
+```
+
+```{python}
+prueba_nltk = sentimientos_textblob(df_prueba)
 ```
 
 
