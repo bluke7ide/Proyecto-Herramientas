@@ -105,8 +105,10 @@ mensajes_traducidos['mensaje'] = mensajes_traducidos['mensaje'].apply(lambda x: 
 mensajes_traducidos = pd.DataFrame(mensajes_traducidos["mensaje"])
 ```
 
+
 # Análisis de sentimientos 1
 ```{python}
+# Inicio de la función
 t = time.time()
 sid = SentimentIntensityAnalyzer()
 sentimientos = mensajes_traducidos['mensaje'].apply(lambda x:  sid.polarity_scores(x))
@@ -134,6 +136,11 @@ sentimientos = mensajes_traducidos['mensaje'].apply(lambda j: sentiment_analysis
 sentimientos = sentimientos.apply(lambda j: pd.Series(pd.Series(j)[0]))
 mensajes_traducidos = pd.concat([mensajes_traducidos, sentimientos], axis = 1)
 print(time.time() - t)
+```
+
+```{python}
+data = pd.concat([raw, mensajes_traducidos.drop("mensaje", axis = 1)], axis = 1)
+# fin de la función
 ```
 
 
