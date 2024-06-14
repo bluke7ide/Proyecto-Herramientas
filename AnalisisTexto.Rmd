@@ -21,72 +21,17 @@ library(readr)
 library(tidyverse)
 library(lubridate)
 library(reticulate)
+library(jsonlite)
 
 ```
 
-# Función para hacer scrap de los datos de whatsapp
+# Funciones para hacer scrap 
 ```{r}
-scrap <- function(name){
-  # setear la carpeta de la data
-  setwd("data")
-  
-  # buscar el archivo
-  ruta <- paste(name, ".txt", sep = '')
-  texto <- read_file(ruta)
-
-  # remover, si es posible, los \r, y trabajar en \n
-  texto <- str_replace_all(texto, "\r", "")
-  texto <- strsplit(texto, '\n')[[1]]
-  
-  # separar horas y mensaje
-  temp <- str_split_fixed(texto, "\\] ", 2)  
-
-  # realizar el dataframe con los datos iniciales
-  datos <- data.frame(hora = numeric(length(texto)))
-  datos$hora <- temp[,1]
-  datos$autor <- numeric(length(texto))
-  datos$mensaje <- temp[,2]
-  
-  # Dividir entre autor y mensaje
-  temp <- str_split_fixed(datos$mensaje, ": ", 2)
-  datos$autor <- temp[,1]
-  datos$mensaje <- temp[,2]
-  
-  # Sacar los índices de los enters en línea
-  indices <- as.numeric(rownames(datos[!grepl("\\[", datos$hora),]))
-  
-  # Operar estas líneas
-  for (i in indices){
-    datos$mensaje[i] <- datos$hora[i]
-    datos[i,1:2] <- datos[i-1,1:2]
-  }
-  datos$mensaje <- as.character(datos$mensaje)
-  
-  # Eliminar el corchete extra
-  datos$hora <- gsub("\\[", "", datos$hora)
-  
-  # Dividir en días y horas
-  datos <- datos %>% separate(hora, into = c("dia", "hora"), sep = ", ")
-  
-  # Formato lubridate
-  datos$dia <- as_date(dmy(datos$dia))
-  
-  # En caso de PM, o p. m. AM lo ignora
-  datos<- datos %>% mutate(pm = grepl("[pP]", datos$hora))
-  datos$hora <- str_replace_all(datos$hora, "p\\.\\s*m\\.", "")
-  datos$hora <- str_replace_all(datos$hora, "a\\.\\s*m\\.", "")  
-  
-  # Moverse a hms de 24 horas
-  datos$hora <- hms(datos$hora)
-  datos$hora <- datos$hora + hours(datos$pm*12)
-  
-  # Quitar la columna extra
-  datos <- datos %>% select(-pm)
-  return(datos)
-}
+source("cod/r/scrapW.R")
+source("cod/r/scrapT.R")
 ```
 
-```{r, warning=FALSE}
+```{r}
 gen <- scrap("gen")
 ```
 
