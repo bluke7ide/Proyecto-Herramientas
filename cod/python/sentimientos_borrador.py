@@ -58,7 +58,7 @@ def sentimientos_transformers(df):
   '''
   
   df_pandas = pd.DataFrame(df)
-  sentiment_analysis = pipeline("sentiment-analysis", model="nlptown/bert-base-multilingual-uncased-sentiment")
+  sentiment_analysis = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
   df_pandas['sentimiento_transformers'] = df_pandas['mensaje'].apply(lambda j: sentiment_analysis(j)[0]['score'])
   
   return(df_pandas)
