@@ -11,18 +11,9 @@ output:
     default_style: "dark"
     downcute_theme: "chaos"
 ---
-```{r setup, include=FALSE}
-knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
-```
-
 # Importación librerias
 ```{r, warning=FALSE, message=FALSE}
-library(readr)
-library(tidyverse)
-library(lubridate)
-library(reticulate)
-library(jsonlite)
-
+source("cod/r/setup.R")
 ```
 
 # Funciones para hacer scrap 
@@ -32,7 +23,7 @@ source("cod/r/scrapT.R")
 ```
 
 ```{r}
-gen <- scrap("gen")
+gen <- scrapW("gen")
 ```
 
 # Funciones extra
@@ -51,24 +42,39 @@ source("cod/r/borrador.R")
 
 ```
 
-# Funciones para analizar sentimientos en Python
+# Funciones borrador
 ```{r}
 source_python("cod/python/sentimientos_borrador.py")
 ```
 
 # Librerías de python
 ```{python}
-from deep_translator import GoogleTranslator
+# !pip install pandas
+# !pip install nltk
+# !pip install deep_translator
+# !pip install textblob
+# !pip install transformers
+# nltk.download('vader_lexicon')
+
 import pandas as pd
 import time
-from textblob import TextBlob
 import nltk
-nltk.download('vader_lexicon')
+
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from deep_translator import GoogleTranslator
+from textblob import TextBlob
 from transformers import pipeline
+
+# Sin warning: ejecutar esto en terminal
+# set TF_ENABLE_ONEDNN_OPTS=0
 ```
 
 # Traducciones
+
+```{r}
+lista <- gen$mensaje
+```
+
 ```{python}
 traductor = GoogleTranslator(source = 'es', target = 'en')
 
@@ -77,16 +83,17 @@ fijo = pd.DataFrame(traductor.translate_batch(r.lista))
 print(time.time() - t)
 ```
 
-# Guardar traducciones
 ```{r}
 resultado["R"] = r.lista
 guardar <- reticulate::py$fijo
 write.csv2(guardar, "docs/traducido.csv")
+# Hacer todo esto un script de R y guardarlo en una función
 ```
+
+
 
 # Lectura
 ```{python}
-
 raw = r.gen
 mensajes_traducidos = pd.read_csv('docs/traducido.csv',
                                   sep = ';',
@@ -100,27 +107,33 @@ mensajes_traducidos = pd.DataFrame(mensajes_traducidos["mensaje"])
 
 # Análisis de sentimientos 1
 ```{python}
+t = time.time()
 sid = SentimentIntensityAnalyzer()
 sentimientos = mensajes_traducidos['mensaje'].apply(lambda x:  sid.polarity_scores(x))
 sentimientos = sentimientos.apply(lambda x: pd.Series(x))
 mensajes_traducidos = pd.concat([mensajes_traducidos, sentimientos], axis = 1)
+print(time.time() - t)
 ```
 
 # Análisis de sentimientos 2
 ```{python}
+t = time.time()
 sentimientos = mensajes_traducidos['mensaje'].apply(lambda x:  TextBlob(x).sentiment)
 sentimientos = sentimientos.apply(lambda x: pd.Series(x))
 mensajes_traducidos = pd.concat([mensajes_traducidos, sentimientos], axis = 1)
 mensajes_traducidos.columns = ["mensaje", "negativo", "neutral", "positivo", "compuesto", "polaridad", "subjetividad"]
+print(time.time() - t)
 ```
 
 # Análisis de sentimientos 3
 Este es el que más se tarda
 ```{python}
+t = time.time()
 sentiment_analysis = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
 sentimientos = mensajes_traducidos['mensaje'].apply(lambda j: sentiment_analysis(j))
 sentimientos = sentimientos.apply(lambda j: pd.Series(pd.Series(j)[0]))
 mensajes_traducidos = pd.concat([mensajes_traducidos, sentimientos], axis = 1)
+print(time.time() - t)
 ```
 
 
