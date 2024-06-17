@@ -15,9 +15,12 @@ scrapT <- function(name){
   
   # Cambios de forma
   telegram <- telegram[telegram$type == "message",]
-  telegram$text[!is.na(telegram$photo)] <- 'photo'
-  telegram$text[!is.na(telegram$file)] <- 'file'
+  telegram$text[!is.na(telegram$photo)] <- 'imagen omitida'
+  telegram$text[!is.na(telegram$file)] <- 'documento omitido'
+  telegram$media_type[telegram$media_type == "voice_message"] <- 'audio omitido'
+  telegram$media_type[telegram$media_type == "sticker"] <- 'sticker omitido'
   telegram$text[!is.na(telegram$media_type)] <- telegram$media_type[!is.na(telegram$media_type)]
+
   telegram$edited[!is.na(telegram$edited)] <- TRUE
   
   # Seleccionar las que aportan
@@ -30,6 +33,12 @@ scrapT <- function(name){
   telegram$hora <- hms(telegram$hora)
   colnames(telegram) <- c("dia", "hora", "autor", "mensaje", "editado")
   telegram$editado[is.na(telegram$editado)] = FALSE
+  row.names(telegram) <- NULL
+  
+  # listas <- sapply(telegram$mensaje, function (x) typeof(x) == "list")
+  # telegram$mensaje[listas] <- sapply(telegram$mensaje[lista],
+  #                                    function(x) as.data.frame(x) %>%
+  #                                      select (-type))
   
   return(telegram)
 }

@@ -24,6 +24,7 @@ source("cod/r/scrapT.R")
 
 ```{r}
 gen <- scrapW("gen")
+telegram <- scrapT("herraI")
 ```
 
 # Funciones extra
@@ -143,6 +144,9 @@ data = pd.concat([raw, mensajes_traducidos.drop("mensaje", axis = 1)], axis = 1)
 # fin de la función
 ```
 
+```{python}
+r.telegram["mensaje"].apply(lambda x: "voice_message" in x) 
+```
 
 
 

@@ -17,16 +17,16 @@
 [31/3/24, 3:48:53 p. m.] Luis Fer Amey: sip eso si
 [31/3/24, 3:50:38 p. m.] Javier Hernández: Yo estoy dispuesto a cualquier tema realmente, pero estaba buscando sobre la fórmula 1 jaja
 ‎[31/3/24, 3:50:41 p. m.] Javier Hernández: ‎imagen omitida
-[31/3/24, 3:51:54 p. m.] Luis Fer Amey: Esta interesante
+[31/3/24, 3:51:55 p. m.] Luis Fer Amey: Esta interesante
 [31/3/24, 3:52:21 p. m.] Luis Fer Amey: Aunque hay que ponerle límites porque ya nos veo aprendiendo estadística también
 [31/3/24, 3:52:42 p. m.] Javier Hernández: Eso si, hay que ver hasta donde podemos solo asumir
 [31/3/24, 3:52:43 p. m.] Anthony: Voy a agregar lo mio
 [31/3/24, 3:52:58 p. m.] Anthony: Recuerden que tiene que ser 1 página
-[31/3/24, 3:53:06 p. m.] Luis Fer Amey: Sisi
-[31/3/24, 3:53:10 p. m.] Luis Fer Amey: Esta bien
+[31/3/24, 3:53:07 p. m.] Luis Fer Amey: Sisi
+[31/3/24, 3:53:11 p. m.] Luis Fer Amey: Esta bien
 [31/3/24, 3:53:16 p. m.] Javier Hernández: Machine learning from formula 1
 [31/3/24, 3:53:58 p. m.] Javier Hernández: Pero es que una página es ya la que se entrega, pero como de momento vamos a dar una idea cada uno, de fijo será más
-[31/3/24, 3:54:31 p. m.] Luis Fer Amey: Sisi
+[31/3/24, 3:54:32 p. m.] Luis Fer Amey: Sisi
 [31/3/24, 3:58:48 p. m.] Luis Fer Amey: es que no se me ocurre nada porque como pienso que es un curso de análisis pues solo analice una base de datos y ya :/
 [31/3/24, 3:59:11 p. m.] Luis Fer Amey: tal vez modelos o programar algo pero no sé, debe de ser algo más específico
 [31/3/24, 3:59:30 p. m.] Luis Fer Amey: y el profe solo dijo hagan lo que quieran 😕
@@ -110,7 +110,7 @@ cual tomamos? ‎<Se editó este mensaje.>
 [2/4/24, 10:27:42 a. m.] Javier Hernández: Jajaja
 [2/4/24, 10:27:45 a. m.] Luis Fer Amey: jajajaj
 [2/4/24, 10:27:57 a. m.] Luis Fer Amey: la pc brrrr
-‎[2/4/24, 10:28:13 a. m.] Luis Fer Amey: ‎sticker omitido
+‎[2/4/24, 10:28:14 a. m.] Luis Fer Amey: ‎sticker omitido
 ‎[2/4/24, 10:28:35 a. m.] Anthony: ‎sticker omitido
 [2/4/24, 10:36:55 a. m.] Anthony: Ahora que lo pienso, si usamos eso, podriamos usar R para limpiar las bases de datos, pegarlas y ya pasarlas a Python
 [2/4/24, 10:37:06 a. m.] Anthony: Que esa conexion R-Python es otra cosa que Potoy va a querer
@@ -130,7 +130,7 @@ cual tomamos? ‎<Se editó este mensaje.>
 [3/4/24, 7:54:36 p. m.] Javier Hernández: Pegamos 100 en la bitácora ‎<Se editó este mensaje.>
 ‎[3/4/24, 7:54:51 p. m.] Javier Hernández: ‎sticker omitido
 ‎[3/4/24, 7:55:14 p. m.] Anthony: ‎sticker omitido
-‎[3/4/24, 8:55:45 p. m.] Luis Fer Amey: ‎sticker omitido
+‎[3/4/24, 8:55:46 p. m.] Luis Fer Amey: ‎sticker omitido
 [1/5/24, 12:59:12 p. m.] Luis Fer Amey: ahorita me pongo con la vara
 [1/5/24, 2:56:55 p. m.] Anthony: Io también
 [1/5/24, 3:11:50 p. m.] Javier Hernández: Voy en esas
@@ -175,19 +175,19 @@ cual tomamos? ‎<Se editó este mensaje.>
 [1/5/24, 4:31:27 p. m.] Luis Fer Amey: ta fino
 [1/5/24, 4:37:45 p. m.] Luis Fer Amey: y tmb si me podrían explicar la idea más a profundidad porque a mi no me la dijo explícitamente, es que siento que no puedo escribir nada
 ‎[1/5/24, 4:39:35 p. m.] Javier Hernández: ‎audio omitido
-[1/5/24, 4:50:24 p. m.] Luis Fer Amey: Sentimientos es como muy profundo no se
+[1/5/24, 4:50:25 p. m.] Luis Fer Amey: Sentimientos es como muy profundo no se
 [1/5/24, 5:08:15 p. m.] Anthony: Ese fue un ejemplo de el
 [1/5/24, 5:08:36 p. m.] Anthony: Pero podemos hacerlo con algo más puntual
 [1/5/24, 5:08:44 p. m.] Anthony: Eso de sentimientos está raro
 [1/5/24, 5:08:45 p. m.] Luis Fer Amey: Uf
-[1/5/24, 5:08:48 p. m.] Luis Fer Amey: Exacto
+[1/5/24, 5:08:49 p. m.] Luis Fer Amey: Exacto
 [1/5/24, 5:08:55 p. m.] Javier Hernández: Si exacto
 [1/5/24, 5:09:00 p. m.] Javier Hernández: Yo solo repetí lo del profe ‎<Se editó este mensaje.>
-[1/5/24, 5:09:11 p. m.] Luis Fer Amey: 🫠
+[1/5/24, 5:09:12 p. m.] Luis Fer Amey: 🫠
 ‎[1/5/24, 5:09:18 p. m.] Anthony: ‎sticker omitido
 [1/5/24, 5:09:24 p. m.] Luis Fer Amey: Análisis de texto y vámonos
 [1/5/24, 5:09:31 p. m.] Luis Fer Amey: Si sobra tiempo si pero ajá
-[1/5/24, 5:09:44 p. m.] Luis Fer Amey: Ya igual vamos a hacer una sorpresa encima de una sorpresa jajaj
+[1/5/24, 5:09:45 p. m.] Luis Fer Amey: Ya igual vamos a hacer una sorpresa encima de una sorpresa jajaj
 [1/5/24, 5:09:57 p. m.] Luis Fer Amey: Es que igual whats y telegram son diferentes
 [1/5/24, 5:47:14 p. m.] Javier Hernández: https://youtu.be/i3oZDlbmGjI?si=Rmrf9MV9JA7Mrh53
 [1/5/24, 5:47:21 p. m.] Javier Hernández: No está tan difícil
@@ -212,20 +212,20 @@ cual tomamos? ‎<Se editó este mensaje.>
 [1/5/24, 10:58:21 p. m.] Javier Hernández: Ok
 [1/5/24, 10:58:31 p. m.] Javier Hernández: Yo no lo logré :(
 [1/5/24, 10:58:37 p. m.] Javier Hernández: Al parecer quitaron la opción
-[1/5/24, 10:58:41 p. m.] Luis Fer Amey: Es por telegram desktop
-[1/5/24, 10:58:45 p. m.] Luis Fer Amey: Yo lo tengo
+[1/5/24, 10:58:42 p. m.] Luis Fer Amey: Es por telegram desktop
+[1/5/24, 10:58:46 p. m.] Luis Fer Amey: Yo lo tengo
 [1/5/24, 10:58:52 p. m.] Javier Hernández: No me sale
-[1/5/24, 10:58:53 p. m.] Luis Fer Amey: Ya investigué eso
+[1/5/24, 10:58:54 p. m.] Luis Fer Amey: Ya investigué eso
 [1/5/24, 10:58:57 p. m.] Luis Fer Amey: Jajaj
-[1/5/24, 10:58:58 p. m.] Luis Fer Amey: Mac
+[1/5/24, 10:58:59 p. m.] Luis Fer Amey: Mac
 [1/5/24, 10:58:59 p. m.] Javier Hernández: Pero bueno, todo bien
-[1/5/24, 10:59:00 p. m.] Luis Fer Amey: Bromita
+[1/5/24, 10:59:01 p. m.] Luis Fer Amey: Bromita
 [1/5/24, 10:59:03 p. m.] Javier Hernández: Jajaja
-[1/5/24, 10:59:09 p. m.] Luis Fer Amey: Igual mientras yo lo tenga todo ben
+[1/5/24, 10:59:10 p. m.] Luis Fer Amey: Igual mientras yo lo tenga todo ben
 [1/5/24, 10:59:12 p. m.] Javier Hernández: Eso pensé al inicio, luego vi que la quitaron
-[1/5/24, 10:59:25 p. m.] Luis Fer Amey: F
+[1/5/24, 10:59:26 p. m.] Luis Fer Amey: F
 [1/5/24, 10:59:33 p. m.] Javier Hernández: .json entonces?
-[1/5/24, 11:07:13 p. m.] Luis Fer Amey: Exacto
+[1/5/24, 11:07:14 p. m.] Luis Fer Amey: Exacto
 [1/5/24, 11:55:47 p. m.] Javier Hernández: Bueno, la voy a dejar así de momento, si quieren mañana la vemos y decidimos si le agregamos o cambiamos algo
 [1/5/24, 11:56:03 p. m.] Javier Hernández: Buenas noches 🫡
 [2/5/24, 8:02:42 a. m.] Javier Hernández: Hey, qué pasa? 
@@ -233,13 +233,13 @@ Los siento apagados 😓
 [2/5/24, 8:02:48 a. m.] Javier Hernández: No les gusta el tema?
 [2/5/24, 8:03:15 a. m.] Luis Fer Amey: Yo en general ayer no hice casi mucho jajaj
 [2/5/24, 8:03:36 a. m.] Luis Fer Amey: Si vi lo que hizo pero no se ando con pereza
-[2/5/24, 8:03:51 a. m.] Luis Fer Amey: A mi me gusta solo que motivación plop
+[2/5/24, 8:03:52 a. m.] Luis Fer Amey: A mi me gusta solo que motivación plop
 ‎[2/5/24, 8:04:18 a. m.] Javier Hernández: ‎sticker omitido
 [2/5/24, 8:05:54 a. m.] Anthony: Yo es que el sábado hay examen de 151
 [2/5/24, 8:05:54 a. m.] Anthony: Entonces me tiene hasta la mrd
 [2/5/24, 8:05:55 a. m.] Anthony: Pero ahorita reviso
 ‎[2/5/24, 8:05:55 a. m.] Anthony: ‎sticker omitido
-[2/5/24, 8:06:39 a. m.] Luis Fer Amey: JAJAJAJAJ
+[2/5/24, 8:06:40 a. m.] Luis Fer Amey: JAJAJAJAJ
 [2/5/24, 4:48:08 p. m.] Luis Fer Amey: voy a hacer mi aporte
 [2/5/24, 4:48:14 p. m.] Luis Fer Amey: porque tengo otras cosas que hacer
 [2/5/24, 4:54:13 p. m.] Luis Fer Amey: Buenísimo, bitácora para mañana y no está el coso en mediación para entregar
@@ -295,7 +295,7 @@ Los siento apagados 😓
 [5/5/24, 3:05:13 p. m.] Javier Hernández: En caso de que hayan graficado los resultados del agrupado, el gráfico les sale dividido por la agrupación? ‎<Se editó este mensaje.>
 [5/5/24, 3:05:38 p. m.] Luis Fer Amey: No
 [5/5/24, 3:05:50 p. m.] Javier Hernández: Ah ok
-[5/5/24, 3:06:10 p. m.] Luis Fer Amey: Terminaría con muchas agrupaciones si lo toma en cuenta que pueden ser muchas columnas cualitativas
+[5/5/24, 3:06:11 p. m.] Luis Fer Amey: Terminaría con muchas agrupaciones si lo toma en cuenta que pueden ser muchas columnas cualitativas
 [5/5/24, 3:06:27 p. m.] Javier Hernández: Entonces solo se divide, calcula el estadístico, imputa y ya
 [5/5/24, 3:06:32 p. m.] Javier Hernández: Gracias mae
 [5/5/24, 3:10:59 p. m.] Luis Fer Amey: exacto
@@ -318,7 +318,7 @@ Los siento apagados 😓
 [5/5/24, 3:12:11 p. m.] Luis Fer Amey: no
 ‎[5/5/24, 3:27:54 p. m.] Anthony: ‎sticker omitido
 ‎[13/5/24, 8:29:29 a. m.] Javier Hernández: ‎imagen omitida
-[13/5/24, 9:13:39 a. m.] Luis Fer Amey: 😂😂
+[13/5/24, 9:13:40 a. m.] Luis Fer Amey: 😂😂
 [15/5/24, 12:08:37 p. m.] Luis Fer Amey: https://github.com/bluke7ide/Proyecto-Herramientas
 [15/5/24, 12:08:43 p. m.] Luis Fer Amey: vuelto escopeta ando
 [15/5/24, 12:08:48 p. m.] Luis Fer Amey: voy a carrear dice
@@ -328,12 +328,12 @@ Los siento apagados 😓
 [15/5/24, 12:11:06 p. m.] Javier Hernández: Calidad
 [15/5/24, 12:11:28 p. m.] Luis Fer Amey: Jajajaj
 [15/5/24, 12:11:32 p. m.] Javier Hernández: Yo hoy les quedo mal con eso porque estoy full estadística pero ya después de hoy si 💪🏽
-[15/5/24, 12:11:38 p. m.] Luis Fer Amey: A los de conti también los patee así
+[15/5/24, 12:11:39 p. m.] Luis Fer Amey: A los de conti también los patee así
 [15/5/24, 12:11:43 p. m.] Luis Fer Amey: Todo bien bro
 ‎[15/5/24, 12:11:51 p. m.] Javier Hernández: ‎sticker omitido
-[15/5/24, 12:11:52 p. m.] Luis Fer Amey: Es que yo estoy pateando estadística
-[15/5/24, 12:12:00 p. m.] Luis Fer Amey: Pregúntele a Tony
-[15/5/24, 12:12:21 p. m.] Luis Fer Amey: Ya hice los primeros 7 puntos de conti (los que la profe dijo que podíamos hacer) jajaj
+[15/5/24, 12:11:53 p. m.] Luis Fer Amey: Es que yo estoy pateando estadística
+[15/5/24, 12:12:01 p. m.] Luis Fer Amey: Pregúntele a Tony
+[15/5/24, 12:12:22 p. m.] Luis Fer Amey: Ya hice los primeros 7 puntos de conti (los que la profe dijo que podíamos hacer) jajaj
 ‎[15/5/24, 12:16:28 p. m.] Luis Fer Amey: WhatsApp Chat - Proyecto herramientas II.zip ‎documento omitido
 ‎[15/5/24, 1:00:29 p. m.] Luis Fer Amey: ‎imagen omitida
 [15/5/24, 1:01:25 p. m.] Anthony: OJO
@@ -391,7 +391,7 @@ Los siento apagados 😓
 [15/5/24, 5:53:52 p. m.] Anthony: Okok
 ‎[15/5/24, 7:18:03 p. m.] Luis Fer Amey: ‎imagen omitida
 [15/5/24, 7:18:09 p. m.] Luis Fer Amey: ggs
-[15/5/24, 7:18:19 p. m.] Luis Fer Amey: Hora de apuntarlo en el forro (la fórmula de arriba)
+[15/5/24, 7:18:20 p. m.] Luis Fer Amey: Hora de apuntarlo en el forro (la fórmula de arriba)
 [15/5/24, 7:18:48 p. m.] Javier Hernández: Cometí el mismo error que usted jajaja
 [15/5/24, 7:19:00 p. m.] Javier Hernández: Yo iba de - infinito hasta a
 [15/5/24, 7:19:08 p. m.] Javier Hernández: Y era de x hasta a
@@ -410,13 +410,13 @@ Los siento apagados 😓
 [15/5/24, 7:20:14 p. m.] Luis Fer Amey: a ud
 [15/5/24, 7:20:17 p. m.] Luis Fer Amey: eh
 [15/5/24, 7:20:24 p. m.] Javier Hernández: Ojalá
-[18/5/24, 5:03:42 p. m.] Luis Fer Amey: Ahí hice un commit, separé las horas
-[18/5/24, 5:03:49 p. m.] Luis Fer Amey: Después puedo separar el usuario
+[18/5/24, 5:03:43 p. m.] Luis Fer Amey: Ahí hice un commit, separé las horas
+[18/5/24, 5:03:50 p. m.] Luis Fer Amey: Después puedo separar el usuario
 [19/5/24, 12:02:53 p. m.] Anthony: Gobenes
 [19/5/24, 12:03:10 p. m.] Anthony: Hay algun doc con instrucciones?
 [19/5/24, 12:03:19 p. m.] Anthony: O el profe puso algo en la pizarra?
-[19/5/24, 12:19:56 p. m.] Luis Fer Amey: Nop
-[19/5/24, 12:20:03 p. m.] Luis Fer Amey: El profe solo dijo codeen jajaj
+[19/5/24, 12:19:57 p. m.] Luis Fer Amey: Nop
+[19/5/24, 12:20:04 p. m.] Luis Fer Amey: El profe solo dijo codeen jajaj
 [19/5/24, 12:20:08 p. m.] Luis Fer Amey: Yo lo hago si quiere ahí
 [19/5/24, 12:20:10 p. m.] Luis Fer Amey: Tengo ideas
 [19/5/24, 12:20:17 p. m.] Anthony: Wat
@@ -427,7 +427,7 @@ Los siento apagados 😓
 [19/5/24, 12:21:00 p. m.] Anthony: O algo asi
 ‎[19/5/24, 12:21:15 p. m.] Anthony: ‎sticker omitido
 [19/5/24, 12:21:48 p. m.] Anthony: Voy a avanzar Estadistica por mientras tons
-[19/5/24, 12:50:39 p. m.] Luis Fer Amey: Tal vez
+[19/5/24, 12:50:40 p. m.] Luis Fer Amey: Tal vez
 [19/5/24, 1:04:45 p. m.] Javier Hernández: Literalmente dijo eso, y después dijo: 
 “Si logran hacer todo el proyecto lo pueden subir” 🥸
 ‎[19/5/24, 4:10:23 p. m.] Luis Fer Amey: ‎imagen omitida
@@ -454,7 +454,7 @@ Los siento apagados 😓
 ‎[19/5/24, 4:29:53 p. m.] Luis Fer Amey: ‎imagen omitida
 [19/5/24, 4:31:41 p. m.] Luis Fer Amey: aqui vamos a sacar bastante carnita
 [19/5/24, 4:37:26 p. m.] Anthony: Ese fue el día de las torres gemelas
-[19/5/24, 4:39:04 p. m.] Luis Fer Amey: Ese fue el día de las crisis
+[19/5/24, 4:39:05 p. m.] Luis Fer Amey: Ese fue el día de las crisis
 [19/5/24, 4:45:28 p. m.] Luis Fer Amey: se me acaba de ocurrir
 [19/5/24, 4:45:38 p. m.] Luis Fer Amey: que uno podría hacer lo mismo con el historial
 ‎[19/5/24, 5:18:07 p. m.] Luis Fer Amey: ‎imagen omitida
@@ -487,3 +487,585 @@ Los siento apagados 😓
 [19/5/24, 7:06:49 p. m.] Luis Fer Amey: y demasiado sospechoso ponerle un monton de \u \u \u \u
 [19/5/24, 7:06:50 p. m.] Luis Fer Amey: jajajaj
 ‎[19/5/24, 7:07:04 p. m.] Anthony: ‎sticker omitido
+[19/5/24, 7:21:17 p. m.] Luis Fer Amey: creo que emojis lo dejaremos al final, esta muy complicado
+[19/5/24, 8:42:37 p. m.] Luis Fer Amey: me metí con telegram
+[19/5/24, 8:42:50 p. m.] Anthony: Ora si
+‎[19/5/24, 8:50:47 p. m.] Luis Fer Amey: ‎imagen omitida
+[19/5/24, 8:51:20 p. m.] Luis Fer Amey: mae es que python sería muy tieso para manejar data así, entonces no sé si seguir
+[19/5/24, 8:51:20 p. m.] Anthony: Ojo
+[19/5/24, 8:51:27 p. m.] Luis Fer Amey: o sea
+[19/5/24, 8:51:51 p. m.] Luis Fer Amey: la cosa es programar como tal vdd? no tenemos que hacerlo específicamente en algun lenguaje vdd?
+[19/5/24, 8:52:19 p. m.] Anthony: El nada más dijo programen
+[19/5/24, 8:58:09 p. m.] Luis Fer Amey: pra pra
+[20/5/24, 9:28:41 p. m.] Javier Hernández: Poco se habla que soy el segundo spammer
+[20/5/24, 9:30:36 p. m.] Javier Hernández: Luis, pásame el link de git porfa
+[20/5/24, 9:30:52 p. m.] Javier Hernández: Para darle a ambos anteproyectos
+[20/5/24, 9:38:09 p. m.] Luis Fer Amey: ahi esta campeon
+[20/5/24, 9:38:09 p. m.] Luis Fer Amey: yo lo deje con telegram ahí porque se pueden pasar cosas que ya hice de whats, como ahí pase algunas
+[20/5/24, 9:38:09 p. m.] Luis Fer Amey: o sea en términos superficiales ya whats está pero quisiera pasar lo que se pueda a telegram para pensar ahí
+[20/5/24, 9:38:08 p. m.] Javier Hernández: Yo me encargo mañana de convencer a potoy que nos deje hacerlo en R
+[20/5/24, 9:38:14 p. m.] Javier Hernández: Yo la doy todo por el equipo
+[20/5/24, 9:38:19 p. m.] Javier Hernández: 🥵
+[20/5/24, 9:39:40 p. m.] Luis Fer Amey: uf noooo 🥺
+[20/5/24, 9:40:01 p. m.] Javier Hernández: Es que los links no me dejan pullear
+[20/5/24, 9:40:58 p. m.] Luis Fer Amey: va
+[20/5/24, 9:41:02 p. m.] Luis Fer Amey: ya entendi
+[20/5/24, 9:41:06 p. m.] Luis Fer Amey: dejeme aceptar el request
+[20/5/24, 9:42:19 p. m.] Luis Fer Amey: haga un pull request
+[20/5/24, 9:42:28 p. m.] Javier Hernández: Voy
+‎[20/5/24, 9:42:56 p. m.] Luis Fer Amey: ‎imagen omitida
+[20/5/24, 9:43:23 p. m.] Javier Hernández: Listo, ahora si
+[20/5/24, 9:45:17 p. m.] Luis Fer Amey: mmm rico
+[20/5/24, 9:45:25 p. m.] Luis Fer Amey: si quiere puedo abrir disc
+[20/5/24, 9:56:53 p. m.] Javier Hernández: Ya estoy en todas
+[20/5/24, 9:56:57 p. m.] Javier Hernández: Como guste
+‎[20/5/24, 9:58:02 p. m.] Javier Hernández: ‎audio omitido
+[20/5/24, 10:04:22 p. m.] Luis Fer Amey: deme un toque
+[20/5/24, 10:04:25 p. m.] Luis Fer Amey: ya fue pero aja
+[20/5/24, 10:04:47 p. m.] Javier Hernández: Ya sé lo que podemos hacer
+‎[20/5/24, 10:05:26 p. m.] Javier Hernández: ‎audio omitido
+[20/5/24, 10:31:25 p. m.] Luis Fer Amey: mae javi ya voy vaya añadiendo
+[20/5/24, 10:31:30 p. m.] Luis Fer Amey: problemitas por aca
+[20/5/24, 10:31:35 p. m.] Luis Fer Amey: bluke7ide#3471
+[20/5/24, 10:32:06 p. m.] Javier Hernández: Tranquilo
+[20/5/24, 10:32:18 p. m.] Javier Hernández: Igual estoy estudiando estocásticos en este momento
+[20/5/24, 10:34:48 p. m.] Luis Fer Amey: AJSJDJA
+[20/5/24, 10:35:02 p. m.] Luis Fer Amey: no hizo un commit?
+[20/5/24, 10:35:07 p. m.] Javier Hernández: Si
+[20/5/24, 10:35:12 p. m.] Javier Hernández: Pero uno equis
+[20/5/24, 10:35:13 p. m.] Javier Hernández: Jajaja
+[20/5/24, 10:35:18 p. m.] Javier Hernández: Lo siento 😂
+‎[20/5/24, 10:35:43 p. m.] Javier Hernández: ‎audio omitido
+[20/5/24, 10:36:01 p. m.] Luis Fer Amey: fino
+[20/5/24, 10:36:31 p. m.] Javier Hernández: Por si acaso, siento que el profe nos va a salir medio místico mañana…
+[20/5/24, 10:36:43 p. m.] Javier Hernández: Él dijo que *una* es proceso de poisson
+[20/5/24, 10:36:47 p. m.] Javier Hernández: Pero la otra no dijo nada
+[20/5/24, 10:37:14 p. m.] Luis Fer Amey: porque todos andan así? huhhhhhhh
+[20/5/24, 10:37:27 p. m.] Luis Fer Amey: el profe dijo que específicamente el quiz era de procesos de poisson
+[20/5/24, 10:38:16 p. m.] Javier Hernández: Por si las moscas repasemos todo hasta movimiento browniano
+[20/5/24, 10:38:27 p. m.] Luis Fer Amey: yo escuché o no sé, eso me parece. Al menos siento que puede hacer una de martingalas y otra de integrales y propiedades
+[20/5/24, 10:38:30 p. m.] Luis Fer Amey: entonces ajá
+[20/5/24, 10:38:45 p. m.] Luis Fer Amey: Nt era martingala o me equivoco?
+[20/5/24, 10:38:55 p. m.] Javier Hernández: Exacto, esa de martingalas será la sorpresa
+[20/5/24, 10:39:03 p. m.] Luis Fer Amey: di pues kok
+[20/5/24, 10:39:08 p. m.] Javier Hernández: Nt tal cual no
+[20/5/24, 10:39:08 p. m.] Luis Fer Amey: el dijo que era puro poisson
+[20/5/24, 10:39:19 p. m.] Anthony: Por si acaso también lo del examen pasado
+[20/5/24, 10:39:20 p. m.] Luis Fer Amey: pero añadale ahi
+[20/5/24, 10:39:22 p. m.] Anthony: Uno nunca sabe
+[20/5/24, 10:39:25 p. m.] Luis Fer Amey: diay si
+[20/5/24, 10:39:27 p. m.] Luis Fer Amey: jodase
+[20/5/24, 10:39:33 p. m.] Luis Fer Amey: si quiere nos volvemos a algebra
+[20/5/24, 10:39:44 p. m.] Javier Hernández: Por si acaso también lo de preca
+[20/5/24, 10:39:46 p. m.] Javier Hernández: Digo, por si acaso
+[20/5/24, 10:40:00 p. m.] Javier Hernández: Uno nunca sabe una inspección miedo
+[20/5/24, 10:40:09 p. m.] Anthony: Cuidado nos mete una ecuación diferencial
+[20/5/24, 10:40:10 p. m.] Luis Fer Amey: digo por si acaso la formula general
+[20/5/24, 10:40:18 p. m.] Luis Fer Amey: JAJJAJAJA
+[20/5/24, 10:40:20 p. m.] Javier Hernández: Yo estoy repasando estudios sociales
+[20/5/24, 10:40:25 p. m.] Javier Hernández: Por si acaso
+[20/5/24, 10:42:04 p. m.] Luis Fer Amey: maes fuc
+[20/5/24, 10:42:09 p. m.] Luis Fer Amey: mañana estudio
+[20/5/24, 10:42:14 p. m.] Luis Fer Amey: eh si estudio
+[20/5/24, 10:42:21 p. m.] Luis Fer Amey: será hoy mejor definiciones y ya
+[20/5/24, 10:42:34 p. m.] Javier Hernández: Haga eso si
+[20/5/24, 10:42:36 p. m.] Luis Fer Amey: ya que JAVI no quiere hacer el proyecto
+[20/5/24, 10:42:43 p. m.] Luis Fer Amey: ya me enoje
+[20/5/24, 10:43:14 p. m.] Luis Fer Amey: y recuerde soy uno de los pocos que le dice que me enojo 😠
+[20/5/24, 10:43:23 p. m.] Luis Fer Amey: es bromita
+‎[20/5/24, 10:43:25 p. m.] Javier Hernández: ‎sticker omitido
+[20/5/24, 10:43:28 p. m.] Javier Hernández: Jajaja
+[20/5/24, 10:43:31 p. m.] Javier Hernández: Lo ahuevo?
+[20/5/24, 10:43:45 p. m.] Luis Fer Amey: nono es broma
+‎[20/5/24, 10:44:41 p. m.] Javier Hernández: ‎imagen omitida
+‎[20/5/24, 10:44:57 p. m.] Javier Hernández: ‎imagen omitida
+[20/5/24, 10:45:54 p. m.] Luis Fer Amey: ??????????? JAJAJJA
+[20/5/24, 10:46:01 p. m.] Luis Fer Amey: a mi si me sirve
+[20/5/24, 10:46:05 p. m.] Luis Fer Amey: no me tira el warning
+[20/5/24, 10:46:10 p. m.] Luis Fer Amey: pero puede ser problema de ruta
+[20/5/24, 10:46:15 p. m.] Luis Fer Amey: ay R con sus mamaditas
+‎[20/5/24, 10:46:21 p. m.] Javier Hernández: ‎sticker omitido
+‎[20/5/24, 10:46:44 p. m.] Javier Hernández: ‎audio omitido
+[20/5/24, 10:47:39 p. m.] Luis Fer Amey: a mi me parece pero creo que podemos desarrollar todo con R, igual sería mejor meterle peso con python si las librerías son de ahí
+‎[20/5/24, 10:48:37 p. m.] Javier Hernández: ‎audio omitido
+[20/5/24, 10:49:23 p. m.] Luis Fer Amey: sisi perfecto, ta fino
+[20/5/24, 10:49:33 p. m.] Luis Fer Amey: siempre dando un poco más 🥵
+[20/5/24, 10:49:34 p. m.] Javier Hernández: 🫡
+‎[20/5/24, 10:49:52 p. m.] Javier Hernández: ‎sticker omitido
+[20/5/24, 10:57:29 p. m.] Luis Fer Amey: ya repasé
+[20/5/24, 10:57:47 p. m.] Luis Fer Amey: mandeme la ruta para ver
+[20/5/24, 10:58:03 p. m.] Javier Hernández: Queeeee
+[20/5/24, 10:58:15 p. m.] Luis Fer Amey: jajaja son los conceptos q son importantes
+[20/5/24, 10:58:19 p. m.] Luis Fer Amey: de ahi todo a la mierda
+[20/5/24, 10:58:24 p. m.] Javier Hernández: Jajaja
+[20/5/24, 10:58:30 p. m.] Luis Fer Amey: recuerde el bichito de mediación verdad?
+[20/5/24, 10:58:34 p. m.] Luis Fer Amey: 😂😂😂😂😂😂😂😂😂
+[20/5/24, 10:59:01 p. m.] Luis Fer Amey: mae javi le puedo borrar su commit?
+[20/5/24, 10:59:18 p. m.] Luis Fer Amey: o sea ud me dijo que no era nada de codigo
+[20/5/24, 10:59:25 p. m.] Javier Hernández: JAJAJAJA
+[20/5/24, 10:59:30 p. m.] Javier Hernández: Da vergüenza verdad?
+[20/5/24, 10:59:31 p. m.] Javier Hernández: Bórrelo si
+[20/5/24, 10:59:41 p. m.] Luis Fer Amey: mae javi solo pregunto 😞
+[20/5/24, 11:00:12 p. m.] Javier Hernández: Bórrelo bórrelo, realmente solo quería hacer la prueba si podía pullear
+[20/5/24, 11:00:17 p. m.] Javier Hernández: Y pedía commit
+[20/5/24, 11:02:22 p. m.] Luis Fer Amey: kok
+[20/5/24, 11:02:28 p. m.] Luis Fer Amey: si puede
+[20/5/24, 11:04:52 p. m.] Luis Fer Amey: ah pero javi, si abrió el Rproj?
+[20/5/24, 11:05:20 p. m.] Javier Hernández: Si, abrí el Rproject y luego el rmd
+[20/5/24, 11:05:25 p. m.] Javier Hernández: Ya se lo mando, deme un toque
+[20/5/24, 11:05:30 p. m.] Luis Fer Amey: wtf
+[20/5/24, 11:07:05 p. m.] Luis Fer Amey: recuerde q en mac las rutas funcionan de diferente manera tmb no?
+[20/5/24, 11:07:28 p. m.] Javier Hernández: Es que el .txt está dentro del proyecto
+[20/5/24, 11:07:30 p. m.] Javier Hernández: Esa ruta es igual
+[20/5/24, 11:07:42 p. m.] Luis Fer Amey: por eso puse ahí setwd("..") para retroceder de la carpeta cod
+[20/5/24, 11:07:49 p. m.] Luis Fer Amey: no necesariamente
+[20/5/24, 11:08:04 p. m.] Javier Hernández: Mmmm
+[20/5/24, 11:08:10 p. m.] Javier Hernández: No entendí esa línea
+[20/5/24, 11:08:14 p. m.] Javier Hernández: Ya entendí
+[20/5/24, 11:10:20 p. m.] Luis Fer Amey: a
+‎[20/5/24, 11:11:46 p. m.] Javier Hernández: ‎audio omitido
+[20/5/24, 11:12:00 p. m.] Luis Fer Amey: provecho man
+[20/5/24, 11:12:11 p. m.] Luis Fer Amey: verga ya he cerrado disc 2 veces pero si
+[20/5/24, 11:12:13 p. m.] Luis Fer Amey: un rato
+[20/5/24, 11:12:17 p. m.] Luis Fer Amey: antes de dormirme jaja
+[20/5/24, 11:14:32 p. m.] Luis Fer Amey: mande soli
+[20/5/24, 11:14:39 p. m.] Luis Fer Amey: bluke7ide#3471
+‎[21/5/24, 12:00:11 a. m.] Luis Fer Amey: gen2.txt ‎documento omitido
+‎[21/5/24, 12:17:38 a. m.] Javier Hernández: WhatsApp Chat - Proyecto herramientas II.zip ‎documento omitido
+[21/5/24, 11:53:42 a. m.] Javier Hernández: Alguno de casualidad tiene el ejercicio 3.5?
+‎[21/5/24, 11:53:49 a. m.] Javier Hernández: ‎sticker omitido
+[21/5/24, 11:54:06 a. m.] Luis Fer Amey: Lo que hice fue traducirle a mac
+[21/5/24, 11:54:13 a. m.] Luis Fer Amey: Así que me está pidiendo mucho jajaja
+[21/5/24, 11:54:30 a. m.] Javier Hernández: Yo le dije que eso lo hacíamos hoy!!
+[21/5/24, 11:54:34 a. m.] Luis Fer Amey: El primero es con la característica y la segunda di jajaj
+[21/5/24, 11:54:37 a. m.] Luis Fer Amey: 🫣
+[21/5/24, 11:54:37 a. m.] Javier Hernández: Pero bueno, gracias igualmente
+[21/5/24, 11:54:46 a. m.] Luis Fer Amey: bueno 😞
+[21/5/24, 11:55:03 a. m.] Luis Fer Amey: Bueno ya es hoy 😂😂
+[21/5/24, 11:55:45 a. m.] Javier Hernández: Jajaja
+[21/5/24, 11:55:55 a. m.] Javier Hernández: Buen punto
+‎[21/5/24, 6:33:34 p. m.] Anthony: WhatsApp Chat with Luis Fer Amey.zip ‎documento omitido
+‎[21/5/24, 7:01:27 p. m.] Luis Fer Amey: WhatsApp Chat - Anthony.zip ‎documento omitido
+[21/5/24, 7:02:03 p. m.] Anthony: Ese soy yo
+[21/5/24, 9:18:32 p. m.] Javier Hernández: Jajaja
+[21/5/24, 9:18:39 p. m.] Javier Hernández: Ya puedo ver sus mensajes 🥵
+[21/5/24, 9:23:18 p. m.] Luis Fer Amey: Jajajaj que le haga expose también?
+‎[21/5/24, 9:23:43 p. m.] Luis Fer Amey: WhatsApp Chat - Javier Hernández.zip ‎documento omitido
+[21/5/24, 9:23:45 p. m.] Javier Hernández: Voy a hacer una función de calentura 😏
+[21/5/24, 9:23:48 p. m.] Javier Hernández: Uy
+[21/5/24, 9:23:49 p. m.] Javier Hernández: Uy
+[21/5/24, 9:23:50 p. m.] Javier Hernández: Suave
+[21/5/24, 9:23:56 p. m.] Luis Fer Amey: JAJJAJAJAJAJAJAJ
+[21/5/24, 9:23:58 p. m.] Javier Hernández: Los nudes
+[21/5/24, 9:23:58 p. m.] Javier Hernández: Digo
+[21/5/24, 9:24:02 p. m.] Luis Fer Amey: Yo voy a Mimis
+[21/5/24, 9:24:04 p. m.] Javier Hernández: Bueno, nada que Tony no haya visto
+[21/5/24, 9:24:14 p. m.] Luis Fer Amey: Tranqui pa
+‎[21/5/24, 9:24:13 p. m.] Javier Hernández: ‎sticker omitido
+[21/5/24, 9:24:23 p. m.] Luis Fer Amey: Las imágenes no se exportan 😂🫣
+‎[21/5/24, 9:24:38 p. m.] Javier Hernández: ‎sticker omitido
+[21/5/24, 9:24:44 p. m.] Luis Fer Amey: Javi, tony y yo estamos haciendo competencia
+[21/5/24, 9:24:51 p. m.] Luis Fer Amey: Como en el examen de conti
+[21/5/24, 9:24:56 p. m.] Luis Fer Amey: Pero ahora de forma general
+[21/5/24, 9:25:02 p. m.] Luis Fer Amey: Por si nos ve así de focus
+[21/5/24, 9:25:16 p. m.] Luis Fer Amey: Mañana no se salva ese proyecto de herramientas
+[21/5/24, 9:25:19 p. m.] Luis Fer Amey: Ni nada
+[21/5/24, 9:25:24 p. m.] Luis Fer Amey: Pero hoy a Mimis
+[21/5/24, 9:25:28 p. m.] Javier Hernández: JAJAJA
+[21/5/24, 9:25:39 p. m.] Javier Hernández: Que empiecen los juegos del hambre 🔥
+[21/5/24, 9:26:01 p. m.] Luis Fer Amey: Literal
+[21/5/24, 9:26:05 p. m.] Luis Fer Amey: Gn
+[21/5/24, 10:00:01 p. m.] Javier Hernández: Buenas noches mi rey
+‎[22/5/24, 2:16:02 p. m.] Luis Fer Amey: ‎imagen omitida
+[22/5/24, 2:16:41 p. m.] Luis Fer Amey: adivinen
+[22/5/24, 2:16:41 p. m.] Luis Fer Amey: nono es del proyecto de herramientas pero es otra cosa
+[22/5/24, 2:20:53 p. m.] Anthony: B I N G O
+[22/5/24, 2:21:05 p. m.] Luis Fer Amey: nono jajajja
+[22/5/24, 2:21:07 p. m.] Luis Fer Amey: conti
+[22/5/24, 2:21:23 p. m.] Javier Hernández: 😳
+[22/5/24, 2:21:25 p. m.] Luis Fer Amey: vayase, tampoco voy a hacer tantas simulaciones para el bingo
+[22/5/24, 2:21:35 p. m.] Javier Hernández: Que mordido Luis
+[22/5/24, 2:21:38 p. m.] Luis Fer Amey: JAJASJJASJSJSAJ
+[22/5/24, 2:21:47 p. m.] Luis Fer Amey: ya ahi termine toda la parte de codigo
+[22/5/24, 2:21:52 p. m.] Anthony: ª
+[22/5/24, 2:21:56 p. m.] Luis Fer Amey: literalmente solo les queda sacar percentiles y ya
+[22/5/24, 2:22:11 p. m.] Luis Fer Amey: que probablemente ya sé cual es la idea pero no quiero
+[22/5/24, 2:22:29 p. m.] Luis Fer Amey: ahora bien, con el bingo
+[22/5/24, 2:22:38 p. m.] Luis Fer Amey: ZAS sacaba el millon de simulaciones
+[22/5/24, 2:22:46 p. m.] Luis Fer Amey: broma, ando con la tarea de conti
+[22/5/24, 2:23:08 p. m.] Luis Fer Amey: tambien tenemos que hacer lo del proyecto de herra
+[22/5/24, 2:23:13 p. m.] Luis Fer Amey: pero ahorita cuando termine
+[22/5/24, 2:23:46 p. m.] Javier Hernández: De contingencias??
+[22/5/24, 2:23:53 p. m.] Javier Hernández: Estoy sorprendido
+[22/5/24, 2:24:11 p. m.] Javier Hernández: 🤣
+[22/5/24, 2:24:17 p. m.] Javier Hernández: Te odio Luis
+[22/5/24, 2:24:29 p. m.] Luis Fer Amey: si
+[22/5/24, 2:24:42 p. m.] Luis Fer Amey: es un odio amor yo lo sé
+[22/5/24, 2:24:51 p. m.] Javier Hernández: Ahorita es 99,99% odio
+[22/5/24, 2:24:55 p. m.] Luis Fer Amey: si lo hiciera con el proyecto de herra me amaria
+[22/5/24, 2:25:08 p. m.] Luis Fer Amey: Y porqué? 😞
+[22/5/24, 2:26:26 p. m.] Javier Hernández: Porque no estás acá conmigo 🥵
+[22/5/24, 2:26:46 p. m.] Luis Fer Amey: 🫣
+[22/5/24, 3:30:03 p. m.] Javier Hernández: Nos están dando datos para el proyecto jajaja
+[22/5/24, 3:30:58 p. m.] Luis Fer Amey: lit
+[22/5/24, 3:31:07 p. m.] Luis Fer Amey: deje de ver por 20 minutos pumba
+[22/5/24, 3:31:10 p. m.] Luis Fer Amey: 140 mensajes
+‎[22/5/24, 3:34:55 p. m.] Javier Hernández: ‎sticker omitido
+‎[23/5/24, 1:04:29 a. m.] Javier Hernández: ‎se omitió la nota de video
+[23/5/24, 7:19:34 a. m.] Luis Fer Amey: Perf
+[23/5/24, 7:19:48 a. m.] Luis Fer Amey: Se podría acelerar un poco pero ahí veremos
+[23/5/24, 7:20:01 a. m.] Luis Fer Amey: Hoy tengo tcu entonces regreso tipo 7-8 😞
+[23/5/24, 7:41:10 a. m.] Javier Hernández: Tranquilo, yo me encargo de eso
+[23/5/24, 7:41:22 a. m.] Javier Hernández: Lo importante es que tenemos la primera versión
+[23/5/24, 7:42:04 a. m.] Javier Hernández: Ya sirve, se podría enviar así en todo caso. Pero yo lo cambio hoy relax
+[23/5/24, 7:58:58 a. m.] Luis Fer Amey: Okok bueno
+‎[23/5/24, 8:16:34 p. m.] Anthony: ‎imagen omitida
+‎[23/5/24, 8:16:42 p. m.] Anthony: ‎sticker omitido
+[23/5/24, 8:17:26 p. m.] Javier Hernández: Está buenisimoooo
+[23/5/24, 8:17:27 p. m.] Javier Hernández: Jajaja
+[23/5/24, 9:19:08 p. m.] Luis Fer Amey: JAJAJJAJA
+‎[23/5/24, 9:21:04 p. m.] Luis Fer Amey: ‎imagen omitida
+[23/5/24, 9:21:07 p. m.] Luis Fer Amey: ya los percentiles
+‎[23/5/24, 9:21:17 p. m.] Luis Fer Amey: ‎sticker omitido
+[23/5/24, 9:21:24 p. m.] Javier Hernández: wow
+[23/5/24, 9:21:31 p. m.] Luis Fer Amey: Ahora si tiene derecho a odiarme javi
+[23/5/24, 9:21:39 p. m.] Javier Hernández: Jajaja
+[23/5/24, 9:21:50 p. m.] Luis Fer Amey: solo que mañana le damos 5d chess para que se le quite el odio
+‎[23/5/24, 9:23:00 p. m.] Javier Hernández: ‎audio omitido
+[23/5/24, 9:23:47 p. m.] Luis Fer Amey: okok me dice, haga el commit y reviso
+[23/5/24, 9:24:06 p. m.] Luis Fer Amey: estaría fino, tony me contó algo de traductor que tenía pensado usted
+‎[23/5/24, 9:24:43 p. m.] Javier Hernández: ‎audio omitido
+[23/5/24, 9:25:39 p. m.] Luis Fer Amey: ah si si eso tendría más sentido
+[23/5/24, 9:25:42 p. m.] Javier Hernández: El problema con la opción traducida es que estamos limitados a X traducciones
+[23/5/24, 9:26:41 p. m.] Luis Fer Amey: Si, es por eso
+[23/5/24, 9:26:54 p. m.] Luis Fer Amey: si no mete una macro, ahí algo estúpido, de google traductor
+[23/5/24, 9:27:03 p. m.] Luis Fer Amey: le mete web scrapping JAJAJSJASJS
+[23/5/24, 9:28:04 p. m.] Javier Hernández: Hay una librería de googletrans
+[23/5/24, 9:28:07 p. m.] Javier Hernández: Pero no sirve
+‎[23/5/24, 9:46:52 p. m.] Javier Hernández: ‎audio omitido
+[23/5/24, 9:47:44 p. m.] Luis Fer Amey: voy a ver
+‎[23/5/24, 9:48:32 p. m.] Luis Fer Amey: ‎imagen omitida
+[23/5/24, 9:48:49 p. m.] Javier Hernández: Eso es de estadistica bro
+‎[23/5/24, 9:48:51 p. m.] Luis Fer Amey: ‎imagen omitida
+[23/5/24, 9:48:51 p. m.] Javier Hernández: Jajaja
+[23/5/24, 9:48:54 p. m.] Luis Fer Amey: fuc
+[23/5/24, 9:48:59 p. m.] Javier Hernández: Hablada de herramientas
+[23/5/24, 9:49:02 p. m.] Luis Fer Amey: pero pense 😞
+[23/5/24, 9:49:17 p. m.] Luis Fer Amey: me siento engañado
+‎[23/5/24, 9:49:32 p. m.] Luis Fer Amey: ‎imagen omitida
+[23/5/24, 9:49:47 p. m.] Anthony: Eselenteh
+‎[23/5/24, 9:50:02 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[23/5/24, 9:50:06 p. m.] Javier Hernández: ‎audio omitido
+[23/5/24, 9:50:10 p. m.] Javier Hernández: Vago ese
+[23/5/24, 9:50:36 p. m.] Luis Fer Amey: JAJJAJAJAJAJA
+[23/5/24, 9:50:48 p. m.] Luis Fer Amey: a mi si me sale si ud lo sube
+‎[23/5/24, 9:51:01 p. m.] Luis Fer Amey: ‎imagen omitida
+[23/5/24, 9:51:20 p. m.] Javier Hernández: Jajaja
+[23/5/24, 9:51:23 p. m.] Javier Hernández: Pues… si
+[23/5/24, 9:51:39 p. m.] Javier Hernández: Si me sobra tiempo, meto alguito de Marco teórico
+‎[23/5/24, 9:51:46 p. m.] Luis Fer Amey: ‎imagen omitida
+[23/5/24, 9:51:51 p. m.] Luis Fer Amey: okok
+[23/5/24, 9:52:01 p. m.] Javier Hernández: Me presumen en la cara
+[23/5/24, 9:52:02 p. m.] Luis Fer Amey: yo es que sinceramente no sé que quiere potoy
+[23/5/24, 9:52:10 p. m.] Javier Hernández: Esa es otra...
+[23/5/24, 9:52:28 p. m.] Luis Fer Amey: bueno que más quiere javi? no sea goloso
+‎[23/5/24, 9:52:31 p. m.] Javier Hernández: ‎audio omitido
+[23/5/24, 9:52:41 p. m.] Javier Hernández: No me gusta que me dejen a medias
+[23/5/24, 9:52:58 p. m.] Luis Fer Amey: ah sisi, tipo todo meme
+[23/5/24, 9:53:04 p. m.] Luis Fer Amey: es que la de maikol mae jajajaj
+[23/5/24, 9:53:18 p. m.] Luis Fer Amey: pero yo no te he dejado a medias 😞
+[23/5/24, 9:53:23 p. m.] Luis Fer Amey: siempre te hago todito a
+[23/5/24, 9:53:39 p. m.] Javier Hernández: ª
+[23/5/24, 9:53:41 p. m.] Javier Hernández: JAJAJAJ
+[23/5/24, 9:53:49 p. m.] Luis Fer Amey: JAJAJJSAJASJSAJ
+[23/5/24, 9:54:04 p. m.] Luis Fer Amey: mae ahroita tony se pone celoso mehor paro
+[23/5/24, 9:54:13 p. m.] Anthony: PRA
+[23/5/24, 9:54:16 p. m.] Anthony: No dele
+[23/5/24, 9:54:24 p. m.] Anthony: Somos un triciclo de amor
+[23/5/24, 9:54:28 p. m.] Luis Fer Amey: trio?
+[23/5/24, 9:54:31 p. m.] Luis Fer Amey: uy
+[23/5/24, 9:54:33 p. m.] Luis Fer Amey: rikkko
+‎[23/5/24, 9:54:42 p. m.] Anthony: ‎sticker omitido
+[23/5/24, 10:34:37 p. m.] Javier Hernández: yico
+[23/5/24, 10:34:50 p. m.] Javier Hernández: @50685670529
+[23/5/24, 10:34:50 p. m.] Luis Fer Amey: ya me antojaron
+[23/5/24, 10:34:52 p. m.] Luis Fer Amey: ao
+[23/5/24, 10:34:56 p. m.] Luis Fer Amey: aca estoy mi rey
+[23/5/24, 10:35:03 p. m.] Javier Hernández: Ya está pusheé la vara
+[23/5/24, 10:35:06 p. m.] Javier Hernández: Para que la vea
+[23/5/24, 10:35:12 p. m.] Luis Fer Amey: Justo justo acabo de terminar el proyecto JAJAJJA voy a leer mi hombre
+[23/5/24, 10:35:28 p. m.] Javier Hernández: El de contingencias? Mae que nivel
+[23/5/24, 10:35:34 p. m.] Javier Hernández: Todo?
+[23/5/24, 10:35:48 p. m.] Javier Hernández: No le recomiendo que lo corra JAJAJA
+[23/5/24, 10:35:58 p. m.] Javier Hernández: Sirve pero dura mucho
+[23/5/24, 10:36:31 p. m.] Javier Hernández: Tengo una idea, voy a seleccionar las primeras 10 filas de gen
+[23/5/24, 10:36:49 p. m.] Luis Fer Amey: yes mi rey, todo el codigo, recuerde que a tony y a los demás les toca la parte escrita jajaj
+[23/5/24, 10:36:53 p. m.] Luis Fer Amey: A
+[23/5/24, 10:36:58 p. m.] Luis Fer Amey: vamos a paralelizar
+[23/5/24, 10:37:13 p. m.] Javier Hernández: Estaría genial, yo pensé en eso
+[23/5/24, 10:37:29 p. m.] Luis Fer Amey: eS bRoMAAAA
+[23/5/24, 10:37:49 p. m.] Luis Fer Amey: mae intenté paralelizar las simulaciones y me tiro mil warnings
+[23/5/24, 10:37:52 p. m.] Luis Fer Amey: ni a la verga
+[23/5/24, 10:37:57 p. m.] Javier Hernández: Para la entrega final si pienso paralelizar
+[23/5/24, 10:38:04 p. m.] Javier Hernández: Jajaja
+[23/5/24, 10:38:07 p. m.] Javier Hernández: Pero de momento no
+[23/5/24, 10:38:11 p. m.] Javier Hernández: Voy a agregar Marco teórico
+[23/5/24, 10:38:22 p. m.] Javier Hernández: Y entregamos esto
+[23/5/24, 10:38:43 p. m.] Luis Fer Amey: okok pero dejeme ver
+‎[23/5/24, 10:41:35 p. m.] Javier Hernández: ‎imagen omitida
+[23/5/24, 10:41:48 p. m.] Luis Fer Amey: ISH
+[23/5/24, 10:41:56 p. m.] Luis Fer Amey: más que mis simulaciones HWAT
+‎[23/5/24, 10:41:57 p. m.] Javier Hernández: ‎imagen omitida
+[23/5/24, 10:42:06 p. m.] Luis Fer Amey: si eso si que es re troll
+[23/5/24, 10:42:16 p. m.] Luis Fer Amey: en cual branch me fijo?
+‎[23/5/24, 10:42:34 p. m.] Javier Hernández: ‎audio omitido
+[23/5/24, 10:43:43 p. m.] Luis Fer Amey: solo me imagino a potoy corriendo eso casualmente jajaj
+[23/5/24, 10:43:48 p. m.] Javier Hernández: JAJAJAJA
+[23/5/24, 10:48:13 p. m.] Luis Fer Amey: le voy a hacer un commit con la funcion que había generalizado de el scrap
+‎[23/5/24, 10:50:00 p. m.] Javier Hernández: ‎imagen omitida
+‎[23/5/24, 10:51:07 p. m.] Javier Hernández: ‎imagen omitida
+[23/5/24, 10:51:10 p. m.] Javier Hernández: Sirve demasiado bien
+[23/5/24, 10:51:11 p. m.] Luis Fer Amey: de 10 en 10 JAJAJJA
+[23/5/24, 10:51:16 p. m.] Luis Fer Amey: uf
+[23/5/24, 10:51:20 p. m.] Luis Fer Amey: pero re fino
+‎[23/5/24, 10:51:36 p. m.] Javier Hernández: ‎imagen omitida
+‎[23/5/24, 10:52:26 p. m.] Javier Hernández: ‎audio omitido
+‎[23/5/24, 10:52:51 p. m.] Javier Hernández: ‎audio omitido
+[23/5/24, 10:53:09 p. m.] Luis Fer Amey: mae javi tenga cuidado just in case
+[23/5/24, 10:53:23 p. m.] Javier Hernández: Si, eso le iba a preguntar
+[23/5/24, 10:53:26 p. m.] Luis Fer Amey: si está haciendo cambios y le hice el commit le puede borrar lo que tiene
+[23/5/24, 10:53:28 p. m.] Javier Hernández: Podría perder eso verdad?
+[23/5/24, 10:53:40 p. m.] Javier Hernández: Voy a copiarlo en un txt
+[23/5/24, 10:53:44 p. m.] Javier Hernández: Y pulleo
+[23/5/24, 10:53:52 p. m.] Luis Fer Amey: ah si fino
+[23/5/24, 10:54:00 p. m.] Luis Fer Amey: como le funque
+[23/5/24, 10:54:29 p. m.] Javier Hernández: Puedo pullear ya?
+[23/5/24, 10:54:40 p. m.] Luis Fer Amey: si hace rato hice el push
+[23/5/24, 10:54:52 p. m.] Luis Fer Amey: mas bien mala mía ahi
+[23/5/24, 10:56:08 p. m.] Luis Fer Amey: pullee y haga push de lo que tenga
+[23/5/24, 10:56:19 p. m.] Luis Fer Amey: con un commit claramente para poder ver lo que agrego
+‎[23/5/24, 11:01:08 p. m.] Javier Hernández: ‎audio omitido
+[23/5/24, 11:02:12 p. m.] Luis Fer Amey: hizo 10 en 5 seg entonces salen 1000 en 500 seg, o 1500 en una hora
+[23/5/24, 11:02:26 p. m.] Luis Fer Amey: entonces di, ahí hay costos a pagar jajajaj
+[23/5/24, 11:02:33 p. m.] Luis Fer Amey: pero igual suponga que son bases chiquitas
+‎[23/5/24, 11:02:46 p. m.] Javier Hernández: ‎imagen omitida
+[23/5/24, 11:02:50 p. m.] Luis Fer Amey: yo creo que no se puede optimizar el código vdd?
+‎[23/5/24, 11:03:42 p. m.] Javier Hernández: ‎audio omitido
+[23/5/24, 11:04:35 p. m.] Luis Fer Amey: mi laptop tiene 8 núcleos, pero si ud maneja dele bomba
+[23/5/24, 11:04:49 p. m.] Luis Fer Amey: igual es una cantidad de tiempo manejable
+[23/5/24, 11:04:59 p. m.] Luis Fer Amey: no es como _dias_
+[23/5/24, 11:05:01 p. m.] Javier Hernández: Listo, pusheado
+[23/5/24, 11:05:04 p. m.] Luis Fer Amey: grax
+[23/5/24, 11:05:24 p. m.] Luis Fer Amey: mae pero si hizo commit?
+‎[23/5/24, 11:05:32 p. m.] Javier Hernández: ‎audio omitido
+[23/5/24, 11:06:11 p. m.] Luis Fer Amey: okok
+[23/5/24, 11:06:24 p. m.] Luis Fer Amey: es que el push no hace nada si no hay commit jajajajja
+‎[23/5/24, 11:06:53 p. m.] Javier Hernández: ‎imagen omitida
+[23/5/24, 11:07:05 p. m.] Javier Hernández: el commit si lo hice pero tiró error el push
+[23/5/24, 11:07:07 p. m.] Luis Fer Amey: ahora si estamos hablando
+[23/5/24, 11:07:34 p. m.] Luis Fer Amey: no hizo el pull que le dije wtf
+[23/5/24, 11:07:46 p. m.] Luis Fer Amey: guarde su archivo
+[23/5/24, 11:07:52 p. m.] Luis Fer Amey: pullee
+[23/5/24, 11:07:57 p. m.] Luis Fer Amey: copie sus funciones
+[23/5/24, 11:08:00 p. m.] Luis Fer Amey: commit
+[23/5/24, 11:08:02 p. m.] Luis Fer Amey: y pushee
+[23/5/24, 11:08:05 p. m.] Javier Hernández: Ya vi
+‎[23/5/24, 11:08:32 p. m.] Javier Hernández: ‎audio omitido
+[23/5/24, 11:09:01 p. m.] Luis Fer Amey: sisisi y peta
+[23/5/24, 11:09:05 p. m.] Luis Fer Amey: implosiona
+[23/5/24, 11:16:48 p. m.] Javier Hernández: Solucionado
+[23/5/24, 11:16:54 p. m.] Javier Hernández: Ya puede revisar
+[23/5/24, 11:19:07 p. m.] Luis Fer Amey: kok
+[23/5/24, 11:19:55 p. m.] Luis Fer Amey: ando corriendo el primero
+[23/5/24, 11:19:59 p. m.] Luis Fer Amey: que nervios
+[23/5/24, 11:20:10 p. m.] Javier Hernández: Completo?
+[23/5/24, 11:20:25 p. m.] Luis Fer Amey: nono el que ud mando
+[23/5/24, 11:20:39 p. m.] Javier Hernández: No debería durar mucho
+[23/5/24, 11:20:49 p. m.] Luis Fer Amey: las librerias se me fueron jajaja
+[23/5/24, 11:29:12 p. m.] Luis Fer Amey: javi si quiere súbalo, estoy durando mucho en instalar todo
+[23/5/24, 11:29:35 p. m.] Javier Hernández: Si, es que son muchas librerías
+[23/5/24, 11:29:41 p. m.] Luis Fer Amey: si no
+[23/5/24, 11:29:53 p. m.] Luis Fer Amey: mejor zippee todo y manda eso ya mejor
+[23/5/24, 11:30:01 p. m.] Luis Fer Amey: yo confio, lo que vi era carnita
+[23/5/24, 11:30:17 p. m.] Javier Hernández: Realmente el código ya “está”
+[23/5/24, 11:30:21 p. m.] Javier Hernández: Solo es dejarlo correr
+[23/5/24, 11:30:44 p. m.] Luis Fer Amey: JAJJAJAJAJJAJAJ
+[23/5/24, 11:30:56 p. m.] Luis Fer Amey: diay si, pero también hay que hacer análisis
+[23/5/24, 11:31:06 p. m.] Luis Fer Amey: entonces _hay_ que correrlo
+[23/5/24, 11:31:06 p. m.] Javier Hernández: Ah si, eso falta
+[23/5/24, 11:31:32 p. m.] Javier Hernández: Pero cumplimos con lo que pidió que fue el código
+[23/5/24, 11:31:37 p. m.] Luis Fer Amey: será un poblema para el futuro
+[23/5/24, 11:31:42 p. m.] Luis Fer Amey: sisi exacto
+[23/5/24, 11:31:58 p. m.] Javier Hernández: El repositorio está privado?
+[23/5/24, 11:33:49 p. m.] Luis Fer Amey: mierda
+[23/5/24, 11:33:53 p. m.] Luis Fer Amey: ahora que hacemos
+[23/5/24, 11:34:01 p. m.] Luis Fer Amey: elija su destino
+[23/5/24, 11:34:44 p. m.] Javier Hernández: Habrían dos opciones, incluir a Potoy en el repositorio JAJAJA
+[23/5/24, 11:34:54 p. m.] Javier Hernández: O hacerlo público pero que pereza, adiós sorpresa
+[23/5/24, 11:35:03 p. m.] Luis Fer Amey: No creo que le conteste a esta hora uno y dos ajá jajajajaj
+[23/5/24, 11:35:12 p. m.] Luis Fer Amey: tuvimos q haberlo hablado antes
+[23/5/24, 11:35:29 p. m.] Luis Fer Amey: diay bueno adios sorpresa
+[23/5/24, 11:35:35 p. m.] Luis Fer Amey: igual no creo que se metan a chismear
+[23/5/24, 11:36:03 p. m.] Luis Fer Amey: ya lo puse publico
+[23/5/24, 11:41:19 p. m.] Javier Hernández: https://github.com/bluke7ide/Proyecto-Herramientas
+[23/5/24, 11:41:29 p. m.] Javier Hernández: Es ese verdad?
+‎[23/5/24, 11:46:49 p. m.] Javier Hernández: ‎imagen omitida
+[23/5/24, 11:47:30 p. m.] Luis Fer Amey: si perdón no le contesté
+[23/5/24, 11:47:36 p. m.] Luis Fer Amey: buenas noches javi
+[23/5/24, 11:47:47 p. m.] Luis Fer Amey: porque tony está en el cuarto sueño
+[23/5/24, 11:48:00 p. m.] Javier Hernández: Tranquilo, hice la prueba y vi que si era
+‎[23/5/24, 11:48:53 p. m.] Javier Hernández: ‎audio omitido
+[24/5/24, 12:00:33 a. m.] Luis Fer Amey: ta ben, b[asicamente ya está, problema del futuro ud lo dijo
+‎[24/5/24, 12:00:46 a. m.] Javier Hernández: ‎sticker omitido
+‎[24/5/24, 12:48:07 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[2/6/24, 11:38:54 a. m.] Anthony: ‎imagen omitida
+[2/6/24, 11:38:56 a. m.] Anthony: Esta tarea si promete
+[2/6/24, 11:39:14 a. m.] Javier Hernández: Uy
+[2/6/24, 11:39:16 a. m.] Luis Fer Amey: noooooo 🫣
+‎[2/6/24, 11:40:03 a. m.] Javier Hernández: ‎sticker omitido
+[2/6/24, 12:06:29 p. m.] Javier Hernández: Yo después de la 10ª casi me desmayo pero ahí cumplí con lo que quería Potoy
+[2/6/24, 12:18:59 p. m.] Luis Fer Amey: Mae como hizo? No pude ni con la 3º
+[2/6/24, 12:20:07 p. m.] Javier Hernández: Experiencia, eh
+[2/6/24, 12:20:18 p. m.] Javier Hernández: Luis le va a llevar el vaso a Potoy
+[2/6/24, 12:46:42 p. m.] Luis Fer Amey: Lo tengo que 🫣
+[2/6/24, 2:01:27 p. m.] Luis Fer Amey: imabautakam
+[2/6/24, 2:01:37 p. m.] Luis Fer Amey: aun no he llegado ahí 😞😞
+[2/6/24, 3:23:03 p. m.] Javier Hernández: Maes una pregunta, a la hora de calcular los errores en la tarea, ustedes usaron la columna PREMIUM original o la PREMIUM con valores nulos?
+‎[2/6/24, 3:23:07 p. m.] Javier Hernández: ‎sticker omitido
+[2/6/24, 3:23:17 p. m.] Luis Fer Amey: original
+[2/6/24, 3:23:26 p. m.] Luis Fer Amey: si no no tendría sentido
+[2/6/24, 3:23:28 p. m.] Luis Fer Amey: todo daria 0
+[2/6/24, 3:23:29 p. m.] Javier Hernández: Ok si
+[2/6/24, 3:23:43 p. m.] Luis Fer Amey: cual es el sentido de la vida
+[2/6/24, 3:23:51 p. m.] Javier Hernández: 🤯
+[2/6/24, 3:23:53 p. m.] Javier Hernández: Jajaja
+[2/6/24, 3:23:56 p. m.] Javier Hernández: Gracias mae
+[2/6/24, 3:24:00 p. m.] Luis Fer Amey: con gusto
+[2/6/24, 3:39:09 p. m.] Javier Hernández: Fue que me puse a pensar si debería usar la que tiene valores nulos, porque entonces las que no eran nulas se cancelarían, y sería una suma de lo que imputé
+[2/6/24, 3:39:34 p. m.] Luis Fer Amey: pero le dio?
+[2/6/24, 3:39:59 p. m.] Javier Hernández: Me daría la suma de todos los valores que imputé al cuadrado
+[2/6/24, 3:40:01 p. m.] Javier Hernández: Pero no lo hice
+[2/6/24, 3:40:08 p. m.] Luis Fer Amey: ah
+[2/6/24, 3:40:08 p. m.] Javier Hernández: Me fui directo a la vieja
+[2/6/24, 3:40:12 p. m.] Luis Fer Amey: di si
+[2/6/24, 3:40:20 p. m.] Luis Fer Amey: es que a mi me dio 0
+[2/6/24, 3:40:25 p. m.] Luis Fer Amey: entonces me devolvi
+[2/6/24, 4:10:14 p. m.] Javier Hernández: ‎Se eliminó este mensaje.
+‎[2/6/24, 4:56:28 p. m.] Javier Hernández: ‎audio omitido
+[2/6/24, 4:57:10 p. m.] Luis Fer Amey: mae jajaj que necio que lo probó
+[2/6/24, 4:57:21 p. m.] Luis Fer Amey: nono la idea era probar métodos de imputacion
+‎[2/6/24, 5:37:37 p. m.] Luis Fer Amey: ‎imagen omitida
+[2/6/24, 5:37:47 p. m.] Luis Fer Amey: yo puedo optimizar mas solo que primero a comer
+[2/6/24, 6:22:56 p. m.] Anthony: Señores y Señores
+[2/6/24, 6:23:03 p. m.] Anthony: Oficilamente hicimos el algoritmo peor
+‎[2/6/24, 6:23:06 p. m.] Anthony: ‎imagen omitida
+[2/6/24, 6:23:20 p. m.] Javier Hernández: JAJAJAJA
+[2/6/24, 6:23:50 p. m.] Javier Hernández: A eso voy también, para ver si termino esta tarea de una vez por todas
+[2/6/24, 6:26:39 p. m.] Luis Fer Amey: JAJAJJAAJAJJA
+[2/6/24, 6:26:45 p. m.] Luis Fer Amey: nooooo
+[2/6/24, 6:27:06 p. m.] Luis Fer Amey: ok ok
+‎[2/6/24, 6:40:28 p. m.] Luis Fer Amey: ‎imagen omitida
+[2/6/24, 6:41:20 p. m.] Anthony: Se corrio 4.5 veces
+[2/6/24, 6:41:23 p. m.] Anthony: No dio para la 5
+[2/6/24, 6:41:56 p. m.] Luis Fer Amey: salio mal
+[2/6/24, 6:42:05 p. m.] Luis Fer Amey: al final lo pudo arreglar tony?
+[2/6/24, 6:42:44 p. m.] Anthony: Estoy en la micah
+[2/6/24, 6:42:55 p. m.] Anthony: Tratando de paralelizar
+[2/6/24, 6:42:56 p. m.] Luis Fer Amey: cual mica?
+[2/6/24, 6:42:59 p. m.] Luis Fer Amey: ah ya
+[2/6/24, 6:43:06 p. m.] Luis Fer Amey: 😂😂
+‎[2/6/24, 6:47:25 p. m.] Anthony: ‎imagen omitida
+[2/6/24, 6:47:26 p. m.] Anthony: La compro
+[2/6/24, 6:47:52 p. m.] Luis Fer Amey: sheesh
+[2/6/24, 6:47:54 p. m.] Luis Fer Amey: ta ben
+[2/6/24, 6:48:00 p. m.] Luis Fer Amey: saquele .mean()
+‎[2/6/24, 6:49:04 p. m.] Anthony: ‎imagen omitida
+[2/6/24, 6:49:12 p. m.] Anthony: 17>14
+[2/6/24, 6:49:14 p. m.] Anthony: Tons engalete
+[2/6/24, 6:49:44 p. m.] Luis Fer Amey: hoy cogio
+[2/6/24, 6:49:54 p. m.] Luis Fer Amey: y corrio bien
+[2/6/24, 6:49:56 p. m.] Luis Fer Amey: perf
+[2/6/24, 6:50:12 p. m.] Anthony: Unas maquinas para las corridas nosotros
+[2/6/24, 6:50:14 p. m.] Luis Fer Amey: ja pero no le gana al mio
+[2/6/24, 6:50:15 p. m.] Javier Hernández: 🥵
+[2/6/24, 6:50:29 p. m.] Luis Fer Amey: yo me corri mas rapido
+[2/6/24, 6:50:47 p. m.] Anthony: Di no, me revento
+‎[2/6/24, 7:21:57 p. m.] Javier Hernández: ‎imagen omitida
+[2/6/24, 7:21:58 p. m.] Javier Hernández: Jajaja
+[2/6/24, 7:22:54 p. m.] Luis Fer Amey: hjajajjdajfd
+[2/6/24, 7:23:07 p. m.] Luis Fer Amey: si quiere saco la laptop y paralelizo
+[2/6/24, 7:23:23 p. m.] Javier Hernández: Ahora más tarde sigo, por lo menos bajarlo a 0.03
+[2/6/24, 7:23:43 p. m.] Javier Hernández: Es que realmente no hice nada, solo quité funciones
+[2/6/24, 7:23:48 p. m.] Luis Fer Amey: x2
+[2/6/24, 7:23:50 p. m.] Javier Hernández: Y Luis me hace sacar lo mejor de mí
+‎[2/6/24, 7:23:55 p. m.] Javier Hernández: ‎sticker omitido
+[2/6/24, 7:23:59 p. m.] Javier Hernández: Ahorita me vengo más veces
+[2/6/24, 7:24:00 p. m.] Luis Fer Amey: como como
+[2/6/24, 7:24:02 p. m.] Luis Fer Amey: uy
+[2/6/24, 7:24:04 p. m.] Luis Fer Amey: uyuyuy
+[2/6/24, 7:24:17 p. m.] Luis Fer Amey: espere que lo corro en la laptop
+‎[2/6/24, 7:25:09 p. m.] Javier Hernández: ‎sticker omitido
+‎[2/6/24, 7:36:18 p. m.] Luis Fer Amey: ‎imagen omitida
+[2/6/24, 7:36:27 p. m.] Luis Fer Amey: yaya no malgaste el tiempo tampoco
+[2/6/24, 7:36:33 p. m.] Javier Hernández: Jajaja
+[2/6/24, 7:36:36 p. m.] Luis Fer Amey: solo lo corri en la laptop jajaja
+[2/6/24, 7:36:41 p. m.] Javier Hernández: Eyaculadoe precoz
+[2/6/24, 7:36:46 p. m.] Javier Hernández: Eh
+[2/6/24, 7:36:49 p. m.] Luis Fer Amey: eh
+[6/6/24, 9:55:47 p. m.] Anthony: https://www.jepusto.com/multivariate-delta-method/
+[6/6/24, 9:55:47 p. m.] Anthony: https://www.statology.org/fisher-z-transformation/
+[6/6/24, 9:55:56 p. m.] Anthony: https://www.jepusto.com/multivariate-delta-method/
+[6/6/24, 9:55:56 p. m.] Anthony: https://www.statology.org/fisher-z-transformation/
+‎[9/6/24, 2:40:39 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/6/24, 2:41:23 p. m.] Javier Hernández: La librería fue la que probé pero nunca pude hacer la conexión con internet
+[9/6/24, 2:41:33 p. m.] Javier Hernández: Ahora bien, ese deep_translator no
+[9/6/24, 2:41:49 p. m.] Luis Fer Amey: voy a probar
+[9/6/24, 2:41:53 p. m.] Luis Fer Amey: Es que sabe que
+[9/6/24, 2:42:03 p. m.] Luis Fer Amey: me di cuenta que todos los proyectos son para una semana
+[9/6/24, 2:42:11 p. m.] Luis Fer Amey: entonces mejor voy adelantando este
+‎[9/6/24, 2:42:11 p. m.] Javier Hernández: ‎audio omitido
+[9/6/24, 2:42:47 p. m.] Luis Fer Amey: Ok voy a probar
+[9/6/24, 2:53:41 p. m.] Luis Fer Amey: Lo bueno:
+‎[9/6/24, 2:53:47 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/6/24, 2:53:49 p. m.] Luis Fer Amey: Lo malo:
+‎[9/6/24, 2:54:13 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/6/24, 2:54:17 p. m.] Luis Fer Amey: voy a probar con 100
+‎[9/6/24, 2:57:22 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/6/24, 2:57:29 p. m.] Luis Fer Amey: solo que está tirando na, dejeme ver
+‎[9/6/24, 2:59:27 p. m.] Luis Fer Amey: ‎imagen omitida
+‎[9/6/24, 2:59:52 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/6/24, 2:59:58 p. m.] Luis Fer Amey: voy a correr las 1600
+[9/6/24, 3:04:32 p. m.] Anthony: Dele, sin mieo
+[9/6/24, 3:10:27 p. m.] Luis Fer Amey: se cayo del segundo piso :/
+[9/6/24, 3:19:06 p. m.] Luis Fer Amey: fue que se suspendió mi pc, vamos a ver si esta si sirve
+[9/6/24, 3:19:59 p. m.] Luis Fer Amey: para este vamos a ocupar su procesador javi jajajaj
+[9/6/24, 3:20:13 p. m.] Luis Fer Amey: yo tengo que guardar esta traducción si sale, si o si
+[9/6/24, 3:20:19 p. m.] Luis Fer Amey: así que va para r de nuevo
+[9/6/24, 3:24:58 p. m.] Luis Fer Amey: mi tiempo estimado para correr es de 26 minutos y voy por el 14 JAJSJ
+‎[9/6/24, 3:30:03 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/6/24, 3:30:17 p. m.] Luis Fer Amey: de auto a español, como lo hace google traductor
+[9/6/24, 3:43:26 p. m.] Luis Fer Amey: Lo voy a volver a correr jajajja
+‎[9/6/24, 4:03:40 p. m.] Luis Fer Amey: ‎imagen omitida
+[9/6/24, 4:03:48 p. m.] Luis Fer Amey: lo voy a guardar como csv
+[9/6/24, 4:04:06 p. m.] Luis Fer Amey: y fuimonos, proyecto terminado, solo es de meterle análisis de sentimientos y ya
+[9/6/24, 4:04:20 p. m.] Luis Fer Amey: https://tecsify.com/blog/codigo/python-traductor/
+[9/6/24, 4:05:47 p. m.] Luis Fer Amey: Por cierto @50672838648 Hice merge de las ramas, solo la dejé para que podamos trabajar simultáneamente así como hice con tony en estadística
+[9/6/24, 4:06:16 p. m.] Luis Fer Amey: es que en realidad ya no hay diferencia entre compus, el único problema es ese el de la importación rara, pero ya no es de compus
+‎[11/6/24, 12:00:26 p. m.] Luis Fer Amey: ‎audio omitido
+[11/6/24, 12:02:40 p. m.] Javier Hernández: Ok ok, apenas llego lo hago, que voy saliendo
+[11/6/24, 12:03:11 p. m.] Luis Fer Amey: Okok gracias
+[12/6/24, 7:53:25 a. m.] Luis Fer Amey: Buenos días manitos, @50672838648 cuando pueda puede hacer commit? Es que ahorita tipo 9-10 voy a hacer varas
+[12/6/24, 8:05:12 a. m.] Javier Hernández: Voy
+[12/6/24, 8:05:19 a. m.] Javier Hernández: Buenos días 🫡
+‎[12/6/24, 8:51:35 a. m.] Javier Hernández: ‎audio omitido
+[12/6/24, 8:55:17 a. m.] Luis Fer Amey: Haga sus varas tranquilo mientras yo hago eso y después le dejo lo que siga
+‎[12/6/24, 9:34:46 a. m.] Javier Hernández: ‎sticker omitido
+‎[12/6/24, 9:40:57 a. m.] Luis Fer Amey: ‎sticker omitido
+‎[12/6/24, 11:13:37 a. m.] Luis Fer Amey: ‎imagen omitida
+[12/6/24, 11:13:58 a. m.] Luis Fer Amey: mae javi me pego el apply
+[12/6/24, 11:14:01 a. m.] Luis Fer Amey: ya no puedo con los for
+[12/6/24, 11:14:15 a. m.] Luis Fer Amey: me cago en ud
+[12/6/24, 11:15:24 a. m.] Javier Hernández: JAJAJA
+[12/6/24, 11:15:31 a. m.] Javier Hernández: Mae lo hice tomar un buen camino
+[12/6/24, 11:15:36 a. m.] Luis Fer Amey: yo sé
+[12/6/24, 11:15:45 a. m.] Luis Fer Amey: pero igual
