@@ -5,3 +5,6 @@ pacman::p_load(
   tidyverse,
   reticulate
 )
+
+source("cod/r/scrapW.R")
+source("cod/r/scrapT.R")

@@ -16,12 +16,6 @@ output:
 source("cod/r/setup.R")
 ```
 
-# Funciones para hacer scrap 
-```{r}
-source("cod/r/scrapW.R")
-source("cod/r/scrapT.R")
-```
-
 ```{r}
 gen <- scrapW("gen")
 telegram <- scrapT("herraI")
@@ -148,12 +142,7 @@ data = pd.concat([raw, mensajes_traducidos.drop("mensaje", axis = 1)], axis = 1)
 r.telegram["mensaje"].apply(lambda x: "voice_message" in x) 
 ```
 
-```{r}
-a <- sapply(telegram$mensaje, function(x) typeof(x) == "list")
-b <- sapply(telegram$mensaje[a], function(x) data.frame(x))
-c <- sapply(b, function(x) x %>% select(-type))
-d <- data.frame(sapply(c, function(x) paste(x, collapse = "")))
-```
+
 
 
 
