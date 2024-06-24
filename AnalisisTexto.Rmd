@@ -35,12 +35,45 @@ source("cod/r/borrador.R")
 # documento omitido 
 # <Se editó este mensaje.>
 
+lista = gen[1:50,]
+
 ```
 
-# Funciones borrador
-```{r}
-source_python("cod/python/sentimientos_borrador.py")
+
+```{python}
+class AnalisisTexto:
+  def __init__(self, df):
+    self.__df = df
+    
+  @property
+  def df(self):
+    return self.__df
+  
+  @df.setter
+  def df(self, new_df):
+    self.__df = new_df
+  
+  def __str__(self):
+    return self.__df.info()
+  
+  def traducir(self):
+    t = time.time()
+    traductor = GoogleTranslator(source = 'es', target = 'en')
+    traducido = pd.DataFrame(traductor.translate_batch(list(self.__df["mensaje"])))
+    traducido = traducido.transform(lambda x: x.fillna(self.__df["mensaje"]))
+    self.__df["mensaje"] = traducido
+    print(time.time() - t)
+    
+  def guardar(self, nombre):
+    self.__df.to_csv("res/" + nombre + ".csv", index=False)
+    
+  def leer(self, nombre):
+    self.__df = pd.read_csv("res/" + nombre + ".csv")
+    
+    
+    
 ```
+
 
 # Librerías de python
 ```{python}
@@ -67,7 +100,7 @@ from transformers import pipeline
 # Traducciones
 
 ```{r}
-lista <- gen$mensaje
+lista <- telegram$mensaje
 ```
 
 ```{python}
@@ -90,7 +123,7 @@ write.csv2(guardar, "docs/traducido.csv")
 # Lectura
 ```{python}
 raw = r.gen
-mensajes_traducidos = pd.read_csv('docs/traducido.csv',
+mensajes_traducidos = pd.read_csv('res/traducido.csv',
                                   sep = ';',
                                   names = ['id', 'mensaje'])
 mensajes_traducidos = mensajes_traducidos[1:].reset_index()
