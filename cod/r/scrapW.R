@@ -60,6 +60,7 @@ scrapW <- function(name){
   datos$hora <- hms(datos$hora)
   datos$hora <- datos$hora + hours(datos$pm*12)
   
+  datos$hora <- as.double(datos$hora)
   # Quitar la columna extra
   datos <- datos %>% select(-pm)
   

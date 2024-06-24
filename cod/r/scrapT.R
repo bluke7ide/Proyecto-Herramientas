@@ -30,7 +30,7 @@ scrapT <- function(name){
   # Formatos
   telegram <- telegram %>% separate(date, c('dia','hora'), sep = 'T')
   telegram$dia <- ymd(telegram$dia)
-  telegram$hora <- hms(telegram$hora)
+  telegram$hora <- as.double(hms(telegram$hora))
   colnames(telegram) <- c("dia", "hora", "autor", "mensaje", "editado")
   telegram$editado[is.na(telegram$editado)] = FALSE
   row.names(telegram) <- NULL

@@ -17,8 +17,8 @@ source("cod/r/setup.R")
 ```
 
 ```{r}
-gen <- scrapW("gen")
-telegram <- scrapT("herraI")
+gen <- scrapW("gen_23-6")
+telegram <- scrapT("herraII")
 ```
 
 # Funciones extra
@@ -34,12 +34,31 @@ source("cod/r/borrador.R")
 # Video omitido
 # documento omitido 
 # <Se editó este mensaje.>
-
-lista = gen[1:50,]
-
 ```
 
+# Librerías de python
+```{python}
+# !pip install pandas
+# !pip install nltk
+# !pip install deep_translator
+# !pip install textblob
+# !pip install transformers
+# nltk.download('vader_lexicon')
 
+import pandas as pd
+import time
+import nltk
+
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from deep_translator import GoogleTranslator
+from textblob import TextBlob
+from transformers import pipeline
+
+# Sin warning: ejecutar esto en terminal
+# set TF_ENABLE_ONEDNN_OPTS=0
+```
+
+# Modulo python
 ```{python}
 class AnalisisTexto:
   def __init__(self, df):
@@ -69,90 +88,24 @@ class AnalisisTexto:
     
   def leer(self, nombre):
     self.__df = pd.read_csv("res/" + nombre + ".csv")
+    self.__df["mensaje"] = self.__df['mensaje'].apply(lambda x:  str(x))
     
+  def analizar(self):
+    sid = SentimentIntensityAnalyzer()
+    sentimientos1 = self.__df['mensaje'].apply(lambda x:  sid.polarity_scores(x))
+    sentimientos1 = sentimientos1.apply(lambda x: pd.Series(x))
     
+    sentimientos2 = self.__df['mensaje'].apply(lambda x:  TextBlob(x).sentiment)
+    sentimientos2 = sentimientos2.apply(lambda x: pd.Series(x))
+    sentimientos = pd.concat([sentimientos1, sentimientos2], axis = 1)
+    sentimientos.columns = ["negativo",
+                            "neutral",
+                            "positivo",
+                            "compuesto",
+                            "polaridad",
+                            "subjetividad"]
+    self.__df = pd.concat([self.__df, sentimientos], axis = 1)
     
-```
-
-
-# Librerías de python
-```{python}
-# !pip install pandas
-# !pip install nltk
-# !pip install deep_translator
-# !pip install textblob
-# !pip install transformers
-# nltk.download('vader_lexicon')
-
-import pandas as pd
-import time
-import nltk
-
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
-from deep_translator import GoogleTranslator
-from textblob import TextBlob
-from transformers import pipeline
-
-# Sin warning: ejecutar esto en terminal
-# set TF_ENABLE_ONEDNN_OPTS=0
-```
-
-# Traducciones
-
-```{r}
-lista <- telegram$mensaje
-```
-
-```{python}
-traductor = GoogleTranslator(source = 'es', target = 'en')
-
-t = time.time()
-fijo = pd.DataFrame(traductor.translate_batch(r.lista))
-print(time.time() - t)
-```
-
-```{r}
-resultado["R"] = r.lista
-guardar <- reticulate::py$fijo
-write.csv2(guardar, "docs/traducido.csv")
-# Hacer todo esto un script de R y guardarlo en una función
-```
-
-
-
-# Lectura
-```{python}
-raw = r.gen
-mensajes_traducidos = pd.read_csv('res/traducido.csv',
-                                  sep = ';',
-                                  names = ['id', 'mensaje'])
-mensajes_traducidos = mensajes_traducidos[1:].reset_index()
-mensajes_traducidos['mensaje'] = mensajes_traducidos['mensaje'].transform(lambda x: x.fillna(raw["mensaje"]))
-
-mensajes_traducidos['mensaje'] = mensajes_traducidos['mensaje'].apply(lambda x: str(x))
-mensajes_traducidos = pd.DataFrame(mensajes_traducidos["mensaje"])
-```
-
-
-# Análisis de sentimientos 1
-```{python}
-# Inicio de la función
-t = time.time()
-sid = SentimentIntensityAnalyzer()
-sentimientos = mensajes_traducidos['mensaje'].apply(lambda x:  sid.polarity_scores(x))
-sentimientos = sentimientos.apply(lambda x: pd.Series(x))
-mensajes_traducidos = pd.concat([mensajes_traducidos, sentimientos], axis = 1)
-print(time.time() - t)
-```
-
-# Análisis de sentimientos 2
-```{python}
-t = time.time()
-sentimientos = mensajes_traducidos['mensaje'].apply(lambda x:  TextBlob(x).sentiment)
-sentimientos = sentimientos.apply(lambda x: pd.Series(x))
-mensajes_traducidos = pd.concat([mensajes_traducidos, sentimientos], axis = 1)
-mensajes_traducidos.columns = ["mensaje", "negativo", "neutral", "positivo", "compuesto", "polaridad", "subjetividad"]
-print(time.time() - t)
 ```
 
 # Análisis de sentimientos 3
@@ -166,10 +119,6 @@ mensajes_traducidos = pd.concat([mensajes_traducidos, sentimientos], axis = 1)
 print(time.time() - t)
 ```
 
-```{python}
-data = pd.concat([raw, mensajes_traducidos.drop("mensaje", axis = 1)], axis = 1)
-# fin de la función
-```
 
 ```{python}
 r.telegram["mensaje"].apply(lambda x: "voice_message" in x) 
