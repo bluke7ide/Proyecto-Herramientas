@@ -27,15 +27,6 @@ telegram <- scrapT("herraII")
 ```{r}
 source("cod/r/borrador.R")
 
-# imagen omitida
-# sticker omitido
-# Ubicación:
-# https://
-# Cambió tu código de seguridad con
-# @
-# Video omitido
-# documento omitido 
-# <Se editó este mensaje.>
 ```
 
 # Librerías de python
@@ -182,22 +173,36 @@ class AnalisisTexto:
                             "subjetividad"]
     self.__df = pd.concat([self.__df, sentimientos], axis = 1)
     
+  def editado(self):
+    local = self.__df[self.__df["editado"]]
+    return local["autor"].value_counts()
+  
+  def mensajes(self):
+    return self.__df["autor"].value_counts()
+  
+  def encontrar(self, frase):
+    '''
+    
+    Se sugieren las siguientes frases:
+    
+    "Change your security code with"
+    "document omitted"
+    "https://"
+    "image omitted"
+    "sticker omitted"
+    "@"
+    "This message has been deleted"
+    "Video omitted"
+    "Location:"
+    "omitted audio"
+    
+    '''
+    audio = self.__df["mensaje"].apply(lambda x: frase in x)
+    local = self.__df[audio]
+    return local["autor"].value_counts()
+  
+    
+    
 ```
 
-# Análisis de sentimientos 3
-Este es el que más se tarda
-```{python}
-# Se realiza el analisis de sentimientos utilizando un modelo de Transformadores
-t = time.time()
-sentiment_analysis = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
-sentimientos = mensajes_traducidos['mensaje'].apply(lambda j: sentiment_analysis(j))
-sentimientos = sentimientos.apply(lambda j: pd.Series(pd.Series(j)[0]))
-mensajes_traducidos = pd.concat([mensajes_traducidos, sentimientos], axis = 1)
-print(time.time() - t)
-```
 
-
-```{python}
-# Se verifica si hay mensajes de voz.
-r.telegram["mensaje"].apply(lambda x: "voice_message" in x) 
-```
