@@ -55,10 +55,7 @@ import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from deep_translator import GoogleTranslator
 from textblob import TextBlob
-from transformers import pipeline
 
-# Sin warning: ejecutar esto en terminal
-# set TF_ENABLE_ONEDNN_OPTS=0
 ```
 
 # Modulo python
