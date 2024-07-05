@@ -1,0 +1,206 @@
+---
+title: "Proyecto Grupal - Herramientas de Ciencias de Datos II"
+author: 
+  - Estudiantes
+  - Luis Fernando Amey Apuy - C20470
+  - Javier Hernández Navarro - C13674
+  - Anthony Mauricio Jiménez Navarro - C24067
+date: "2024-05-13"
+output: 
+  rmdformats::downcute:
+    default_style: "dark"
+    downcute_theme: "chaos"
+---
+# Importación librerias
+```{r, warning=FALSE, message=FALSE}
+# Cargar las configuraciones iniciales
+source("cod/r/setup.R")
+```
+
+```{r}
+# Se aplican las funciones para realizar scrapping a la data que se obtuvo de WhatsApp y Telegram, los datos una vez tratados se asignan a las variables gen (chat de generación) y telegram (chat del curso de Herramientas para el analisis de datos II)
+gen <- scrapW("gen_23-6")
+telegram <- scrapT("herraII")
+```
+
+# Funciones extra
+```{r}
+source("cod/r/borrador.R")
+
+# imagen omitida
+# sticker omitido
+# Ubicación:
+# https://
+# Cambió tu código de seguridad con
+# @
+# Video omitido
+# documento omitido 
+# <Se editó este mensaje.>
+```
+
+# Librerías de python
+```{python}
+# !pip install pandas
+# !pip install nltk
+# !pip install deep_translator
+# !pip install textblob
+# !pip install transformers
+# nltk.download('vader_lexicon')
+
+# Se importan las librerias requeridas para realizar el analisis de datos en python
+import pandas as pd
+import time
+import nltk
+
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from deep_translator import GoogleTranslator
+from textblob import TextBlob
+from transformers import pipeline
+
+# Sin warning: ejecutar esto en terminal
+# set TF_ENABLE_ONEDNN_OPTS=0
+```
+
+# Modulo python
+```{python}
+class AnalisisTexto:
+  def __init__(self, df):
+    """
+    Inicializa la clase con un DataFrame.
+    
+    Parametros:
+    df (pd.DataFrame): DataFrame con los datos iniciales.
+    
+    Return:
+    No retorna nada
+    """
+    
+    self.__df = df
+    
+  @property
+  def df(self):
+    """
+    Obtiene el DataFrame actual.
+    
+    Parametros:
+    Ninguno
+    
+    Return:
+    pd.DataFrame: El DataFrame actual.
+    """
+    return self.__df
+  
+  @df.setter
+  def df(self, new_df):
+    """
+    Cambia el DataFrame actual.
+    
+    Parámetros:
+    new_df (pd.DataFrame): Nuevo DataFrame para reemplazar el existente.
+    
+    Return:
+    No retorna nada
+    """
+    self.__df = new_df
+  
+  def __str__(self):
+    """
+    Retorna la información del DataFrame.
+    
+    Parametros:
+    Ninguno
+    
+    Return:
+    str: Información sobre el DataFrame.
+    """
+    return self.__df.info()
+  
+  def traducir(self):
+    """
+    Traduce los mensajes del DataFrame de español a inglés utilizando
+    GoogleTranslator.
+    Mide y muestra el tiempo que tarda en realizar la traducción.
+    
+    Parámetros:
+    No tiene parámetros.
+    
+    Return:
+    No retorna nada
+    """
+    t = time.time()
+    traductor = GoogleTranslator(source = 'es', target = 'en')
+    traducido = pd.DataFrame(traductor.translate_batch(list(self.__df["mensaje"])))
+    traducido = traducido.transform(lambda x: x.fillna(self.__df["mensaje"]))
+    self.__df["mensaje"] = traducido
+    print(time.time() - t)
+    
+  def guardar(self, nombre):
+    """
+    Guarda el DataFrame en un archivo CSV.
+    
+    Parámetros:
+    nombre (str): Nombre del archivo.
+    
+    Return:
+    No retorna nada
+    """
+    self.__df.to_csv("res/" + nombre + ".csv", index=False)
+    
+  def leer(self, nombre):
+    """
+    Lee un archivo CSV y lo carga en el DataFrame.
+    
+    Parámetros:
+    nombre (str): Nombre del archivo.
+    
+    Return:
+    No retorna nada
+    """
+    self.__df = pd.read_csv("res/" + nombre + ".csv")
+    self.__df["mensaje"] = self.__df['mensaje'].apply(lambda x:  str(x))
+    
+  def analizar(self):
+    """
+    Realiza el análisis de sentimientos utilizando VADER y TextBlob.
+    Añade los resultados del análisis al DataFrame.
+    
+    Parámetros:
+    No tiene parámetros.
+    
+    Return:
+    No retorna nada
+    """
+    sid = SentimentIntensityAnalyzer()
+    sentimientos1 = self.__df['mensaje'].apply(lambda x:  sid.polarity_scores(x))
+    sentimientos1 = sentimientos1.apply(lambda x: pd.Series(x))
+    
+    sentimientos2 = self.__df['mensaje'].apply(lambda x:  TextBlob(x).sentiment)
+    sentimientos2 = sentimientos2.apply(lambda x: pd.Series(x))
+    sentimientos = pd.concat([sentimientos1, sentimientos2], axis = 1)
+    sentimientos.columns = ["negativo",
+                            "neutral",
+                            "positivo",
+                            "compuesto",
+                            "polaridad",
+                            "subjetividad"]
+    self.__df = pd.concat([self.__df, sentimientos], axis = 1)
+    
+```
+
+# Análisis de sentimientos 3
+Este es el que más se tarda
+```{python}
+# Se realiza el analisis de sentimientos utilizando un modelo de Transformadores
+t = time.time()
+sentiment_analysis = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
+sentimientos = mensajes_traducidos['mensaje'].apply(lambda j: sentiment_analysis(j))
+sentimientos = sentimientos.apply(lambda j: pd.Series(pd.Series(j)[0]))
+mensajes_traducidos = pd.concat([mensajes_traducidos, sentimientos], axis = 1)
+print(time.time() - t)
+```
+
+
+```{python}
+# Se verifica si hay mensajes de voz.
+r.telegram["mensaje"].apply(lambda x: "voice_message" in x) 
+```
