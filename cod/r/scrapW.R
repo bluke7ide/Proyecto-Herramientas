@@ -31,13 +31,19 @@ scrapW <- function(name){
   temp <- str_split_fixed(datos$mensaje, ": ", 2)
   datos$autor <- temp[,1]
   datos$mensaje <- temp[,2]
+  datos$hora <- trimws(datos$hora, which = "left")
   
   # Sacar los índices de los enters en línea
-  indices <- as.numeric(rownames(datos[!grepl("\\[", datos$hora),]))
+  indices <- as.numeric(rownames(datos[!grepl("\\[", substr(datos$hora, 0, 2)),]))
   
   # Operar estas líneas
   for (i in indices){
-    datos$mensaje[i] <- datos$hora[i]
+    if(datos$autor[i] != ""){
+      datos$mensaje[i] <- paste(datos$hora[i], "] ", datos$autor[i], sep = "")
+    } else {
+      datos$mensaje[i] <- datos$hora[i]
+    }
+    
     datos[i,1:2] <- datos[i-1,1:2]
   }
   datos$mensaje <- as.character(datos$mensaje)

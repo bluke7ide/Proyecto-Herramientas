@@ -23,12 +23,6 @@ gen <- scrapW("gen_23-6")
 telegram <- scrapT("herraII")
 ```
 
-# Funciones extra
-```{r}
-source("cod/r/borrador.R")
-
-```
-
 # Librerías de python
 ```{python}
 # !pip install pandas
@@ -201,8 +195,50 @@ class AnalisisTexto:
     local = self.__df[audio]
     return local["autor"].value_counts()
   
-    
+  def promedio_sentimientos(self):
+     return self.__df.groupby('autor')[['negativo', 'neutral', 'positivo', 'compuesto', 'polaridad', 'subjetividad']].mean()
     
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
