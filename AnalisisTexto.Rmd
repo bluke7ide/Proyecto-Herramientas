@@ -36,6 +36,7 @@ telegram <- scrapT("herraII")
 import pandas as pd
 import time
 import nltk
+from datetime import datetime, timedelta
 
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from deep_translator import GoogleTranslator
@@ -58,6 +59,11 @@ class AnalisisTexto:
     """
     
     self.__df = df
+    self.__df["hora"] = self.__df["hora"].apply(
+      lambda x: str(timedelta(seconds = x))
+      )
+    
+    self.__df["dia"] = pd.to_datetime(self.__df['dia'], format='%Y%m%d').dt.date
     
   @property
   def df(self):
