@@ -278,7 +278,7 @@ class AnalizadorTexto(ProcesadorTexto):
     
     return f"La mayor racha de días fue de {streak}, desde el {primer_dia} al {ultimo_dia}"
 
-  def dia_mas_concurrido(self, df):
+  def dia_mas_concurrido(self):
     '''
     Método que retorna el día con la mayor cantidad de mensajes enviados.
     
@@ -288,11 +288,11 @@ class AnalizadorTexto(ProcesadorTexto):
     Retorna:
       pd.DataFrame: DataFrame con el día más concurrido y la cantidad de mensajes enviados.
     '''
-    mensajes_contador = df['dia'].value_counts()
+    mensajes_contador = self.df['dia'].value_counts()
     dia = mensajes_contador.idxmax()
     contador = mensajes_contador.max()
-    result_df = pd.DataFrame({'dia': [dia], 'Cantidad': [contador]})
-    return result_df
+
+    return f"El día más concurrido es el {dia}, con {contador} mensajes"
       
       
       
