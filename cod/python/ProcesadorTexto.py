@@ -2,12 +2,13 @@ class ProcesadorTexto():
   '''
   Clase para procesar y manipular datos de texto en un DataFrame.
       
-  Attributes:
+  Atributos:
     __df (pd.DataFrame): DataFrame que contiene los mensajes a procesar.
       
-  Methods:
+  Metodos:
     __init__(df):
-      Constructor de la clase ProcesadorTexto. Inicializa la clase con un DataFrame.
+      Constructor de la clase ProcesadorTexto. 
+      Inicializa la clase con un DataFrame.
       
     df:
       Método getter que obtiene el DataFrame actual.
@@ -22,39 +23,37 @@ class ProcesadorTexto():
         Guarda el DataFrame actual en un archivo CSV.
       
       traducir():
-        Traduce los mensajes del DataFrame de español a inglés utilizando GoogleTranslator.
+        Traduce los mensajes del DataFrame de español a inglés 
+        utilizando GoogleTranslator.
       
       analizar_sentimientos():
-        Realiza análisis de sentimientos utilizando VADER y TextBlob y añade los resultados al DataFrame.
+        Realiza análisis de sentimientos utilizando VADER y TextBlob
+        y añade los resultados al DataFrame.
     '''
     
   def __init__(self, df):
     '''
-    Constructor de la clase ProcesadorTexto. Inicializa la clase con un DataFrame.
+    Constructor de la clase ProcesadorTexto. 
+    Inicializa la clase con un DataFrame.
     
-    Parameters:
+    Parámetros:
       df (pd.DataFrame): DataFrame con los datos iniciales
       
-    Returns:
+    Retorna:
       None
     '''
     
     self.__df = df
-    self.__df["hora"] = self.__df["hora"].apply(
-      lambda x: str(timedelta(seconds = x))
-      )
-    
-    self.__df["dia"] = pd.to_datetime(self.__df['dia'], format='%Y%m%d').dt.date
     
   @property
   def df(self):
     '''
     Método que obtiene el DataFrame actual.
     
-    Parameters:
-      None
+    Parámetros:
+      Ninguno
     
-    Returns:
+    Retorna:
       pd.DataFrame: El DataFrame actual.
     '''
     return self.__df
@@ -64,11 +63,11 @@ class ProcesadorTexto():
     '''
     Método que cambia el DataFrame actual.
     
-    Parameters:
+    Parámetros:
       new_df (pd.DataFrame): Nuevo DataFrame para reemplazar el existente.
     
-    Returns:
-      None
+    Retorna:
+      Nada
     '''
     self.__df = new_df
   
@@ -77,10 +76,10 @@ class ProcesadorTexto():
     Método que retorna la información del DataFrame de la clase 
     ProcesadorTexto.
     
-    Parameters:
-      None
+    Parámetros:
+      Ninguno
     
-    Returns:
+    Retorna:
       str: Información sobre el DataFrame.
     '''
     return self.__df.info()
@@ -89,11 +88,11 @@ class ProcesadorTexto():
     '''
     Método que lee un archivo CSV y lo carga en el DataFrame.
     
-    Parameters:
+    Parámetros:
       nombre (str): Nombre del archivo.
       
-    Returns:
-      None
+    Retorna:
+      Nada
     '''
     self.__df = pd.read_csv("res/" + nombre + ".csv")
     self.__df["mensaje"] = self.__df['mensaje'].apply(lambda x:  str(x))
@@ -102,11 +101,11 @@ class ProcesadorTexto():
     '''
     Método que guarda el DataFrame en un archivo CSV.
     
-    Parameters:
+    Parámetros:
       nombre (str): Nombre del archivo.
     
     Returns:
-      None
+      Nada
     '''
     self.__df.to_csv("res/" + nombre + ".csv", index=False)
       
@@ -116,11 +115,11 @@ class ProcesadorTexto():
     GoogleTranslator. Además, mide y muestra el tiempo que tarda en realizar la 
     traducción.
     
-    Parameters:
-      None
+    Parámetros:
+      Ninguno
     
-    Returns:
-      None
+    Retorna:
+      Nada
     '''
     t_inicial = time.time()
     traductor = GoogleTranslator(source = 'es', target = 'en')
@@ -135,11 +134,11 @@ class ProcesadorTexto():
     Método que realiza el análisis de sentimientos utilizando VADER y TextBlob.
     Añade los resultados del análisis al DataFrame.
     
-    Parameters:
-    None
+    Parámetros:
+      Ninguno
     
-    Returns:
-    None
+    Retorna:
+      Nada
     '''
     sid = SentimentIntensityAnalyzer()
     sentimientos1 = self.__df['mensaje'].apply(lambda x:  sid.polarity_scores(x))
@@ -158,11 +157,13 @@ class ProcesadorTexto():
     
 class AnalizadorTexto(ProcesadorTexto):
   '''
-  Clase que hereda de ProcesadorTexto y añade métodos para análisis estadístico y de texto.
+  Clase que hereda de ProcesadorTexto y añade métodos 
+  para análisis estadístico y de texto.
     
-  Methods:
+  Métodos:
     __init__(df):
-      Constructor de la clase AnalizadorMensajes. Hereda de ProcesadorTexto.
+      Constructor de la clase AnalizadorTexto. 
+      Hereda de ProcesadorTexto.
     
     editado():
       Retorna la cantidad de mensajes editados por cada autor.
@@ -171,7 +172,8 @@ class AnalizadorTexto(ProcesadorTexto):
       Retorna la cantidad de mensajes enviados por cada autor.
     
     encontrar(frase):
-      Retorna la cantidad de mensajes que contienen una frase específica por cada autor.
+      Retorna la cantidad de mensajes que contienen 
+      una frase específica por cada autor.
     
     promedio_sentimientos():
       Retorna el promedio de sentimientos por autor.
@@ -179,13 +181,14 @@ class AnalizadorTexto(ProcesadorTexto):
     
   def __init__(self, df):
     '''
-    Constructor de la clase AnalizadorTexto. Hereda de ProcesadorTexto.
+    Constructor de la clase AnalizadorTexto. 
+    Hereda de ProcesadorTexto.
         
-    Parameters:
+    Parámetros:
       df (pd.DataFrame): DataFrame con los datos iniciales.
       
-    Returns: 
-      None
+    Retorna: 
+      Nada
     '''
     ProcesadorTexto.__init__(self, df)
   
@@ -193,8 +196,8 @@ class AnalizadorTexto(ProcesadorTexto):
     '''
     Método que retorna la cantidad de mensajes editados por cada autor.
       
-    Parameters:
-      None
+    Parámetros:
+      Ninguno
       
     Returns:
       pd.Series: Serie con la cuenta de mensajes editados por autor.
@@ -206,10 +209,10 @@ class AnalizadorTexto(ProcesadorTexto):
     '''
     Método que retorna la cantidad de mensajes enviados por cada autor.
       
-    Parameters:
-      None
+    Parámetros:
+      Ninguno
       
-    Returns:
+    Retorna:
       pd.Series: Serie con la cuenta de mensajes por autor.
     '''
     return self.df["autor"].value_counts()
@@ -230,54 +233,59 @@ class AnalizadorTexto(ProcesadorTexto):
       "Location:"
       "omitted audio"
       
-    Parameters:
+    Parámetros:
       frase (str): Frase a buscar en los mensajes.
       
     Returns:
       pd.Series: Serie con la cuenta de mensajes que contienen la frase por autor.
     '''
-    audio = self.df["mensaje"].apply(lambda x: frase in x)
-    local = self.df[audio]
+    referencia = self.df["mensaje"].apply(lambda x: frase in x)
+    local = self.df[referencia]
     return local["autor"].value_counts()
 
   def promedio_sentimientos(self):
     '''
     Método que retorna el promedio de sentimientos por autor.
       
-    Parameters:
-      None
+    Parámetros:
+      Ningunogen
       
-    Returns:
+    Retorna:
       pd.DataFrame: DataFrame con el promedio de sentimientos por autor.
     '''
     return self.df.groupby('autor')[['negativo', 'neutral', 'positivo', 'compuesto', 'polaridad', 'subjetividad']].mean()
     
-  def racha(self, df):
+  def racha(self):
     '''
     Método que calcula la racha más larga de días consecutivos con mensajes.
     
-    Parameters:
+    Parámetros:
       df (pd.DataFrame): DataFrame con los datos.
     
     Returns:
       pd.DataFrame: DataFrame con la racha más larga de días consecutivos con mensajes.
     '''
-    df['dia'] = pd.to_datetime(df['dia'])  # se puede borrar si 'dia' ya es datetime
-    df = df.sort_values(by='dia')
-    df['consecutivos'] = df['dia'].diff().dt.days.ne(1).cumsum()
-    length_rachas = df.groupby('consecutivos')['dia'].count()
+    
+    ref = pd.DataFrame({"dia": self.df['dia'].unique()})
+    ref['consecutivos'] = ref['dia'].diff().dt.days.ne(1).cumsum()
+    length_rachas = ref.groupby('consecutivos')['dia'].count()
     contador_racha_mas_larga = length_rachas.idxmax()
-    longest_streak_df = df[df['consecutivos'] == contador_racha_mas_larga]
-    return longest_streak_df.iloc[:, [0]]
+    longest_streak_df = ref[ref['consecutivos'] == contador_racha_mas_larga]
+    
+    primer_dia = longest_streak_df.iloc[0, 0]
+    ultimo_dia = longest_streak_df.iloc[-1, 0]
+    streak = length_rachas[contador_racha_mas_larga]
+    
+    return f"La mayor racha de días fue de {streak}, desde el {primer_dia} al {ultimo_dia}"
 
   def dia_mas_concurrido(self, df):
     '''
     Método que retorna el día con la mayor cantidad de mensajes enviados.
     
-    Parameters:
+    Parámetros:
       df (pd.DataFrame): DataFrame con los datos.
     
-    Returns:
+    Retorna:
       pd.DataFrame: DataFrame con el día más concurrido y la cantidad de mensajes enviados.
     '''
     mensajes_contador = df['dia'].value_counts()
