@@ -40,8 +40,11 @@ class ProcesadorTexto():
     '''
     
     self.__df = df
-    self.__df["hora"] = self.__df["hora"].apply(lambda x: (timedelta(seconds=int(x))).strftime('%H:%M:%S'))
-    self.__df["dia"] = pd.to_datetime(self.__df['dia'], format='%Y%m%d').dt.strftime('%Y-%m-%d')
+    self.__df["hora"] = self.__df["hora"].apply(
+      lambda x: str(timedelta(seconds = x))
+      )
+    
+    self.__df["dia"] = pd.to_datetime(self.__df['dia'], format='%Y%m%d').dt.date
     
   @property
   def df(self):
