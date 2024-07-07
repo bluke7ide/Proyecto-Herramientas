@@ -24,7 +24,8 @@ telegram <- scrapT("herraII")
 ```
 
 ```{python}
-gen_py = ProcesadorTexto(r.gen)
+gen_py = AnalizadorTexto(r.gen)
+gen_py.dia_mas_concurrido()
 ```
 
 
