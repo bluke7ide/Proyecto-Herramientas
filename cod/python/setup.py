@@ -2,6 +2,7 @@
 import pandas as pd
 import time
 import nltk # hay que revisar si esta se sigue usando 
+import math
 from datetime import datetime
 from datetime import timedelta
 from nltk.sentiment.vader import SentimentIntensityAnalyzer

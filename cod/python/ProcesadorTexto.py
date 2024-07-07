@@ -294,8 +294,10 @@ class AnalizadorTexto(ProcesadorTexto):
 
     return f"El día más concurrido es el {dia}, con {contador} mensajes"
       
-      
-      
+  def hora_promedio(self):
+    
+    horas = self.df.groupby('autor')[['hora']].mean()
+    
       
       
       
