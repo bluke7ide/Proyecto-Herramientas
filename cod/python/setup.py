@@ -1,4 +1,4 @@
-# Módulos de Python -------------------------------------------------------
+# Librerías de Python -----------------------------------------------------     
 
 import pandas as pd
 import time
