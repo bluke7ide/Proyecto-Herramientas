@@ -1,4 +1,5 @@
-# Módulos
+# Librerías de Python -----------------------------------------------------     
+
 import pandas as pd
 import time
 import nltk # hay que revisar si esta se sigue usando 

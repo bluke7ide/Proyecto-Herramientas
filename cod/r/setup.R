@@ -1,4 +1,3 @@
-
 # Librerías ---------------------------------------------------------------
 
 pacman::p_load(
@@ -9,12 +8,12 @@ pacman::p_load(
   reticulate
 )
 
-# Scripts R ---------------------------------------------------------------
+# Scripts de R ------------------------------------------------------------
 
 source("cod/r/scrapW.R")
 source("cod/r/scrapT.R")
 
-# Python ------------------------------------------------------------------
+# Módulos de Python -------------------------------------------------------
 
 source_python("cod/python/setup.py")
 source_python("cod/python/ProcesadorTexto.py")
