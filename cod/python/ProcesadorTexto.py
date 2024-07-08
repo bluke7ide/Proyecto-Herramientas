@@ -296,10 +296,10 @@ class AnalizadorTexto(ProcesadorTexto):
     return f"El día más concurrido es el {dia}, con {contador} mensajes"
       
   def hora_promedio(self):
-    
     horas = self.df.groupby('autor')[['hora']].mean()
     horas["reloj"] = pd.to_timedelta(horas["hora"], unit = "s")
     horas["reloj"] = horas["reloj"].apply(tiempo)
+    return horas 
       
   def tiempo(x):
     minutos = x.components.minutes
