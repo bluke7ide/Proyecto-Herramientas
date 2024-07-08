@@ -15,15 +15,6 @@ class ProcesadorTexto():
     df (pd.DataFrame): DataFrame que contiene los mensajes de texto a procesar.
       
   Métodos:
-    __init__(df):
-      Constructor de la clase ProcesadorTexto. 
-
-    df:
-      Método que obtiene el DataFrame actual. 
-    
-    df(new_df):
-      Método que cambia el DataFrame actual. 
-      
     leer(nombre):
       Lee un archivo CSV y carga sus datos en el DataFrame.
       
@@ -160,7 +151,8 @@ class ProcesadorTexto():
                             "compuesto",
                             "polaridad",
                             "subjetividad"]
-    self.__df = pd.concat([self.__df, sentimientos], axis = 1)
+    for col in sentimientos.columns:
+        self.df[col] = sentimientos[col]
     
 class AnalizadorTexto(ProcesadorTexto):
   '''
@@ -168,10 +160,6 @@ class AnalizadorTexto(ProcesadorTexto):
   medio de extracción de patrones y sentimientos.
     
   Métodos:
-    __init__(df):
-      Constructor de la clase AnalizadorTexto. 
-      Hereda de ProcesadorTexto.
-    
     editado():
       Retorna la cantidad de mensajes editados por cada autor.
     
@@ -379,7 +367,7 @@ class AnalizadorTexto(ProcesadorTexto):
 
     return f'A {autor} le predomina lo {sentimiento_pred} con {valor_predominante}'
   
-  def autor_promedio_sentimiento(self, sentimiento):
+  def autor_predominante(self, sentimiento):
     '''
     Método que retorna el autor con el mayor o menor promedio de un tipo 
     específico de sentimiento.
@@ -417,7 +405,6 @@ class AnalizadorTexto(ProcesadorTexto):
       
       
       
-    
     
     
     
