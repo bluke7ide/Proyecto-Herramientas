@@ -126,7 +126,7 @@ class ProcesadorTexto():
     traducido.columns = ['mensaje_traducido']
     self.__df = pd.concat([self.__df, traducido], axis = 1)
     t_total = time.time() - t_inicial
-    print('Tiempo de ejecución: ' + str(round(t_total, 4)))
+    print('Tiempo de ejecución: ' + str(round(t_total, 3)))
     
   def analizar_sentimientos(self):
     '''
@@ -167,18 +167,6 @@ class AnalizadorTexto(ProcesadorTexto):
   medio de extracción de patrones y sentimientos.
     
   Métodos:
-    editado():
-      Retorna la cantidad de mensajes editados por cada autor.
-    
-    mensajes():
-      Retorna la cantidad de mensajes enviados por cada autor.
-    
-    encontrar(frase):
-      Retorna la cantidad de mensajes que contienen 
-      una frase específica por cada autor.
-    
-    promedio_sentimientos():
-      Retorna el promedio de sentimientos por autor.
   '''
     
   def __init__(self, df):
@@ -219,21 +207,23 @@ class AnalizadorTexto(ProcesadorTexto):
     '''
     return self.df["autor"].value_counts().head(8)
 
-  def encontrar(self, frase):
+  def encontrar_frase(self, frase):
     '''
-    Método que retorna la cantidad de mensajes que contienen una frase específica por cada autor.
+    Método que retorna la cantidad de mensajes que contienen una frase 
+    específica por cada autor.
     
     Se sugieren las siguientes frases:
-      "Change your security code with"
-      "document omitted"
+      "Cambió tu código de seguridad"
+      "documento omitido"
       "https://"
-      "image omitted"
-      "sticker omitted"
+      "imagen omitida"
+      "sticker omitido"
       "@"
-      "This message has been deleted"
-      "Video omitted"
-      "Location:"
-      "omitted audio"
+      "Este mensaje fue eliminado"
+      "Video omitido"
+      "Ubicacion"
+      "audio omitido"
+      "ENCUESTA"
       ""
       
     Parámetros:
@@ -356,7 +346,8 @@ class AnalizadorTexto(ProcesadorTexto):
   
   def sentimiento_predominante(self, autor):
     '''
-    Método que retorna el sentimiento predominante del autor ingresado.
+    Método que retorna el sentimiento predominante entre positivo y negativo del 
+    autor ingresado.
     
     Parámetros:
       autor (str): el autor al que se le encontrará el sentimiento predominante.
@@ -371,21 +362,21 @@ class AnalizadorTexto(ProcesadorTexto):
 
     sentimientos_autor = promedios.loc[autor, ['positivo', 'negativo']]
     sentimiento_pred = sentimientos_autor.abs().idxmax()
-    valor_predominante = round(sentimientos_autor[sentimiento_pred], 4)
+    valor_predominante = round(sentimientos_autor[sentimiento_pred], 3)
 
     return f'A {autor} le predomina lo {sentimiento_pred} con {valor_predominante}'
   
   def autor_predominante(self, sentimiento):
     '''
-    Método que retorna el autor con el mayor o menor promedio de un tipo 
-    específico de sentimiento.
+    Método que retorna el autor con el mayor promedio de un tipo específico de 
+    sentimiento.
     
     Parámetros:
       tipo_sentimiento (str): Tipo de sentimiento a analizar. 
-      Puede ser 'positivo', 'negativo', 'neutral' o 'subjetividad'.
+      Puede ser 'positivo', 'negativo', 'neutral', 'subjetivo' u 'objetivo'.
       
     Retorna:
-      str: Autor con el mayor o menor promedio del tipo de sentimiento especificado.
+      str: Autor con el mayor promedio del tipo de sentimiento especificado.
     '''
     sentimientos = ["negativo",
                     "neutral",
@@ -401,6 +392,31 @@ class AnalizadorTexto(ProcesadorTexto):
     
     return f'A {autor} le predomina lo {sentimiento} sobre todos los demás, con {valor}'
   
+  def autores_destacados(self, medida):
+    '''
+    Método que retorna los autores con mayor y menor valor en la puntuación de 
+    compuesto o polaridad, según sea indicado.
+    
+    Parámetros:
+      medida (str): nombre de la medida a utilizar como referencia.
+      
+    Retorna:
+      str: Autores con mayor y menor puntaje en la medida indicada.
+    '''
+    medidas = ['compuesto', 'polaridad']
+    
+    if medida not in medidas:
+        raise ValueError(f'Medida {medida} no válida.')
+      
+    autor_max = self.promedio_sentimientos()[medida].idxmax()
+    valor_max = round(self.promedio_sentimientos()[medida][autor_max], 4)
+    
+    autor_min = self.promedio_sentimientos()[medida].idxmin()
+    valor_min = round(self.promedio_sentimientos()[medida][autor_min], 4)
+    
+    return f'{autor_max} es el autor más feliz en general con {valor_max} de\
+  puntaje, mientras que {autor_min} es el autor más triste en general con\
+  {valor_min}'
 
     
     
