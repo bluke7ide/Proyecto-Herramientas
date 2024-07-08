@@ -21,11 +21,12 @@ analizar texto proveniente de conversaciones en línea vía Whatsapp o Telegram.
 Para mejorar la eficiencia, se ha hecho uso de dos lenguajes de programación, 
 estos son R (versión 4.4.0) y Python (versión 3.11.7).
 
-En primer lugar, se utilizó R para limpiar y transformar los datos, esto debido 
+En primer lugar, se utilizó R para limpiar y transformar los datos "crudos", esto debido 
 a la eficiencia del lenguaje al trabajar con vectores y matrices.
 
-Posteriormente, se envían las bases de datos limpias a Python, en donde se 
-realiza el procesamiento previo para llevar a cabo el análisis de texto.
+Posteriormente, se envían las bases de datos limpias y listas para ser trabajdas
+a Python, en donde se realiza el análisis de texto y el procesamiento previo 
+para llevar a cabo el análisis de sentimientos.
 
 # Main de R
 
@@ -37,48 +38,66 @@ source("cod/r/setup.R")
 
 ## Extracción de datos
 
-Se aplican las funciones para realizar la extracción de datos que se obtuvieron 
-de WhatsApp y Telegram. Los datos una vez tratados se asignan a las variables 
-gen (chat de la generación de actuariado) y telegram (chat del curso de 
-Herramientas de Ciencia de datos II)
+Previo a este punto, es necesario contar con las conversaciones exportadas 
+directamente de cada aplicación y estos deben estar en la carpeta de "data".
+
+En este caso, se utilizarán las siguientes conversaciones:
+    - "Gen" (grupo de WhatsApp de la generación de actuariado)
+    - "Herramientas de Datos II" (grupo de Telegram del curso de Herramientas de 
+    Ciencia de datos II)
+    
+A continuación se procede a aplicar las funciones creadas en R para realizar la 
+extracción los datos provenientes de dichos archivos y se asignan a sus 
+respectivas variables. 
 
 ```{r}
-gen <- scrapW("gen_23-6")
-telegram <- scrapT("herraII")
+gen <- scrapW("gen_08-07-24")
+telegram <- scrapT("herraII") # hay que actualizar este
 ```
 
 # Main de Python
 
 ## Carga de las bases de datos en Python
+
 ```{python}
 gen_py = AnalizadorTexto(r.gen)
 telegram_py = AnalizadorTexto(r.telegram)
 ```
 
+## Análisis del grupo "Gen"
+
 ```{python}
-View(gen_py.df)
-# gen_py.traducir()
-# gen_py.guardar("gen")
+gen_py.df
 ```
 
 ```{python}
-gen_py.leer("gen")
+gen_py.df = gen_py.df.head(10)
+
+gen_py.traducir()
+#gen_py.guardar("gen_08-07-24")
+```
+
+```{python}
+#gen_py.leer("gen_08-07-24")
 gen_py.analizar_sentimientos()
 ```
 
-
 ```{python}
 View(gen_py.df)
 ```
-
 
 ```{python}
 gen_py.sentimiento_predominante('Luis Fer Amey')
 gen_py.sentimiento_predominante('Javier Hernández')
 gen_py.sentimiento_predominante('Anthony')
 ```
+
 ```{python}
-gen_py.autor_promedio_sentimiento("subjetividad")
+gen_py.autor_predominante("positivo")
+gen_py.autor_predominante("negativo")
+gen_py.autor_predominante("neutral")
+gen_py.autor_predominante("subjetivo")
+gen_py.autor_predominante("objetivo")
 ```
 
 

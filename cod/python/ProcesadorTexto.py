@@ -123,9 +123,10 @@ class ProcesadorTexto():
     traductor = GoogleTranslator(source = 'es', target = 'en')
     traducido = pd.DataFrame(traductor.translate_batch(list(self.__df["mensaje"])))
     traducido = traducido.transform(lambda x: x.fillna(self.__df["mensaje"]))
-    self.__df["mensaje"] = traducido
-    t_final = time.time()
-    print('Tiempo de ejecución: ' + (t_final - t_inicial))
+    traducido.columns = ['mensaje_traducido']
+    self.__df = pd.concat([self.__df, traducido], axis = 1)
+    t_total = time.time() - t_inicial
+    print('Tiempo de ejecución: ' + str(round(t_total, 4)))
     
   def analizar_sentimientos(self):
     '''
@@ -139,19 +140,25 @@ class ProcesadorTexto():
       Nada
     '''
     sid = SentimentIntensityAnalyzer()
-    sentimientos1 = self.__df['mensaje'].apply(lambda x:  sid.polarity_scores(x))
+    sentimientos1 = self.__df['mensaje_traducido'].apply(lambda x:  sid.polarity_scores(x))
     sentimientos1 = sentimientos1.apply(lambda x: pd.Series(x))
     
-    sentimientos2 = self.__df['mensaje'].apply(lambda x:  TextBlob(x).sentiment)
+    sentimientos2 = self.__df['mensaje_traducido'].apply(lambda x:  TextBlob(x).sentiment)
     sentimientos2 = sentimientos2.apply(lambda x: pd.Series(x))
-    sentimientos = pd.concat([sentimientos1, sentimientos2], axis = 1)
+    objetividad = 1 - sentimientos2[1]
+    sentimientos = pd.concat([sentimientos1, sentimientos2, objetividad], axis = 1)
     sentimientos.columns = ["negativo",
                             "neutral",
                             "positivo",
                             "compuesto",
                             "polaridad",
-                            "subjetividad"]
-    for col in sentimientos.columns:
+                            "subjetivo",
+                            "objetivo"]
+        
+    if(self.df.shape[1] != 13):
+      self.__df = pd.concat([self.__df, sentimientos], axis = 1)
+    else:
+      for col in sentimientos.columns:
         self.df[col] = sentimientos[col]
     
 class AnalizadorTexto(ProcesadorTexto):
@@ -335,11 +342,12 @@ class AnalizadorTexto(ProcesadorTexto):
     '''
     
     cols_sentimientos = ['negativo', 
-    'neutral', 
-    'positivo', 
-    'compuesto', 
-    'polaridad', 
-    'subjetividad']
+                        'neutral', 
+                        'positivo', 
+                        'compuesto', 
+                        'polaridad', 
+                        'subjetivo',
+                        'objetivo']
     
     if not all(col in self.df.columns for col in cols_sentimientos):
         self.analizar_sentimientos()
@@ -382,12 +390,11 @@ class AnalizadorTexto(ProcesadorTexto):
     sentimientos = ["negativo",
                     "neutral",
                     "positivo",
-                    "compuesto",
-                    "polaridad",
-                    "subjetividad"]
+                    "subjetivo",
+                    "objetivo"]
     
     if sentimiento not in sentimientos:
-        raise ValueError(f'Sentimiento {tipo_sentimiento} no válido.')
+        raise ValueError(f'Sentimiento {sentimiento} no válido.')
     
     autor = self.promedio_sentimientos()[sentimiento].idxmax()
     valor = round(self.promedio_sentimientos()[sentimiento][autor], 4)
