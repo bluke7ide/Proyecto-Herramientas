@@ -373,7 +373,7 @@ class AnalizadorTexto(ProcesadorTexto):
     if autor not in promedios.index:
         return f'El autor "{autor}" no se ha encontrado.'
 
-    sentimientos_autor = promedios.loc[autor]
+    sentimientos_autor = promedios.loc[autor, ['positivo', 'negativo']]
     sentimiento_pred = sentimientos_autor.abs().idxmax()
     valor_predominante = round(sentimientos_autor[sentimiento_pred], 4)
 
@@ -391,12 +391,21 @@ class AnalizadorTexto(ProcesadorTexto):
     Retorna:
       str: Autor con el mayor o menor promedio del tipo de sentimiento especificado.
     '''
-    sentimientos = ['negativo', 'neutral', 'positivo']
+    sentimientos = ["negativo",
+                    "neutral",
+                    "positivo",
+                    "compuesto",
+                    "polaridad",
+                    "subjetividad"]
     
     if sentimiento not in sentimientos:
-        raise ValueError(f'Sentimiento "{tipo_sentimiento}" no válido.)
+        raise ValueError(f'Sentimiento {tipo_sentimiento} no válido.')
     
-    return self.promedio_sentimientos()[sentimiento].idxmax()
+    autor = self.promedio_sentimientos()[sentimiento].idxmax()
+    valor = round(self.promedio_sentimientos()[sentimiento][autor], 4)
+    
+    return f'A {autor} le predomina lo {sentimiento} sobre todos los demás, con {valor}'
+  
 
     
     

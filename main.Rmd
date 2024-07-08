@@ -57,12 +57,28 @@ telegram_py = AnalizadorTexto(r.telegram)
 
 ```{python}
 View(gen_py.df)
+# gen_py.traducir()
+# gen_py.guardar("gen")
 ```
+
+```{python}
+gen_py.leer("gen")
+gen_py.analizar_sentimientos()
+```
+
+
+```{python}
+View(gen_py.df)
+```
+
 
 ```{python}
 gen_py.sentimiento_predominante('Luis Fer Amey')
 gen_py.sentimiento_predominante('Javier Hernández')
 gen_py.sentimiento_predominante('Anthony')
+```
+```{python}
+gen_py.autor_promedio_sentimiento("subjetividad")
 ```
 
 
