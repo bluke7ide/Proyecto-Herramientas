@@ -55,26 +55,15 @@ gen_py = AnalizadorTexto(r.gen)
 telegram_py = AnalizadorTexto(r.telegram)
 ```
 
+```{python}
+View(gen_py.df)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```{python}
+gen_py.sentimiento_predominante('Luis Fer Amey')
+gen_py.sentimiento_predominante('Javier Hernández')
+gen_py.sentimiento_predominante('Anthony')
+```
 
 
 
