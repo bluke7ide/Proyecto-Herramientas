@@ -203,7 +203,7 @@ class AnalizadorTexto(ProcesadorTexto):
       pd.Series: Serie con la cuenta de mensajes editados por autor.
     '''
     local = self.df[self.df["editado"]]
-    return local["autor"].value_counts()
+    return local["autor"].value_counts().head(8)
 
   def mensajes(self):
     '''
@@ -215,7 +215,7 @@ class AnalizadorTexto(ProcesadorTexto):
     Retorna:
       pd.Series: Serie con la cuenta de mensajes por autor.
     '''
-    return self.df["autor"].value_counts()
+    return self.df["autor"].value_counts().head(8)
 
   def encontrar(self, frase):
     '''
@@ -232,6 +232,7 @@ class AnalizadorTexto(ProcesadorTexto):
       "Video omitted"
       "Location:"
       "omitted audio"
+      ""
       
     Parámetros:
       frase (str): Frase a buscar en los mensajes.
@@ -241,7 +242,7 @@ class AnalizadorTexto(ProcesadorTexto):
     '''
     referencia = self.df["mensaje"].apply(lambda x: frase in x)
     local = self.df[referencia]
-    return local["autor"].value_counts()
+    return local["autor"].value_counts().head(8)
 
   def promedio_sentimientos(self):
     '''
@@ -297,6 +298,23 @@ class AnalizadorTexto(ProcesadorTexto):
   def hora_promedio(self):
     
     horas = self.df.groupby('autor')[['hora']].mean()
+    horas["reloj"] = pd.to_timedelta(horas["hora"], unit = "s")
+    horas["reloj"] = horas["reloj"].apply(tiempo)
+      
+  def tiempo(x):
+    minutos = x.components.minutes
+    hora = x.components.hours
+    if hora < 10:
+      hora = f'0{hora}'
+    else:
+      hora = str(hora)
+    if minutos < 10:
+      minutos = f'0{minutos}'
+    else:
+      minutos = str(minutos)
+    return f'{hora}:{minutos}'
+    
+
     
       
       
