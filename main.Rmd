@@ -51,8 +51,35 @@ telegram <- scrapT("herraII")
 
 ## Carga de las bases de datos en Python
 ```{python}
-gen_py = ProcesadorTexto(r.gen)
-telegram_py = ProcesadorTexto(r.telegram)
+gen_py = AnalizadorTexto(r.gen)
+telegram_py = AnalizadorTexto(r.telegram)
 ```
+
+```{python}
+View(gen_py.df)
+```
+
+```{python}
+gen_py.sentimiento_predominante('Luis Fer Amey')
+gen_py.sentimiento_predominante('Javier Hernández')
+gen_py.sentimiento_predominante('Anthony')
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

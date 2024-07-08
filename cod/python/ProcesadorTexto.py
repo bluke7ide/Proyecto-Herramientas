@@ -1,40 +1,48 @@
+'''
+Módulo creado el sábado 06 de julio del 2024.
+
+@autores: 
+  Luis Fernando Amey Apuy
+  Javier Antonio Hernández Navarro
+  Anthony Mauricio Jiménez Navarro
+'''
+
 class ProcesadorTexto():
   '''
   Clase para procesar y manipular datos de texto en un DataFrame.
       
   Atributos:
-    __df (pd.DataFrame): DataFrame que contiene los mensajes a procesar.
+    df (pd.DataFrame): DataFrame que contiene los mensajes de texto a procesar.
       
-  Metodos:
+  Métodos:
     __init__(df):
       Constructor de la clase ProcesadorTexto. 
-      Inicializa la clase con un DataFrame.
-      
+
     df:
-      Método getter que obtiene el DataFrame actual.
+      Método que obtiene el DataFrame actual. 
     
     df(new_df):
-      Método setter que cambia el DataFrame actual.
+      Método que cambia el DataFrame actual. 
       
     leer(nombre):
       Lee un archivo CSV y carga sus datos en el DataFrame.
       
-      guardar(nombre):
-        Guarda el DataFrame actual en un archivo CSV.
-      
-      traducir():
-        Traduce los mensajes del DataFrame de español a inglés 
-        utilizando GoogleTranslator.
-      
-      analizar_sentimientos():
-        Realiza análisis de sentimientos utilizando VADER y TextBlob
-        y añade los resultados al DataFrame.
-    '''
+    guardar(nombre):
+      Guarda el DataFrame actual en un archivo CSV.
+    
+    traducir():
+      Traduce los mensajes del DataFrame de español a inglés utilizando 
+      GoogleTranslator.
+    
+    analizar_sentimientos():
+      Realiza análisis de sentimientos utilizando VADER y TextBlob y añade los 
+      resultados al DataFrame.
+  '''
     
   def __init__(self, df):
     '''
-    Constructor de la clase ProcesadorTexto. 
-    Inicializa la clase con un DataFrame.
+    Constructor de la clase ProcesadorTexto, inicializa la clase con un 
+    DataFrame.
     
     Parámetros:
       df (pd.DataFrame): DataFrame con los datos iniciales
@@ -73,8 +81,7 @@ class ProcesadorTexto():
   
   def __str__(self):
     '''
-    Método que retorna la información del DataFrame de la clase 
-    ProcesadorTexto.
+    Método que retorna la información del DataFrame de la clase ProcesadorTexto.
     
     Parámetros:
       Ninguno
@@ -104,10 +111,10 @@ class ProcesadorTexto():
     Parámetros:
       nombre (str): Nombre del archivo.
     
-    Returns:
+    Retorna:
       Nada
     '''
-    self.__df.to_csv("res/" + nombre + ".csv", index=False)
+    self.__df.to_csv("res/" + nombre + ".csv", index=True)
       
   def traducir(self):
     '''
@@ -157,8 +164,8 @@ class ProcesadorTexto():
     
 class AnalizadorTexto(ProcesadorTexto):
   '''
-  Clase que hereda de ProcesadorTexto y añade métodos 
-  para análisis estadístico y de texto.
+  Clase que hereda de ProcesadorTexto y añade métodos para el análisis texto por 
+  medio de extracción de patrones y sentimientos.
     
   Métodos:
     __init__(df):
@@ -192,30 +199,30 @@ class AnalizadorTexto(ProcesadorTexto):
     '''
     ProcesadorTexto.__init__(self, df)
   
-  def editado(self):
+  def contar_editados(self):
     '''
     Método que retorna la cantidad de mensajes editados por cada autor.
       
     Parámetros:
       Ninguno
       
-    Returns:
+    Retorna:
       pd.Series: Serie con la cuenta de mensajes editados por autor.
     '''
     local = self.df[self.df["editado"]]
-    return local["autor"].value_counts()
+    return local["autor"].value_counts().head(8)
 
-  def mensajes(self):
+  def contar_mensajes(self):
     '''
     Método que retorna la cantidad de mensajes enviados por cada autor.
       
     Parámetros:
-      Ninguno
+      Ninguno.
       
     Retorna:
       pd.Series: Serie con la cuenta de mensajes por autor.
     '''
-    return self.df["autor"].value_counts()
+    return self.df["autor"].value_counts().head(8)
 
   def encontrar(self, frase):
     '''
@@ -232,38 +239,29 @@ class AnalizadorTexto(ProcesadorTexto):
       "Video omitted"
       "Location:"
       "omitted audio"
+      ""
       
     Parámetros:
       frase (str): Frase a buscar en los mensajes.
       
     Returns:
-      pd.Series: Serie con la cuenta de mensajes que contienen la frase por autor.
+      pd.Series: Serie con la cuenta de mensajes que contienen la frase por 
+      autor.
     '''
     referencia = self.df["mensaje"].apply(lambda x: frase in x)
     local = self.df[referencia]
-    return local["autor"].value_counts()
+    return local["autor"].value_counts().head(8)
 
-  def promedio_sentimientos(self):
-    '''
-    Método que retorna el promedio de sentimientos por autor.
-      
-    Parámetros:
-      Ningunogen
-      
-    Retorna:
-      pd.DataFrame: DataFrame con el promedio de sentimientos por autor.
-    '''
-    return self.df.groupby('autor')[['negativo', 'neutral', 'positivo', 'compuesto', 'polaridad', 'subjetividad']].mean()
-    
   def racha(self):
     '''
     Método que calcula la racha más larga de días consecutivos con mensajes.
     
     Parámetros:
-      df (pd.DataFrame): DataFrame con los datos.
+      Ninguno.
     
     Returns:
-      pd.DataFrame: DataFrame con la racha más larga de días consecutivos con mensajes.
+      pd.DataFrame: DataFrame con la racha más larga de días consecutivos con 
+      mensajes.
     '''
     
     ref = pd.DataFrame({"dia": self.df['dia'].unique()})
@@ -283,10 +281,11 @@ class AnalizadorTexto(ProcesadorTexto):
     Método que retorna el día con la mayor cantidad de mensajes enviados.
     
     Parámetros:
-      df (pd.DataFrame): DataFrame con los datos.
+      Ninguno.
     
     Retorna:
-      pd.DataFrame: DataFrame con el día más concurrido y la cantidad de mensajes enviados.
+      pd.DataFrame: DataFrame con el día más concurrido y la cantidad de 
+      mensajes enviados.
     '''
     mensajes_contador = self.df['dia'].value_counts()
     dia = mensajes_contador.idxmax()
@@ -295,8 +294,115 @@ class AnalizadorTexto(ProcesadorTexto):
     return f"El día más concurrido es el {dia}, con {contador} mensajes"
       
   def hora_promedio(self):
+    '''
+    Método que retorna la hora promedio en que envía mensajes cada autor.
     
+    Parámetros:
+      Ninguno.
+    
+    Retorna:
+      pd.DataFrame: DataFrame con cada autor y la hora promedio en que envía 
+      mensajes. 
+    '''
     horas = self.df.groupby('autor')[['hora']].mean()
+    horas["reloj"] = pd.to_timedelta(horas["hora"], unit = "s")
+    horas["reloj"] = horas["reloj"].apply(__tiempo)
+    
+    return horas 
+      
+  def __tiempo(x):
+    '''
+    Método privado que convierte un objeto timedelta a una cadena de texto en 
+    formato hh:mm.
+
+    Parámetros:
+      x (pd.Timedelta): Objeto timedelta que representa el tiempo.
+
+    Retorna:
+      str: Cadena de texto en formato hh:mm.
+    '''
+    minutos = x.components.minutes
+    hora = x.components.hours
+    
+    if hora < 10:
+      hora = f'0{hora}'
+    else:
+      hora = str(hora)
+    if minutos < 10:
+      minutos = f'0{minutos}'
+    else:
+      minutos = str(minutos)
+      
+    return f'{hora}:{minutos}'
+  
+  def promedio_sentimientos(self):
+    '''
+    Método que retorna el promedio de sentimientos por autor.
+      
+    Parámetros:
+      Ninguno.
+      
+    Retorna:
+      pd.DataFrame: DataFrame con el promedio de sentimientos por autor.
+    '''
+    
+    cols_sentimientos = ['negativo', 
+    'neutral', 
+    'positivo', 
+    'compuesto', 
+    'polaridad', 
+    'subjetividad']
+    
+    if not all(col in self.df.columns for col in cols_sentimientos):
+        self.analizar_sentimientos()
+
+    return self.df.groupby('autor')[cols_sentimientos].mean()
+  
+  def sentimiento_predominante(self, autor):
+    '''
+    Método que retorna el sentimiento predominante del autor ingresado.
+    
+    Parámetros:
+      autor (str): el autor al que se le encontrará el sentimiento predominante.
+      
+    Retorna:
+      str: el autor junto a su sentimiento predominante.
+    '''
+    promedios = self.promedio_sentimientos()
+    
+    if autor not in promedios.index:
+        return f'El autor "{autor}" no se ha encontrado.'
+
+    sentimientos_autor = promedios.loc[autor]
+    sentimiento_pred = sentimientos_autor.abs().idxmax()
+    valor_predominante = round(sentimientos_autor[sentimiento_pred], 4)
+
+    return f'A {autor} le predomina lo {sentimiento_pred} con {valor_predominante}'
+  
+  def autor_promedio_sentimiento(self, sentimiento):
+    '''
+    Método que retorna el autor con el mayor o menor promedio de un tipo 
+    específico de sentimiento.
+    
+    Parámetros:
+      tipo_sentimiento (str): Tipo de sentimiento a analizar. 
+      Puede ser 'positivo', 'negativo', 'neutral' o 'subjetividad'.
+      
+    Retorna:
+      str: Autor con el mayor o menor promedio del tipo de sentimiento especificado.
+    '''
+    sentimientos = ['negativo', 'neutral', 'positivo']
+    
+    if sentimiento not in sentimientos:
+        raise ValueError(f'Sentimiento "{tipo_sentimiento}" no válido.)
+    
+    return self.promedio_sentimientos()[sentimiento].idxmax()
+
+    
+    
+
+    
+
     
       
       
