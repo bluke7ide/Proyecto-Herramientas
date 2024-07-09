@@ -105,7 +105,7 @@ class ProcesadorTexto():
     Retorna:
       Nada
     '''
-    self.__df.to_csv("res/" + nombre + ".csv", index=True)
+    self.__df.to_csv("res/" + nombre + ".csv", index = False)
       
   def traducir(self):
     '''

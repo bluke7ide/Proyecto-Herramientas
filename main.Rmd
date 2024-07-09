@@ -12,7 +12,7 @@ output:
     downcute_theme: "chaos"
 ---
 
-# Resumen 
+# Resumen
 
 En el presente documento se encuentra la implementación del módulo de Python
 llamado **ProcesadorTexto**, el cual proporciona herramientas para procesar y 
@@ -141,7 +141,7 @@ Es importante mencionar que esta tarea toma su tiempo, por lo que para evitar
 repetir una y otra vez la traducción, esta se guardará en un ".csv" y luego se 
 trabajará únicamente con dicho archivo.
 
-```{python, eval=FALSE}
+```{python}
 #gen_py.traducir()
 #gen_py.guardar("gen_08-07-24") # aquí se guarda el df con las traducciones 
 ```
@@ -188,6 +188,8 @@ gen_py.autores_destacados(medida = 'compuesto')
 ```
 
 ## Análisis del grupo "Herramientas de Datos II"
+
+### Extracción de patrones
 
 De manera análoga, se procede a extraer patrones presentes en la conversación 
 utilizando los métodos creados.
@@ -248,19 +250,12 @@ herra_py.hora_promedio()
 
 ### Análisis de sentimientos
 
-Para realizar el análisis de sentimientos, lo primero que se va a realizar es 
-una traducción de los mensajes a inglés, esto debido a que los modelos para 
-analizar sentimientos fueron diseñados para ejecutar esta tarea en dicho idioma.
-
-Es importante mencionar que esta tarea toma su tiempo, por lo que para evitar 
-repetir una y otra vez la traducción, esta se guardará en un ".csv" y luego se 
-trabajará únicamente con dicho archivo.
+De igual manera, para realizar el análisis de sentimientos, lo primero que se va 
+a realizar es una traducción de los mensajes a inglés.
 
 ```{python}
-herra_py.df = gen_py.df.head(10) # borrar esta línea al final
-
-herra_py.traducir()
-herra_py.guardar("herraII_08-07-24")
+#herra_py.traducir()
+#herra_py.guardar("herraII_08-07-24")
 ```
 
 Una vez realizada la traducción, se procede a ejecutar el método que analiza los
@@ -304,24 +299,4 @@ herra_py.sentimiento_predominante('Potoy Juárez')
 ```{python}
 herra_py.autores_destacados(medida = 'compuesto')
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
