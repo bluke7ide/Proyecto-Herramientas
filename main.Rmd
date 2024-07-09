@@ -16,7 +16,7 @@ output:
 
 En el presente documento se encuentra la implementación del módulo de Python
 llamado **ProcesadorTexto**, el cual proporciona herramientas para procesar y 
-analizar texto proveniente de conversaciones en línea vía Whatsapp o Telegram.
+analizar texto proveniente de conversaciones en línea vía WhatsApp o Telegram.
 
 Para mejorar la eficiencia, se ha hecho uso de dos lenguajes de programación, 
 estos son R (versión 4.4.0) y Python (versión 3.11.7).
@@ -47,8 +47,8 @@ Para este caso, se utilizarán las conversaciones de los siguientes grupos:
     Ciencia de datos II)
     
 A continuación se procede a aplicar las funciones creadas en R para realizar la 
-extracción los datos provenientes de dichos archivos y se asignan a sus 
-respectivas variables. 
+extracción de los datos provenientes de dichos archivos y se asignan a sus 
+respectivas variables de R. 
 
 ```{r}
 gen <- scrapW("gen_08-07-24")
@@ -59,6 +59,9 @@ herra <- scrapT("herraII_08-07-24")
 
 ## Carga de las bases de datos en Python
 
+En primer lugar, se inicializan los objetos de la clase AnalizadorTexto con los 
+DataFrames creados en R.
+
 ```{python}
 gen_py = AnalizadorTexto(r.gen)
 herra_py = AnalizadorTexto(r.herra)
@@ -68,7 +71,7 @@ herra_py = AnalizadorTexto(r.herra)
 
 ### Extracción de patrones
 
-En primer lugar, se procede a extraer patrones presentes en la conversación 
+A continuación, se procede a extraer patrones presentes en el grupo "Gen" 
 utilizando los métodos creados.
 
 #### Top 10 más activos
@@ -138,8 +141,8 @@ una traducción de los mensajes a inglés, esto debido a que los modelos para
 analizar sentimientos fueron diseñados para ejecutar esta tarea en dicho idioma.
 
 Es importante mencionar que esta tarea toma su tiempo, por lo que para evitar 
-repetir una y otra vez la traducción, esta se guardará en un ".csv" y luego se 
-trabajará únicamente con dicho archivo.
+repetir una y otra vez la traducción, la versión final fue guardada en un ".csv" 
+y luego se trabaja únicamente con dicho archivo.
 
 ```{python}
 #gen_py.traducir()
@@ -154,10 +157,11 @@ gen_py.leer("gen_08-07-24") # aquí se lee el df con las traducciones
 gen_py.analizar_sentimientos()
 ```
 
-Una vez realizado el análisis de sentimientos, se puede comenzar a extraer 
+Después de realizar el análisis de sentimientos, se puede comenzar a extraer 
 resultados.
 
 #### Sentimiento promedio por autor
+
 ```{python}
 gen_py.promedio_sentimientos()
 ```
@@ -175,6 +179,8 @@ gen_py.autor_predominante("objetivo")
 
 #### Sentimiento que predomina en autores específicos
 
+Se utilizan de referencia los integrantes del grupo.
+
 ```{python}
 gen_py.sentimiento_predominante('Luis Fer Amey')
 gen_py.sentimiento_predominante('Javier Hernández')
@@ -191,8 +197,8 @@ gen_py.autores_destacados(medida = 'compuesto')
 
 ### Extracción de patrones
 
-De manera análoga, se procede a extraer patrones presentes en la conversación 
-utilizando los métodos creados.
+De manera análoga, se procede a extraer patrones presentes en el grupo utilizando 
+los métodos creados.
 
 #### Top 10 más activos
 
@@ -200,7 +206,7 @@ utilizando los métodos creados.
 herra_py.contar_mensajes().head(10)
 ```
 
-#### Autores más editores
+#### Autores con más ediciones
 
 ```{python}
 herra_py.contar_editados()
@@ -255,18 +261,18 @@ a realizar es una traducción de los mensajes a inglés.
 
 ```{python}
 #herra_py.traducir()
-#herra_py.guardar("herraII_08-07-24")
+#herra_py.guardar("herraII_08-07-24") # aquí se guarda el df con las traducciones 
 ```
 
 Una vez realizada la traducción, se procede a ejecutar el método que analiza los
 sentimientos de los mensajes.
 
 ```{python}
-herra_py.leer("herraII_08-07-24")
+herra_py.leer("herraII_08-07-24") # aquí se lee el df con las traducciones 
 herra_py.analizar_sentimientos()
 ```
 
-Una vez realizado el análisis de sentimientos, se puede comenzar a extraer 
+Después de realizar el análisis de sentimientos, se puede comenzar a extraer 
 resultados.
 
 #### Sentimiento promedio por autor
