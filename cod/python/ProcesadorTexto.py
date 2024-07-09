@@ -140,10 +140,10 @@ class ProcesadorTexto():
       Nada
     '''
     sid = SentimentIntensityAnalyzer()
-    sentimientos1 = self.__df['mensaje_traducido'].apply(lambda x:  sid.polarity_scores(x))
+    sentimientos1 = self.__df['mensaje_traducido'].apply(lambda x:  sid.polarity_scores(str(x)))
     sentimientos1 = sentimientos1.apply(lambda x: pd.Series(x))
     
-    sentimientos2 = self.__df['mensaje_traducido'].apply(lambda x:  TextBlob(x).sentiment)
+    sentimientos2 = self.__df['mensaje_traducido'].apply(lambda x:  TextBlob(str(x)).sentiment)
     sentimientos2 = sentimientos2.apply(lambda x: pd.Series(x))
     objetividad = 1 - sentimientos2[1]
     sentimientos = pd.concat([sentimientos1, sentimientos2, objetividad], axis = 1)

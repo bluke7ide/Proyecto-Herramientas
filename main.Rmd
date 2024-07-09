@@ -141,18 +141,16 @@ Es importante mencionar que esta tarea toma su tiempo, por lo que para evitar
 repetir una y otra vez la traducción, esta se guardará en un ".csv" y luego se 
 trabajará únicamente con dicho archivo.
 
-```{python}
-gen_py.df = gen_py.df.head(10) # borrar esta línea al final
-
-gen_py.traducir()
-gen_py.guardar("gen_08-07-24")
+```{python, eval=FALSE}
+#gen_py.traducir()
+#gen_py.guardar("gen_08-07-24") # aquí se guarda el df con las traducciones 
 ```
 
 Una vez realizada la traducción, se procede a ejecutar el método que analiza los
 sentimientos de los mensajes.
 
 ```{python}
-gen_py.leer("gen_08-07-24")
+gen_py.leer("gen_08-07-24") # aquí se lee el df con las traducciones 
 gen_py.analizar_sentimientos()
 ```
 
