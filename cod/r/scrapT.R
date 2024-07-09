@@ -32,7 +32,7 @@ scrapT <- function(name){
   telegram$dia <- ymd(telegram$dia)
   telegram$hora <- as.double(hms(telegram$hora))
   colnames(telegram) <- c("dia", "hora", "autor", "mensaje", "editado")
-  telegram$editado[is.na(telegram$editado)] = FALSE
+  telegram$editado <- ifelse(is.na(telegram$editado), FALSE, TRUE)
   row.names(telegram) <- NULL
   
   # listas <- sapply(telegram$mensaje, function (x) typeof(x) == "list")
