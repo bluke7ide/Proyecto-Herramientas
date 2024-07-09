@@ -24,7 +24,7 @@ estos son R (versión 4.4.0) y Python (versión 3.11.7).
 En primer lugar, se utilizó R para limpiar y transformar los datos "crudos", 
 esto debido a la eficiencia del lenguaje al trabajar con vectores y matrices.
 
-Posteriormente, se envían las bases de datos limpias y listas para ser trabajdas
+Posteriormente, se envían las bases de datos limpias y listas para ser trabajadas
 a Python, en donde se realiza el análisis de texto y el procesamiento previo 
 para llevar a cabo el análisis de sentimientos.
 
@@ -288,7 +288,7 @@ herra_py.autor_predominante("objetivo")
 #### Sentimiento que predomina en autores específicos
 
 ```{python}
-herra_py.sentimiento_predominante('Luis Fer Amey')
+herra_py.sentimiento_predominante('Luis Fernando Amey')
 herra_py.sentimiento_predominante('Javier Hernández')
 herra_py.sentimiento_predominante('Anthony')
 herra_py.sentimiento_predominante('Potoy Juárez')
