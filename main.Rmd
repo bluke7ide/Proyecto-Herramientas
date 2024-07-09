@@ -1,4 +1,6 @@
 ---
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "docs")})
 title: "Proyecto Grupal - Herramientas de Ciencias de Datos II"
 author: 
   - Estudiantes
@@ -12,20 +14,21 @@ output:
     downcute_theme: "chaos"
 ---
 
-# Resumen 
+# Resumen
 
 En el presente documento se encuentra la implementación del módulo de Python
 llamado **ProcesadorTexto**, el cual proporciona herramientas para procesar y 
-analizar texto proveniente de conversaciones en línea vía Whatsapp o Telegram.
+analizar texto proveniente de conversaciones en línea vía WhatsApp o Telegram.
 
 Para mejorar la eficiencia, se ha hecho uso de dos lenguajes de programación, 
 estos son R (versión 4.4.0) y Python (versión 3.11.7).
 
-En primer lugar, se utilizó R para limpiar y transformar los datos, esto debido 
-a la eficiencia del lenguaje al trabajar con vectores y matrices.
+En primer lugar, se utilizó R para limpiar y transformar los datos "crudos", 
+esto debido a la eficiencia del lenguaje al trabajar con vectores y matrices.
 
-Posteriormente, se envían las bases de datos limpias a Python, en donde se 
-realiza el procesamiento previo para llevar a cabo el análisis de texto.
+Posteriormente, se envían las bases de datos limpias y listas para ser trabajadas
+a Python, en donde se realiza el análisis de texto y el procesamiento previo 
+para llevar a cabo el análisis de sentimientos.
 
 # Main de R
 
@@ -37,65 +40,271 @@ source("cod/r/setup.R")
 
 ## Extracción de datos
 
-Se aplican las funciones para realizar la extracción de datos que se obtuvieron 
-de WhatsApp y Telegram. Los datos una vez tratados se asignan a las variables 
-gen (chat de la generación de actuariado) y telegram (chat del curso de 
-Herramientas de Ciencia de datos II)
+Previo a este punto, es necesario contar con las conversaciones exportadas 
+directamente de cada aplicación y estos deben estar en la carpeta de "data".
+
+Para este caso, se utilizarán las conversaciones de los siguientes grupos:
+    - "Gen" (grupo de WhatsApp de la generación de actuariado)
+    - "Herramientas de Datos II" (grupo de Telegram del curso de Herramientas de 
+    Ciencia de datos II)
+    
+A continuación se procede a aplicar las funciones creadas en R para realizar la 
+extracción de los datos provenientes de dichos archivos y se asignan a sus 
+respectivas variables de R. 
 
 ```{r}
-gen <- scrapW("gen_23-6")
-telegram <- scrapT("herraII")
+gen <- scrapW("gen_08-07-24")
+herra <- scrapT("herraII_08-07-24")
 ```
 
 # Main de Python
 
 ## Carga de las bases de datos en Python
+
+En primer lugar, se inicializan los objetos de la clase AnalizadorTexto con los 
+DataFrames creados en R.
+
 ```{python}
 gen_py = AnalizadorTexto(r.gen)
-telegram_py = AnalizadorTexto(r.telegram)
+herra_py = AnalizadorTexto(r.herra)
 ```
 
-```{python}
-View(gen_py.df)
-# gen_py.traducir()
-# gen_py.guardar("gen")
-```
+## Análisis del grupo "Gen"
+
+### Extracción de patrones
+
+A continuación, se procede a extraer patrones presentes en el grupo "Gen" 
+utilizando los métodos creados.
+
+#### Top 10 más activos
 
 ```{python}
-gen_py.leer("gen")
+gen_py.contar_mensajes().head(10)
+```
+
+#### Top 5 más editores
+
+```{python}
+gen_py.contar_editados().head(5)
+```
+
+#### Top 5 con más stickers enviados
+
+```{python}
+gen_py.encontrar_frase('sticker omitido').head(5)
+```
+
+#### Top 5 con más imágenes enviadas
+
+```{python}
+gen_py.encontrar_frase('imagen omitida').head(5)
+```
+
+#### Top 5 con más documentos enviados
+
+```{python}
+gen_py.encontrar_frase('documento omitido').head(5)
+```
+
+#### Top 5 con más etiquetas
+
+```{python}
+gen_py.encontrar_frase('@').head(5)
+```
+
+#### Top 5 con más enlaces enviados
+
+```{python}
+gen_py.encontrar_frase('https://').head(5)
+```
+
+#### Mayor racha registrada
+
+```{python}
+gen_py.racha()
+```
+
+#### Día más concurrido
+
+```{python}
+gen_py.dia_mas_concurrido()
+```
+
+#### Hora promedio de cada autor
+
+```{python}
+gen_py.hora_promedio()
+```
+
+### Análisis de sentimientos
+
+Para realizar el análisis de sentimientos, lo primero que se va a realizar es 
+una traducción de los mensajes a inglés, esto debido a que los modelos para 
+analizar sentimientos fueron diseñados para ejecutar esta tarea en dicho idioma.
+
+Es importante mencionar que esta tarea toma su tiempo, por lo que para evitar 
+repetir una y otra vez la traducción, la versión final fue guardada en un ".csv" 
+y luego se trabaja únicamente con dicho archivo.
+
+```{python}
+#gen_py.traducir()
+#gen_py.guardar("gen_08-07-24") # aquí se guarda el df con las traducciones 
+```
+
+Una vez realizada la traducción, se procede a ejecutar el método que analiza los
+sentimientos de los mensajes.
+
+```{python}
+gen_py.leer("gen_08-07-24") # aquí se lee el df con las traducciones 
 gen_py.analizar_sentimientos()
 ```
 
+Después de realizar el análisis de sentimientos, se puede comenzar a extraer 
+resultados.
+
+#### Sentimiento promedio por autor
 
 ```{python}
-View(gen_py.df)
+gen_py.promedio_sentimientos()
 ```
 
+#### Autor que predomina por sentimiento
+
+```{python}
+gen_py.autor_predominante("positivo")
+gen_py.autor_predominante("negativo")
+gen_py.autor_predominante("neutral")
+gen_py.autor_predominante("subjetivo")
+gen_py.autor_predominante("objetivo")
+```
+
+
+#### Sentimiento que predomina en autores específicos
+
+Se utilizan de referencia los integrantes del grupo.
 
 ```{python}
 gen_py.sentimiento_predominante('Luis Fer Amey')
 gen_py.sentimiento_predominante('Javier Hernández')
 gen_py.sentimiento_predominante('Anthony')
 ```
+
+#### Autores destacados como más positivo y más negativo.
+
 ```{python}
-gen_py.autor_promedio_sentimiento("subjetividad")
+gen_py.autores_destacados(medida = 'compuesto')
+```
+
+## Análisis del grupo "Herramientas de Datos II"
+
+### Extracción de patrones
+
+De manera análoga, se procede a extraer patrones presentes en el grupo utilizando 
+los métodos creados.
+
+#### Top 10 más activos
+
+```{python}
+herra_py.contar_mensajes().head(10)
+```
+
+#### Autores con más ediciones
+
+```{python}
+herra_py.contar_editados()
+```
+
+#### Autores con más stickers enviados
+
+```{python}
+herra_py.encontrar_frase('sticker omitido')
+```
+
+#### Autores con más imágenes enviadas
+
+```{python}
+herra_py.encontrar_frase('imagen omitida')
+```
+
+#### Autores con más documentos enviados
+
+```{python}
+herra_py.encontrar_frase('documento omitido')
+```
+
+#### Autores con más enlaces enviados
+
+```{python}
+herra_py.encontrar_frase('https://')
+```
+
+#### Mayor racha registrada
+
+```{python}
+herra_py.racha()
+```
+
+#### Día más concurrido
+
+```{python}
+herra_py.dia_mas_concurrido()
+```
+
+#### Hora promedio de cada autor
+
+```{python}
+herra_py.hora_promedio()
+```
+
+### Análisis de sentimientos
+
+De igual manera, para realizar el análisis de sentimientos, lo primero que se va 
+a realizar es una traducción de los mensajes a inglés.
+
+```{python}
+#herra_py.traducir()
+#herra_py.guardar("herraII_08-07-24") # aquí se guarda el df con las traducciones 
+```
+
+Una vez realizada la traducción, se procede a ejecutar el método que analiza los
+sentimientos de los mensajes.
+
+```{python}
+herra_py.leer("herraII_08-07-24") # aquí se lee el df con las traducciones 
+herra_py.analizar_sentimientos()
+```
+
+Después de realizar el análisis de sentimientos, se puede comenzar a extraer 
+resultados.
+
+#### Sentimiento promedio por autor
+```{python}
+herra_py.promedio_sentimientos()
+```
+
+#### Autor que predomina por sentimiento
+
+```{python}
+herra_py.autor_predominante("positivo")
+herra_py.autor_predominante("negativo")
+herra_py.autor_predominante("neutral")
+herra_py.autor_predominante("subjetivo")
+herra_py.autor_predominante("objetivo")
 ```
 
 
+#### Sentimiento que predomina en autores específicos
 
+```{python}
+herra_py.sentimiento_predominante('Luis Fernando Amey')
+herra_py.sentimiento_predominante('Javier Hernández')
+herra_py.sentimiento_predominante('Anthony')
+herra_py.sentimiento_predominante('Potoy Juárez')
+```
 
+#### Autores destacados como más positivo y más negativo.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+```{python}
+herra_py.autores_destacados(medida = 'compuesto')
+```
 
