@@ -1,4 +1,6 @@
 ---
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "docs")})
 title: "Proyecto Grupal - Herramientas de Ciencias de Datos II"
 author: 
   - Estudiantes
