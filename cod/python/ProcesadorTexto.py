@@ -167,6 +167,42 @@ class AnalizadorTexto(ProcesadorTexto):
   medio de extracción de patrones y sentimientos.
     
   Métodos:
+    contar_editados(): 
+      Retorna la cantidad de mensajes editados por cada autor.
+      
+    contar_mensajes(): 
+      Retorna la cantidad de mensajes enviados por cada autor.
+      
+    encontrar_frase(frase): 
+      Retorna la cantidad de mensajes que contienen una frase específica por 
+      cada autor.
+      
+    racha(): 
+      Retorna la racha más larga de días consecutivos con mensajes.
+      
+    dia_mas_concurrido(): 
+      Retorna el día con la mayor cantidad de mensajes enviados.
+      
+    hora_promedio(): 
+      Retorna la hora promedio en que envía mensajes cada autor.
+      
+    __tiempo(x): 
+      Convierte un objeto timedelta a una cadena de texto en formato hh:mm.
+      
+    promedio_sentimientos(): 
+      Retorna el promedio de sentimientos por autor.
+      
+    sentimiento_predominante(autor): 
+      Retorna el sentimiento predominante entre positivo y negativo del autor 
+      ingresado.
+      
+    autor_predominante(sentimiento): 
+      Retorna el autor con el mayor promedio de un tipo específico de 
+      sentimiento.
+      
+    autores_destacados(medida): 
+      Retorna los autores con mayor y menor valor en la puntuación de compuesto 
+      o polaridad.
   '''
     
   def __init__(self, df):
@@ -193,7 +229,7 @@ class AnalizadorTexto(ProcesadorTexto):
       pd.Series: Serie con la cuenta de mensajes editados por autor.
     '''
     local = self.df[self.df["editado"]]
-    return local["autor"].value_counts().head(8)
+    return local["autor"].value_counts()
 
   def contar_mensajes(self):
     '''
@@ -205,7 +241,7 @@ class AnalizadorTexto(ProcesadorTexto):
     Retorna:
       pd.Series: Serie con la cuenta de mensajes por autor.
     '''
-    return self.df["autor"].value_counts().head(8)
+    return self.df["autor"].value_counts()
 
   def encontrar_frase(self, frase):
     '''
@@ -221,7 +257,7 @@ class AnalizadorTexto(ProcesadorTexto):
       "@"
       "Este mensaje fue eliminado"
       "Video omitido"
-      "Ubicacion"
+      "Ubicación"
       "audio omitido"
       "ENCUESTA"
       ""
@@ -235,7 +271,7 @@ class AnalizadorTexto(ProcesadorTexto):
     '''
     referencia = self.df["mensaje"].apply(lambda x: frase in x)
     local = self.df[referencia]
-    return local["autor"].value_counts().head(8)
+    return local["autor"].value_counts()
 
   def racha(self):
     '''
@@ -290,12 +326,13 @@ class AnalizadorTexto(ProcesadorTexto):
       mensajes. 
     '''
     horas = self.df.groupby('autor')[['hora']].mean()
-    horas["reloj"] = pd.to_timedelta(horas["hora"], unit = "s")
-    horas["reloj"] = horas["reloj"].apply(__tiempo)
+    horas['hora promedio'] = pd.to_timedelta(horas['hora'], unit = "s")
+    horas['hora promedio'] = horas['hora promedio'].apply(lambda x: self.__tiempo(x))
+    horas = horas.drop(columns=['hora'])
     
-    return horas 
+    return horas
       
-  def __tiempo(x):
+  def __tiempo(self, x):
     '''
     Método privado que convierte un objeto timedelta a una cadena de texto en 
     formato hh:mm.
@@ -414,9 +451,8 @@ class AnalizadorTexto(ProcesadorTexto):
     autor_min = self.promedio_sentimientos()[medida].idxmin()
     valor_min = round(self.promedio_sentimientos()[medida][autor_min], 4)
     
-    return f'{autor_max} es el autor más feliz en general con {valor_max} de\
-  puntaje, mientras que {autor_min} es el autor más triste en general con\
-  {valor_min}'
+    return f'{autor_max} es el autor más feliz con {valor_max} de puntaje,\
+ mientras que {autor_min} es el autor más triste con {valor_min} de puntaje.'
 
     
     

@@ -3287,6 +3287,192 @@
    "height": 452,
    "text": "",
    "text_entities": []
+  },
+  {
+   "id": 4475,
+   "type": "message",
+   "date": "2024-07-02T17:42:28",
+   "date_unixtime": "1719963748",
+   "from": "Sofía Bocker",
+   "from_id": "user1768097144",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://transparencia.ucr.ac.cr/datos-abiertos/datos-abiertos/estadisticas-del-sector-docencia.html"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://transparencia.ucr.ac.cr/datos-abiertos/datos-abiertos/estadisticas-del-sector-docencia.html"
+    }
+   ]
+  },
+  {
+   "id": 4476,
+   "type": "message",
+   "date": "2024-07-04T10:00:16",
+   "date_unixtime": "1720108816",
+   "from": "Potoy Juárez",
+   "from_id": "user1273794845",
+   "text": "Hola. Le comento que tenemos reserva de la 202AU para mañana. \n\nLa idea, como comentamos el martes, es empezar a las 4 y 30 pm. Yo estaré a las 4 pm atendiendo consultas. Así, les da tiempo a los compañeros de exponer y salir un poco antes.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hola. Le comento que tenemos reserva de la 202AU para mañana. \n\nLa idea, como comentamos el martes, es empezar a las 4 y 30 pm. Yo estaré a las 4 pm atendiendo consultas. Así, les da tiempo a los compañeros de exponer y salir un poco antes."
+    }
+   ]
+  },
+  {
+   "id": 4477,
+   "type": "message",
+   "date": "2024-07-04T10:00:51",
+   "date_unixtime": "1720108851",
+   "edited": "2024-07-04T14:06:28",
+   "edited_unixtime": "1720123588",
+   "from": "Potoy Juárez",
+   "from_id": "user1273794845",
+   "text": "Es decir, empezamos a las 4 y 45 pm las clases normales en la 202AU",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Es decir, empezamos a las 4 y 45 pm las clases normales en la 202AU"
+    }
+   ]
+  },
+  {
+   "id": 4478,
+   "type": "message",
+   "date": "2024-07-05T14:32:12",
+   "date_unixtime": "1720211532",
+   "from": "Potoy Juárez",
+   "from_id": "user1273794845",
+   "reply_to_message_id": 4477,
+   "text": "Recuerden",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Recuerden"
+    }
+   ]
+  },
+  {
+   "id": 4479,
+   "type": "message",
+   "date": "2024-07-05T14:32:21",
+   "date_unixtime": "1720211541",
+   "from": "Potoy Juárez",
+   "from_id": "user1273794845",
+   "text": "Yo estaré desde las 4 pm",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yo estaré desde las 4 pm"
+    }
+   ]
+  },
+  {
+   "id": 4480,
+   "type": "message",
+   "date": "2024-07-05T15:47:57",
+   "date_unixtime": "1720216077",
+   "from": "Potoy Juárez",
+   "from_id": "user1273794845",
+   "text": "Estoy un poco atrasado. Estaré tipo 4 y 15pm",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Estoy un poco atrasado. Estaré tipo 4 y 15pm"
+    }
+   ]
+  },
+  {
+   "id": 4481,
+   "type": "message",
+   "date": "2024-07-05T16:16:57",
+   "date_unixtime": "1720217817",
+   "from": "Potoy Juárez",
+   "from_id": "user1273794845",
+   "text": "Ya estoy en Au 202.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ya estoy en Au 202."
+    }
+   ]
+  },
+  {
+   "id": 4482,
+   "type": "message",
+   "date": "2024-07-05T18:12:36",
+   "date_unixtime": "1720224756",
+   "from": "Sofía Bocker",
+   "from_id": "user1768097144",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 590,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 4483,
+   "type": "message",
+   "date": "2024-07-05T18:13:20",
+   "date_unixtime": "1720224800",
+   "from": "Sofía Bocker",
+   "from_id": "user1768097144",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 590,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 4484,
+   "type": "message",
+   "date": "2024-07-05T18:17:44",
+   "date_unixtime": "1720225064",
+   "from": "Corella",
+   "from_id": "user859444545",
+   "text": "Si siguen las pizzas grandes a 3500 por si acaso",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Si siguen las pizzas grandes a 3500 por si acaso"
+    }
+   ]
+  },
+  {
+   "id": 4486,
+   "type": "message",
+   "date": "2024-07-08T13:24:46",
+   "date_unixtime": "1720466686",
+   "edited": "2024-07-08T13:28:51",
+   "edited_unixtime": "1720466931",
+   "from": "Potoy Juárez",
+   "from_id": "user1273794845",
+   "text": "Se reservó el aula 214 FM para el martes 09 de julio de las 13:00 a las 16:50 horas",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Se reservó el aula 214 FM para el martes 09 de julio de las 13:00 a las 16:50 horas"
+    }
+   ]
+  },
+  {
+   "id": 4487,
+   "type": "message",
+   "date": "2024-07-08T13:29:38",
+   "date_unixtime": "1720466978",
+   "from": "Potoy Juárez",
+   "from_id": "user1273794845",
+   "text": "Favor si es posible, llegar un poquito antes para organizarnos ya que el tiempo está ajustado",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Favor si es posible, llegar un poquito antes para organizarnos ya que el tiempo está ajustado"
+    }
+   ]
   }
  ]
 }

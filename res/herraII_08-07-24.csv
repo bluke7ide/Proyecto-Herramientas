@@ -1,0 +1,11 @@
+,Unnamed: 0,dia,hora,autor,mensaje,editado,mensaje_traducido,negativo,neutral,positivo,compuesto,polaridad,subjetivo,objetivo,mensaje_traducido
+0,0,2023-11-01,56495.0,Gen,"‎Los mensajes y las llamadas están cifrados de extremo a extremo. Nadie fuera de este chat, ni siquiera WhatsApp, puede leerlos ni escucharlos.",False,"‎Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or hear them.",0.104,0.896,0.0,-0.296,0.0,0.05,0.95,"‎Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or hear them."
+1,1,2023-11-01,56495.0,Venegas,‎Venegas creó este grupo.,False,‎Venegas created this group.,0.0,0.6,0.4,0.25,0.0,0.0,1.0,‎Venegas created this group.
+2,2,2023-11-10,48834.0,Gen,‎Venegas te añadió.,False,‎Venegas added you.,0.0,1.0,0.0,0.0,0.0,0.0,1.0,‎Venegas added you.
+3,3,2023-11-10,49502.0,Ashley Padilla,‎Se eliminó este mensaje.,False,This message has been deleted.,0.0,1.0,0.0,0.0,0.0,0.0,1.0,‎This message has been deleted.
+4,4,2023-11-10,71316.0,Venegas,Qué vieron en Interés? Estuvo muy feo?,False,What did you see in Interest? Was he very ugly?,0.264,0.535,0.201,-0.2389,-0.9099999999999999,1.0,0.0,What did you see in Interest? Was he very ugly?
+5,5,2023-11-10,71769.0,Luis Fer Amey,Diay terminamos de ver precios y lo relacionó con la segunda derivada pero ya pues,False,Diay we finished looking at prices and I related it to the second derivative but now,0.0,1.0,0.0,0.0,0.0,0.2,0.8,Day we finished looking at prices and he related it to the second derivative but now
+6,6,2023-11-10,71789.0,Ashley Padilla,Hoy terminamos toda la materia del semestre ya,False,Today we finish all the material for the semester now,0.0,1.0,0.0,0.0,0.0,0.0,1.0,Today we finish all the material for the semester now
+7,7,2023-11-10,71799.0,Sebas,Tiene que calcular los mínimos locales y usar matriz,False,You have to calculate local minima and use matrix,0.0,1.0,0.0,0.0,0.0,0.0,1.0,You have to calculate local minima and use matrix
+8,8,2023-11-10,71817.0,Javier Hernández,A pura hessiana orlada saco eso,False,I get that with pure Hessian borders,0.0,1.0,0.0,0.0,0.21428571428571427,0.5,0.5,I get that with pure Hessian borders
+9,9,2023-11-10,71823.0,Javier Hernández,Ez,False,ez,0.0,0.0,1.0,0.3612,0.0,0.0,1.0,ez
